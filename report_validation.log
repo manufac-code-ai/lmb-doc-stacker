@@ -445,3 +445,1298 @@
 2025-04-28 17:27:05,092 - WARNING - Invalid report: 220608 DLR - Atrium TP labels_copy.md - Issues: ['Missing field: **Description of problem:**']
 2025-04-28 17:27:05,092 - WARNING - Invalid report: 230622a iQ CU Vanc - iPad ctrl GUI_copy.md - Issues: ['Missing field: **Description of problem:**']
 2025-04-28 17:27:05,092 - INFO - Processing complete. 54 valid and 389 invalid reports identified.
+2025-04-28 18:07:12,881 - WARNING - 220324-25 EOU Theater PM & Repair1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,882 - INFO - Valid report: 230117 UO Ford 403 Zoom audio_copy.md
+2025-04-28 18:07:12,883 - WARNING - 220210 Stoller Vinyards - Video Wall_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,883 - WARNING - 221118 KPMG Pdx 3714 - Audio_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,884 - WARNING - 230126 Hillsboro Lib1 - HDMI2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,884 - WARNING - 220920 DWFritz - 1608 inst_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,885 - INFO - Valid report: 230531 Abcam Eug - Cafe cam img flip v2_copy.md
+2025-04-28 18:07:12,885 - WARNING - 211111 Twality Mid School - HDMI_copy.md: ['MALFORMED_FIELD:Description of work performed:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,886 - WARNING - 220706 Vanc Water Edu - Projector+_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,886 - WARNING - 220428 Garmin Siletz - USB2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,887 - WARNING - 230725 DLR - Atrium DSP 1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MALFORMED_FIELD:Next steps:Missing proper punctuation']
+2025-04-28 18:07:12,887 - WARNING - 221103 UofO Mariota Center - TV Tuners3_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,888 - WARNING - 211117 UofO Knight Campus - Crestron1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Description of work performed']
+2025-04-28 18:07:12,888 - WARNING - 221005 Clackamas ESD - Spring DTP inst1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,888 - WARNING - 220323 UofO Mariota Center - Source Routing_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,889 - WARNING - 220502 Mentor - D1115 Smith Rock2(2day)_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,889 - WARNING - 220107 OR Treasury Telnet of VOIP - Tesira card & ShoreTel_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,890 - WARNING - 230801 ColumBank Fox - Community rm_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,890 - WARNING - 220505 Mentor - D1115 Smith Rock3_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,891 - WARNING - 230322 UofO Knight - rm108+_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,891 - WARNING - 230622b iQ CU Vanc - Cam_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,891 - WARNING - 230602 UO Kn Seminar - Vid flicker_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Description of work performed']
+2025-04-28 18:07:12,892 - WARNING - 220908 Mentor - E4022 Foxtail_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,892 - WARNING - 221020 Clackamas ESD - Spring DTP post-inst cam fix_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,893 - WARNING - 230215 Abcam visit overview pre-report_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,893 - WARNING - 230110 Vanc ESD - HDMI xmtr_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,894 - WARNING - 221006 CMHosp Astoria Seaside HDMI_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,894 - WARNING - 220218 MAPS 221 - display band_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,895 - WARNING - 221102 Standard Ins - Sig TP (ps)2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,895 - WARNING - 230427 UofO Knight - rm108+_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,896 - WARNING - 230323 Roos tk close and open new_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,896 - WARNING - 220622 AHS - 508 Zoom TPanel4_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,896 - WARNING - 230130 ClackamasESD - MtHope DSP levels_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,897 - WARNING - 220818 Vanc water Extron 1608 RMA to Parts1_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,897 - WARNING - 220627 DLR - conf rm audio 8_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,898 - WARNING - 221004 MealsOnWheels - PC audio_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,899 - WARNING - 221017 Mountainside HS Gym Projector notes_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,899 - WARNING - 220720 DLR - front conf rm cam_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,900 - WARNING - 230629 Gartner PM3 Bachelor_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,900 - WARNING - 220604 Clackamas ESD Ticket split dev 02_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,901 - WARNING - 220217 Columbia Spo - Bugaboo2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,901 - WARNING - 220406 Stoller Vinyards - audio & video2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,902 - WARNING - 230104 Juniper Apts - Projector Screen_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,902 - WARNING - 221006 Mentor - D1115 Smith Rock4 install_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,902 - WARNING - 220504 Columbia Bank Tigard - HDMI_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,903 - WARNING - 230119 OSU Gymnast - TP audio2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,903 - WARNING - 220331-1821 DLR notes_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,903 - WARNING - 221025 Moda Verizon - QSFP_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,904 - WARNING - 230717 Gartner 920 Fremont Barco_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,904 - INFO - Valid report: 230426 Abcam Eug1 - Cafe mics & Proj2-cGPT2 ed1_copy.md
+2025-04-28 18:07:12,904 - WARNING - 220323 UofO Mariota Center - mult2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,905 - WARNING - 221213 Mentor - D1405 Redmond - Fan_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,905 - WARNING - 230404 Jesuit HS Hollman Cafe5_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,905 - WARNING - 230109 Mentor - D2040 TP_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,906 - WARNING - 211220 UW T550 (& some E308 & T435)_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,906 - WARNING - 230315 Acumed Hillsb - iPad_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,907 - WARNING - 220808 Mentor - E2022 Sequoia_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,907 - INFO - Valid report: 230511 Selco CU Eug McKenzie cam_copy.md
+2025-04-28 18:07:12,908 - INFO - Valid report: 230517 Abcam Eug - Cafe tp PTZ control2_copy.md
+2025-04-28 18:07:12,908 - WARNING - 211112 Garmin Fiasco_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,909 - WARNING - 230822 Forest Grove Power Disp Wall1_copy.md: ['MISSING_FIELD:Next steps']
+2025-04-28 18:07:12,909 - WARNING - 220803 Mentor - D - Signage_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,909 - WARNING - 221025 Moda Verizon - QSFP copy_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,910 - WARNING - 220531 sbrown Mentor report_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,910 - WARNING - 220125 METpdx hdmi_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,910 - INFO - Valid report: 230426 Abcam Eug1 - Cafe mics & Proj2-cGPT1_copy.md
+2025-04-28 18:07:12,911 - WARNING - 230131 Standard Ins - Flex projector3_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,911 - WARNING - 220608 DLR - Atrium mics hot CREATE TICKET_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,911 - WARNING - 220705 Oregon Justice Ctr - mult speaker issues_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,912 - WARNING - 220207 Pape Group - Phone ext change_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,912 - WARNING - 220907 Standard Ins - Sig TP (ps)_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,912 - WARNING - 220422 AHS - 508 Zoom TPanel_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,913 - WARNING - 220118 UofO Knight - rm106 HDMI_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,913 - WARNING - 230525 Verizon Moda x1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,913 - WARNING - 211202 DWFritz - Projector_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,914 - WARNING - 230821 Gartner Cafe Cart cam1 PRE01_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'DUPLICATE_FIELD:Issue resolved', 'DUPLICATE_FIELD:Next steps']
+2025-04-28 18:07:12,914 - WARNING - 220314 Stoller Vinyards - audio & video_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,915 - WARNING - 230807ish Updated Test Plan for mix-O, gpt misc 1_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,915 - WARNING - 220608 DLR - conf rm audio 7_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,916 - INFO - Valid report: 230213 Abcam Eug4 - Mito tp (neg)_copy.md
+2025-04-28 18:07:12,916 - WARNING - 220418 Clackamas ESD - cams_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,916 - WARNING - 220608 Email about Room Use from Earl_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,917 - INFO - Valid report: 230214 Abcam Eug3 - Mito cam2 (neg)_copy.md
+2025-04-28 18:07:12,917 - WARNING - 230111 Standard Ins - Flex projector2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,917 - INFO - Valid report: 230614 Abcam Eug - HDMI Sheehan2_copy.md
+2025-04-28 18:07:12,918 - WARNING - 221019 Mentor - D - Brightsign reset_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,918 - WARNING - 221221 Hillsboro Lib1 - HDMI_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-28 18:07:12,918 - INFO - Valid report: 230418 Abcam Eug1 - Cafe mics & Proj_copy.md
+2025-04-28 18:07:12,919 - WARNING - 220623 Clackamas ESD - HDMI MtHope_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,919 - WARNING - 220120 MAPS Haw - blurry cam_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,919 - WARNING - 230404 Jesuit HS Hollman Cafe4_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,920 - WARNING - 230823 MVHS XR18 hist recap for gpt 01_copy.md: ['MISSING_FIELD:Date of service', 'MISSING_FIELD:Technician name', 'MISSING_FIELD:Customer point of contact', 'MISSING_FIELD:Description of problem']
+2025-04-28 18:07:12,921 - INFO - Valid report: 230118 Abcam Eug2 - Cafe Proj_copy.md
+2025-04-28 18:07:12,921 - WARNING - 230807ish MVHS testing schedule, gpt misc_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,921 - INFO - Valid report: 211209 MAPS Salem - tpanel date alt_copy.md
+2025-04-28 18:07:12,922 - WARNING - 220128 CoMemoAsto PM+_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,922 - WARNING - 221111 UofO Mariota Center - M63 office vid_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,923 - WARNING - 220509 AHS - 508 Zoom TPanel2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,923 - WARNING - 220405 MentorPM rpt 01_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,923 - WARNING - 220818 Mentor - A Commons - Weight rm display3_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,924 - WARNING - 220112 UWSOM T435 - HDMI follow-up1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,924 - WARNING - 221028 ClackamasESD - SpringEra TPanel_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,925 - WARNING - 221117 ColumBank Vanc - Proj_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-28 18:07:12,925 - WARNING - 220404 TillamookPUD - Video wall config_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,925 - WARNING - 220805 Garmin Siletz - Spkr2b_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,926 - WARNING - 211112 Salem Garmin notes_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,926 - WARNING - 230601 HillsbLib BWood Community rm projector filter parts req_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,926 - WARNING - 220506 Salem Library - Auditorium5_copy.md: ['MALFORMED_FIELD:Issue resolved:Missing proper punctuation']
+2025-04-28 18:07:12,927 - WARNING - 230320 UofO Knight - rm314 logins2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,927 - WARNING - 211227 Sato Elem - Prjctr 2_copy.md: ['MISSING_FIELD:Customer point of contact', 'MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,927 - WARNING - 220407 Ford Alumni ballroom, screen1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,928 - WARNING - 220124 TillamookPUD - display+_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,928 - INFO - Valid report: 221205 MAPS Salem - Controller NTP_copy.md
+2025-04-28 18:07:12,928 - WARNING - 220722 Mentor - D1115 Smith Rock3_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,929 - WARNING - 220906 CMHosp Astoria PM_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,929 - WARNING - 220908 Mentor - E2020 Redwood_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,929 - WARNING - 220712 EOU Loso Hall - Back Stage Speaker_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,930 - WARNING - 230206 Acumed Hillsb - tp_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,930 - INFO - Valid report: 230508 Abcam Eug - Cafe UC-Engine_copy.md
+2025-04-28 18:07:12,930 - WARNING - 230612 iQ CU Vanc - Conf rm PM_copy.md: ['MISSING_FIELD:Description of problem', 'MALFORMED_FIELD:Issue resolved:Missing proper punctuation']
+2025-04-28 18:07:12,931 - WARNING - 220604 Clackamas ESD Ticket split dev 01_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,931 - WARNING - 230821 Gartner Cafe Cart cam1 PRE03_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-28 18:07:12,931 - WARNING - 220527 Clackamas ESD Issues Reported_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,932 - WARNING - 220216 UofO Mariota Center - mult_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,932 - WARNING - 230309 ClackamasESD - MtHope DSP levels3_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,932 - WARNING - 230307 PPS Roos com iPads 1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:07:12,933 - WARNING - 220103 TillamookPUD - display+_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,933 - WARNING - 230808 DLR - Atrium labels2 2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MALFORMED_FIELD:Next steps:Missing proper punctuation']
+2025-04-28 18:07:12,933 - WARNING - 211021 Pacific Crest school - Projector 1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Description of work performed']
+2025-04-28 18:07:12,934 - WARNING - 220921 Mentor - D1041 Sunriver_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,934 - WARNING - 220831 OHSU Hillsboro - Vortex_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,934 - WARNING - 220420 Salem Library - Sys Survey_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,935 - WARNING - 220225 MAPS Haw - blurry cam2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,935 - INFO - Valid report: 220721 Salem Library - PA Vocia settings2_copy.md
+2025-04-28 18:07:12,935 - INFO - Valid report: 230323 Abcam Eug - HDMI Gene_copy.md
+2025-04-28 18:07:12,936 - WARNING - 230708 DLR - Atrium Mic levels & Restart2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MALFORMED_FIELD:Next steps:Missing proper punctuation']
+2025-04-28 18:07:12,936 - WARNING - 220818 Mentor - D1346 Tawfik - TP2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,936 - INFO - Valid report: 211018 WWalker Elem - 1608_copy.md
+2025-04-28 18:07:12,937 - WARNING - 220601 Vanc CityCounChambers - Ph Audio_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,937 - WARNING - 220802 Mentor - D1346 Tawfik - TP1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,937 - WARNING - 230807ish Updated Test Plan for mix-O, gpt misc 3_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,937 - WARNING - 220111 (Tue) UW T435 HDMI problem ID_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,938 - WARNING - 220112 (Wed) UW T435 recap of long day 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,938 - WARNING - 221111 Pape Eugene - rm 103 Planar ends SMason_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,938 - WARNING - 220218 Park Academy - HDMI jacks+_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,939 - WARNING - 211008 UW Rehab PM & mics+_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Description of work performed']
+2025-04-28 18:07:12,939 - INFO - Valid report: 230308 Abcam Eug - Cafe tp4_copy.md
+2025-04-28 18:07:12,939 - INFO - Valid report: 230323 Abcam Eug - HDMI Crouch_copy.md
+2025-04-28 18:07:12,940 - WARNING - 230907 UofO Knight - rm106 cam ctl2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,940 - INFO - Valid report: 230531 Abcam Eug - Cafe cam img flip v1_copy.md
+2025-04-28 18:07:12,940 - WARNING - 220801 Clackamas ESD - MtHope USB2 Install_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,941 - WARNING - 211221 Scott Edwards Arch - FE3_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,941 - INFO - Valid report: 230803 UO Ford Ballroom screen Mid_copy.md
+2025-04-28 18:07:12,941 - WARNING - 221228 Vanc CityCounChambers - mics_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,942 - WARNING - 230114-121200 t2mdC (28) Crestron UC-engine-s-t (EWEB)_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,942 - WARNING - 230526 HillsbLib - Brookwood2 Community proj turns off_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,942 - WARNING - 220713 EOU Loso Hall - Dante_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,943 - WARNING - 230705 DLR - Atrium Mic levels & Restart PRE02_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Description of work performed']
+2025-04-28 18:07:12,943 - WARNING - 230802 gpt init prompt - Dv Ford Alumni Middle Screen_copy.md: ['DUPLICATE_FIELD:Description of work performed', 'DUPLICATE_FIELD:Issue resolved', 'DUPLICATE_FIELD:Next steps']
+2025-04-28 18:07:12,944 - WARNING - 230503 DLR - conf rm audio 12_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,944 - WARNING - 220602 Morland Church - all notes to-date_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,945 - WARNING - 230504 PPS 74th St ALS 1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,945 - WARNING - 220909 DLR - front conf rm cam_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,945 - WARNING - 220321 Wells - AMX goo1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,945 - WARNING - 230821-1701 MVHS XR18 scratchpad_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,946 - WARNING - 220420 Garmin Siletz - USB_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,946 - WARNING - 220506 Garmin Siletz - USB4_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,946 - WARNING - 211122 Park Academy - SmartBoards & projectors_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,946 - WARNING - 230113 EWEB - rm 103 HDMI_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,947 - WARNING - 230824 MVHS XR18 noise x3 PRE01_copy.md: ['MISSING_FIELD:Description of problem', 'DUPLICATE_FIELD:Date of service', 'DUPLICATE_FIELD:Technician name', 'DUPLICATE_FIELD:Customer point of contact']
+2025-04-28 18:07:12,947 - WARNING - 221011 ThermoFisher - Barco_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,948 - WARNING - 220803 Mentor - A Commons - Weight rm display2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,948 - WARNING - 220613 Moreland out_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,949 - WARNING - 220106 Oregon Treasury - VOIP_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,949 - INFO - Valid report: 230517 Abcam Eug - Cafe spkr zones_copy.md
+2025-04-28 18:07:12,949 - WARNING - 220915 UofO Mariota Center - TV Tuners2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,950 - WARNING - 221014 CMHosp Astoria iPads_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,950 - INFO - Valid report: 230425 Abcam Eug - Cafe RMC2_copy.md
+2025-04-28 18:07:12,950 - WARNING - 220803 Mentor - E3020 Azalea_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,950 - WARNING - 211021 METpdx - gym prjct_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,951 - WARNING - 230628 Gartner PM1b_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,951 - WARNING - 220314 TillamookPUD - display+_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,951 - WARNING - 221129 Mentor - A103A Big Muddy_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,952 - INFO - Valid report: 230510 Abcam Eug - Cafe RMC5_copy.md
+2025-04-28 18:07:12,952 - WARNING - 220630 Garmin Siletz - Spkr2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,952 - WARNING - 230220 ClackamasESD - MtHope DSP levels2 copy_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,952 - WARNING - 220517 Wells drawings search tech note_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,953 - WARNING - 220826 Garmin Siletz - Spkr2c_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,953 - INFO - Valid report: 230509 Abcam Eug - Cafe UC-Engine2_copy.md
+2025-04-28 18:07:12,953 - WARNING - 230705 DLR - Atrium Mic levels & Restart PRE03_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MALFORMED_FIELD:Next steps:Missing proper punctuation']
+2025-04-28 18:07:12,954 - WARNING - 230905 PPS Roos MULT1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:07:12,954 - WARNING - 220207 Columbia Spo - Bugaboo_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,954 - WARNING - 220211 DLR - conf rm audio 1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,955 - WARNING - 211207 UofO Rec - TPanel+_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,955 - WARNING - 220118 UofO Knight - 3rd FL TX_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,955 - WARNING - 220217 Columbia Spo - Bugaboo2 2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,955 - WARNING - 230126 Hillsboro Lib2 - Brookwood audio_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,956 - WARNING - 220527 Clackamas ESD rpt 01_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,956 - WARNING - 230302 Sato Elem - Cafe mics_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,956 - INFO - Valid report: 230516 Abcam Eug - Cafe tp PTZ control_copy.md
+2025-04-28 18:07:12,957 - WARNING - 230525 Verizon Moda x2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,957 - WARNING - 230821 Gartner Cafe Cart cam1 PRE02_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Description of work performed', 'MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-28 18:07:12,958 - WARNING - 221212 ColumBank Fox - Community rm2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,958 - WARNING - 230719 Gartner PM8_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,958 - WARNING - 221101 Vanc Firstenberg CC - Assess1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,959 - WARNING - 220531 RSmith report for example_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,959 - WARNING - 220223 AHS TPanel Pre-Report 01_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,959 - INFO - Valid report: 230426 Abcam Eug1 - Cafe mics & Proj2-cGPT2_copy.md
+2025-04-28 18:07:12,959 - WARNING - 221031 EWEB - rm 103 cam & hdmi_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,960 - WARNING - 221206 ColumBank Asto - Kiosk_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,960 - WARNING - 220623 Clackamas ESD - HDMI Spring_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,960 - INFO - Valid report: 221011 Salem Library - Anderson B Lectern_copy.md
+2025-04-28 18:07:12,961 - INFO - Valid report: 230509 Abcam Eug - Cafe RMC4_copy.md
+2025-04-28 18:07:12,961 - WARNING - 220420 MAPS Hawth ZR - Cam Screw_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,962 - WARNING - 230823 MVHS XR18 hist recap for gpt 02_copy.md: ['MISSING_FIELD:Date of service', 'MISSING_FIELD:Technician name', 'MISSING_FIELD:Customer point of contact', 'MISSING_FIELD:Description of problem']
+2025-04-28 18:07:12,962 - WARNING - 221010 Clackamas ESD - Spring DTP post-inst_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,962 - INFO - Valid report: 230323 Abcam Eug - HDMI Ball_copy.md
+2025-04-28 18:07:12,963 - WARNING - 230331 MVHS Theater Stagebox1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:07:12,963 - WARNING - 220218 Twality Mid School - HDMI2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,963 - INFO - Valid report: 230418 Abcam Eug - Cafe RMC_copy.md
+2025-04-28 18:07:12,963 - WARNING - 230313 Jesuit HS Hollman Cafe1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,964 - WARNING - 230526 HillsbLib - Brookwood1 Board rm no proj_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,964 - WARNING - 230807ish Updated Test Plan for mix-O, gpt misc 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,965 - WARNING - 230822 Forest Grove Power Disp Wall1 PRE01_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Next steps']
+2025-04-28 18:07:12,965 - WARNING - 220111 (Tue) UW T435 Op Check 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,965 - WARNING - 220707 AHS IT request for room 508, as sent to Ruben_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,965 - WARNING - 220310 DLR recap to Ruben_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,966 - WARNING - 230714 Gartner PM6_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,966 - WARNING - 230620 JesuitHS Cafe glue IR ems_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,967 - WARNING - 230327 Jesuit HS Hollman Cafe2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,967 - WARNING - 220905 CMHosp Astoria PM_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,967 - WARNING - 211215 MetLife - PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,968 - WARNING - 220928 Mentor - C1350 Bristlecone_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,968 - WARNING - 221215 Mountainside HS - Gym mics_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,968 - WARNING - 230210 Stoller Vinyards - VidWall split bad2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,969 - WARNING - 230530 ThermoFisher - bldg J rm B & C_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,969 - WARNING - 220104 Columbia Spo - Newton Ridge_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,970 - WARNING - 230615 Gartner PM1_copy.md: ['MISSING_FIELD:Description of problem', 'MALFORMED_FIELD:Issue resolved:Missing proper punctuation']
+2025-04-28 18:07:12,970 - WARNING - 230705 DLR - Atrium Mic levels & Restart PRE-1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MALFORMED_FIELD:Next steps:Missing proper punctuation']
+2025-04-28 18:07:12,970 - INFO - Valid report: 230222 Abcam Eug - Cafe tp3_copy.md
+2025-04-28 18:07:12,971 - WARNING - 230808 DLR - Atrium labels2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MALFORMED_FIELD:Next steps:Missing proper punctuation']
+2025-04-28 18:07:12,971 - WARNING - 220224 UofO Knight - 3rd FL TX2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,972 - WARNING - 221024 Clackamas ESD - SpringEra PM 1_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,972 - WARNING - 220622 AHS - 508 Zoom TPanel3_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,973 - WARNING - 220318 Park Academy - SmartBoards & projectors2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,973 - WARNING - 220808 Mentor - E2020 Redwood_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,973 - WARNING - 220517 Wells - System assess1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,974 - WARNING - 220527 Clackamas ESD Issues - responses_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,974 - WARNING - 230403 DLR - conf rm audio 10_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,974 - WARNING - 221219 Pacific Crest school - Projector Assessment_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,975 - WARNING - 220218 ThermoFisher - Conf rm (NO MD RPT MADE)_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,975 - INFO - Valid report: 230213 Abcam Eug5 - 102-3 disp off_copy.md
+2025-04-28 18:07:12,975 - WARNING - 220701 Astoria Middle school - screen2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,976 - WARNING - 220628 Salem Library - PA Vocia settings_copy.md: ['MALFORMED_FIELD:Issue resolved:Missing proper punctuation']
+2025-04-28 18:07:12,976 - WARNING - 220908 Mentor - E0410 Rogue_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,977 - WARNING - 230523 JesuitHS Cafe remote btns_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,977 - WARNING - 230515 Abcam Sheehan HDMI RMA_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,977 - WARNING - 230321 UofO Knight - rm156-8_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,978 - WARNING - 230223-4 UofO Knight - rm108 HDMI_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,978 - WARNING - 230803 UofO Knight - rm106 cam ctl_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,979 - INFO - Valid report: 230803 UO Ford Ballroom screen Mid PRE02_copy.md
+2025-04-28 18:07:12,979 - WARNING - 220804 Mentor note to ticket (from sb) for D1405 (fan plus)_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,979 - INFO - Valid report: 230511 Selco CU Eug Crestron swx_copy.md
+2025-04-28 18:07:12,980 - INFO - Valid report: 230118 Abcam Eug1 - Cafe mics_copy.md
+2025-04-28 18:07:12,980 - WARNING - 220516 Astoria Middle school - screen_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,981 - WARNING - 220304 DLR - conf rm audio 4_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,981 - INFO - Valid report: 230508 Abcam Eug - Cafe cam, Vaddio (230504)_copy.md
+2025-04-28 18:07:12,981 - WARNING - 220505 Mentor - D3040 Eagle Creek1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,982 - WARNING - 211222 Sato Elem - Prjctr_copy.md: ['MISSING_FIELD:Customer point of contact', 'MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,982 - WARNING - 230808-1856 MVHS Behringer XR18 RMA (gpt)_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,982 - WARNING - 220808 Mentor - C2042 McKenzie_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,983 - WARNING - 230324 Roosevelt ticket split_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,983 - WARNING - 230728 DLR - Atrium DSP_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MALFORMED_FIELD:Next steps:Missing proper punctuation']
+2025-04-28 18:07:12,983 - WARNING - 220606 sbrown Mentor report_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,984 - WARNING - 220328 Salem Library - Auditorium1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,984 - WARNING - 230623 iQ CU Vanc - HDMI_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,984 - WARNING - 230421 DLR - Atrium mics_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,985 - WARNING - 221026 Clack SpringEra New Tks, notes_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,985 - WARNING - 220722 Mentor - A Commons - Weight rm Display_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,985 - WARNING - 221027 Papé Auditorium Tech content bak 02_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,986 - INFO - Valid report: 220308 UWSOM SLU Brotman CODEC & camera_copy.md
+2025-04-28 18:07:12,986 - WARNING - 221017 Mountainside HS - Gym TP_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,986 - WARNING - 221108 ClackamasESD - SpringEra TPanel2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,987 - WARNING - 220812-1833 DWFritz IN1608 Options email_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,987 - WARNING - 220302 Franklin update - we didn't drop the ball_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,987 - WARNING - 230816 UofO Mariota Center - 165&177 office vid1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,988 - WARNING - 230515 SELCO CU Vaddio cam RMA_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,988 - WARNING - 230215 UofO Mariota Center - M63 office vid2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,988 - WARNING - 221129 Vanc ESD - Klickitat audio_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,989 - WARNING - 220808 Mentor - E2042 Noble_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,989 - INFO - Valid report: 220725 Salem Library - PA Vocia settings3_copy.md
+2025-04-28 18:07:12,989 - WARNING - 211129 MealsOnWheels - tp & screen_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,990 - WARNING - 220920 Mentor - A103A Big Muddy_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,990 - WARNING - 230331 MVHS Band rm mixer1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:07:12,991 - WARNING - 221220 Mentor - D2040-2 & D1237_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,991 - WARNING - 220301 DLR - conf rm audio 2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,991 - WARNING - 220802 Mentor - D1405 Redmond - Fan +_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,992 - WARNING - 211123 UofO Knight Campus - Crestron2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,992 - WARNING - 220817 Mentor - E2042 Noble2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,992 - WARNING - 220921 DLR - front conf rm cam_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,992 - WARNING - 220819 MealsOnWheels - tp & screen Parts em1_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,993 - WARNING - 230717 Gartner PM7_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,993 - WARNING - 221026 Mentor - D1237 Steven Swirling fan install_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,993 - WARNING - 220913 Clackamas ESD - HDMI Spring HMDI_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,993 - WARNING - 230307 UofO Mariota Center - 177_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,994 - WARNING - 230330 Jesuit HS Hollman Cafe3_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,994 - WARNING - 220512 Salem Library - Auditorium6_copy.md: ['MALFORMED_FIELD:Issue resolved:Missing proper punctuation']
+2025-04-28 18:07:12,994 - WARNING - 220908 Mentor - E2022 Sequoia_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,995 - WARNING - 230821 Gartner Cafe Cart cam1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-28 18:07:12,995 - WARNING - 230629 Gartner PM3 Adams_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,995 - WARNING - 230221 Sato Elem - Prjctr Feb '23_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,995 - WARNING - 220602 Moreland church notes_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,996 - WARNING - 220202 Gartner PM+_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,996 - WARNING - 220112 (Wed) UW T435 recap of long day_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:12,997 - WARNING - 230209 Stoller Vinyards - VidWall split bad_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,997 - INFO - Valid report: 230427 Abcam Eug - Cafe cam, Vaddio (230504)_copy.md
+2025-04-28 18:07:12,997 - WARNING - 220309-10 UWSOM T435 - HDMI follow-up2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,998 - WARNING - 230328 OSU Kearney 311_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,998 - INFO - Valid report: 230228 UO Ford 403 Zoom2_copy.md
+2025-04-28 18:07:12,998 - WARNING - 220419 iQ CU Vanc - Conf rm PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:12,998 - INFO - Valid report: 230508 Abcam Eug - Cafe RMC3_copy.md
+2025-04-28 18:07:12,999 - WARNING - 230405 DLR - conf rm audio 11_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:12,999 - WARNING - 220602 Moreland church pre-rpt work_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,000 - WARNING - 220809 DWFritz - Projector2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,000 - WARNING - 230626 Sato Elem - post-projector ctl confirm_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,000 - WARNING - 230824-2003 MVHS XR18s Post-visit Status and Next Steps v01_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:13,001 - WARNING - 220602 Moreland Church - multiple_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,001 - WARNING - 220127 Pacific Crest school - Projector 2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,001 - WARNING - 230512 UofO Knight - rm261J logins (Merc)_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,002 - WARNING - 220202 MetLife - PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,002 - WARNING - 220801 Clackamas ESD - HDMI Spring_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,002 - WARNING - 230807ish MVHS XR18 text, gpt misc_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:13,003 - WARNING - 230314 Gladstone CC BMD1_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,003 - WARNING - 220222 AHS - Breakroom TPanel_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,003 - WARNING - 220331 DLR - conf rm audio 6_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,003 - WARNING - 220912 Vanc Water Edu - Reinst Extron_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,004 - INFO - Valid report: 230509 Abcam Eug - Cafe cam, Vaddio (230504)_copy.md
+2025-04-28 18:07:13,004 - WARNING - 211103 METpdx hdmi_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,004 - WARNING - 220315 DLR - conf rm audio 5_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,005 - INFO - Valid report: 230803 UO Ford Ballroom screen Mid PRE01_copy.md
+2025-04-28 18:07:13,005 - WARNING - 220315 Franklin HS Gym HDMI_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,005 - WARNING - 220321 Twality Mid School - HDMI3_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,006 - WARNING - 220103 Tillimook actual to file_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,006 - WARNING - 220519 Cornelius city hall - PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,006 - INFO - Valid report: 221117 WWalker Elem - Gym Projector_copy.md
+2025-04-28 18:07:13,007 - WARNING - 220111 UWSOM T435 - HDMI_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,007 - WARNING - 211224 Hilton Duniway - spkrs+_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,007 - WARNING - 230223 UofO Knight - rm314 logins_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,008 - WARNING - 221028 ClackamasESD - SpringEra Audio Levels_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,008 - WARNING - 220107 OR Treasury Telnet of VOIP - Tesira card & ShoreTel 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:13,008 - WARNING - 221027 Papé Auditorium Tech content bak 01_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,009 - WARNING - 220427 Salem Library - Auditorium2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,009 - WARNING - 220121 Hilton Duniway - spkrs+_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,009 - WARNING - 220503 Wells - AMX goo2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,009 - WARNING - 220621 Vanc CityCounChambers - Ph Audio_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,010 - WARNING - 220810 Oregon Treasury - Leak_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,010 - WARNING - 220623 Clackamas ESD Springwater Issues_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:13,010 - WARNING - 230228 Mentor - C2040-2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,011 - WARNING - 230710 Gartner PM4_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,011 - WARNING - 220817 Vanc Water Edu - Projector2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,011 - WARNING - 221017 pre-report - Mountainside HS Gym Projector_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:13,012 - WARNING - 220927 MealsOnWheels - inst tp_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,012 - WARNING - 220201 AFSC Seattle PM+_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,012 - WARNING - 220921 Mentor - E2022 Sequoia_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,013 - WARNING - 220531 rsmith Mentor prev rooms, for example_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:13,013 - WARNING - 220518 VGarciaMemMedical - tpanel_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,014 - WARNING - 211220 UW T550 (& some E308 & T435) 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:13,014 - WARNING - 220325 EOU Loso Hall - PM_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,014 - WARNING - 220600 visit to ClackamasESD - Extron Q re Firmware_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:13,015 - WARNING - 230822 Forest Grove Power Disp Wall1 PRE02_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Next steps']
+2025-04-28 18:07:13,015 - WARNING - 230103 Mentor - A103A Big Muddy3_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,015 - WARNING - 220228 CMHosp Astoria_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,016 - WARNING - 220720 DLR - conf rm audio 9_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,017 - WARNING - 230727 Gartner PM9_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,017 - WARNING - 220609 UofO Rec - mult_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,017 - INFO - Valid report: 230214 Abcam Eug2 - Cafe tp_copy.md
+2025-04-28 18:07:13,018 - WARNING - 221027 Pape Eugene - rm 103 Planar_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,018 - WARNING - 230608 PPS 74th St ALS 4_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,018 - WARNING - 220216 PeaceHealth - assist_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:07:13,019 - WARNING - 230823 Forest Grove Power Disp Wall misc gpt text work 3_copy.md: ['MISSING_FIELD:Next steps']
+2025-04-28 18:07:13,019 - INFO - Valid report: 230508 Abcam Eug - HDMI Sheehan_copy.md
+2025-04-28 18:07:13,019 - INFO - Valid report: 230323 Abcam Eug - HDMI Mito_copy.md
+2025-04-28 18:07:13,020 - INFO - Valid report: 221018 Salem Library - Install Blue-ray player_copy.md
+2025-04-28 18:07:13,020 - WARNING - 221111 UO MM - M63 office vid OPTION notes_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,020 - INFO - Valid report: 230427 Abcam Eug - HDMI Sheehan_copy.md
+2025-04-28 18:07:13,020 - WARNING - 220727 UO MM TV Tuner RMA note dev 01_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:13,021 - WARNING - 220930 MG D1346 tk close note_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:13,021 - WARNING - 230110 Vanc ESD - Klickitat audio2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,021 - WARNING - 230824 MVHS XR18 noise x3_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Description of work performed', 'MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-28 18:07:13,022 - WARNING - 220830 Mentor - D2237, display_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,022 - WARNING - 220428 Salem Library - Auditorium3_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,022 - INFO - Valid report: 230426 Abcam Eug1 - Cafe mics & Proj2-sb1_copy.md
+2025-04-28 18:07:13,023 - WARNING - 220930 ClackamasESD em to Rob informing of new wall plates_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:13,023 - WARNING - 230713 Gartner PM5_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,024 - WARNING - 211112 Garmin fiasco 1 Friday_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:13,024 - WARNING - 230518 PPS 74th St ALS 2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,024 - WARNING - 230202 Mentor - D1237 tp2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,025 - INFO - Valid report: 230118 Abcam Eug3 - Mito cam_copy.md
+2025-04-28 18:07:13,025 - WARNING - 230211 ColumBank Fox - Community rm3_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,025 - WARNING - 220119 PCC Sylv projector_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,026 - WARNING - 220209 Columbia Spo - Bugaboo_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,026 - INFO - Valid report: 230222 Abcam Eug - Mito cam3_copy.md
+2025-04-28 18:07:13,026 - WARNING - 220429 Hilton - DSP error_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,027 - WARNING - 220502 Mentor - D1115 Smith Rock1 (unused)_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,027 - WARNING - 230629 Gartner PM3 Glenn_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,027 - WARNING - 221102 Standard Ins - Mega TP_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,027 - WARNING - 220801 Clackamas ESD - HDMI Spring tmp new_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,028 - WARNING - 220830 Mentor - D1348 Madras_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,028 - INFO - Valid report: 230531 Abcam Eug - HDMI Ball2_copy.md
+2025-04-28 18:07:13,029 - WARNING - 230105 OSU Gymnast - TP audio_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,029 - WARNING - 230705 DLR - Atrium Mic levels & Restart_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Next steps']
+2025-04-28 18:07:13,029 - WARNING - 230823 Forest Grove Power Disp Wall misc gpt text work 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:13,030 - WARNING - 221216 KPMG Pdx 3714 - Audio2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,030 - WARNING - 221104 UofO Knight - AirMedia macs_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,031 - WARNING - 221130 ClackamasESD - MtHope PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,031 - WARNING - 230906 DLR - Atrium labels3_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MALFORMED_FIELD:Next steps:Missing proper punctuation']
+2025-04-28 18:07:13,031 - WARNING - 220722 Mentor - E2020 Redwood cables_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,032 - WARNING - 211216 UWSOM Main - PM+_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,032 - WARNING - 230216 Pacific Crest school - Box repair_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,032 - WARNING - 220719 Oregon Justice Ctr - mult speaker issues2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,033 - WARNING - 220214 Stoller Vinyards - Video Wall2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,033 - WARNING - 220111 (Tue) UW T435 Op Check_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:13,033 - WARNING - 220817 Mentor - E3042 Ponderosa_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,034 - WARNING - 220128 Pacific Crest school - Projector 3 final_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,034 - WARNING - 220714 EOU Loso Hall - PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,034 - WARNING - 220328-2128 EOU dev 01_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'DUPLICATE_FIELD:Next steps']
+2025-04-28 18:07:13,035 - WARNING - 230720 ThermoFisher - bldg J rm B AirMedia replace_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,035 - WARNING - 220323 UofO Mariota Center - TV Tuners_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,035 - WARNING - 220714 EOU Loso Hall - INTERNAL NOTES_copy.md: ['MISSING_FIELD:Customer point of contact', 'MISSING_FIELD:Description of problem', 'MISSING_FIELD:Description of work performed', 'MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-28 18:07:13,036 - WARNING - 230607 OSU Kearney 311-2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,036 - WARNING - 220401 Req for new Svc Tk - Mentor TechOps PM proj, AV1PORTL-0009421_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:13,036 - WARNING - 230316 ClackamasESD - MtHope Feedback_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,037 - WARNING - 221201 ColumBank Fox - Community rm_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,037 - WARNING - 220105 UO Knight - tpanel_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,037 - WARNING - 220524 Garmin Siletz - Mon&Aud_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,038 - WARNING - 221102 Standard Ins - Flex projector_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,038 - WARNING - 221208 Scott Edwards Arch - 1608 glitch_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,038 - WARNING - 220111 (Tue) UW T435 HDMI problem ID 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:07:13,039 - WARNING - 230428 UofO Knight - rm108+_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,039 - WARNING - 211215 UWSOM SLU - PM+_copy.md: ['UNBOLDED_FIELD:Technician name', 'MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-28 18:07:13,039 - WARNING - 221215 Mountainside HS - Gym TP2_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:07:13,040 - WARNING - 220608 DLR - Atrium TP labels_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,040 - WARNING - 230622a iQ CU Vanc - iPad ctrl GUI_copy.md: ['MALFORMED_FIELD:Description of problem:Missing proper punctuation']
+2025-04-28 18:07:13,041 - INFO - Processing complete. 54 valid and 389 invalid reports identified.
+2025-04-28 18:55:52,298 - WARNING - 220324-25 EOU Theater PM & Repair1_copy.md: ['MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,299 - INFO - Valid report: 230117 UO Ford 403 Zoom audio_copy.md
+2025-04-28 18:55:52,299 - INFO - Valid report: 220210 Stoller Vinyards - Video Wall_copy.md
+2025-04-28 18:55:52,300 - INFO - Valid report: 221118 KPMG Pdx 3714 - Audio_copy.md
+2025-04-28 18:55:52,300 - INFO - Valid report: 230126 Hillsboro Lib1 - HDMI2_copy.md
+2025-04-28 18:55:52,301 - WARNING - 220920 DWFritz - 1608 inst_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,301 - INFO - Valid report: 230531 Abcam Eug - Cafe cam img flip v2_copy.md
+2025-04-28 18:55:52,302 - WARNING - 211111 Twality Mid School - HDMI_copy.md: ['MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,302 - INFO - Valid report: 220706 Vanc Water Edu - Projector+_copy.md
+2025-04-28 18:55:52,304 - INFO - Valid report: 220428 Garmin Siletz - USB2_copy.md
+2025-04-28 18:55:52,305 - INFO - Valid report: 230725 DLR - Atrium DSP 1_copy.md
+2025-04-28 18:55:52,306 - WARNING - 221103 UofO Mariota Center - TV Tuners3_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,306 - WARNING - 211117 UofO Knight Campus - Crestron1_copy.md: ['MISSING_FIELD:Description of work performed']
+2025-04-28 18:55:52,307 - INFO - Valid report: 221005 Clackamas ESD - Spring DTP inst1_copy.md
+2025-04-28 18:55:52,307 - WARNING - 220323 UofO Mariota Center - Source Routing_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,308 - INFO - Valid report: 220502 Mentor - D1115 Smith Rock2(2day)_copy.md
+2025-04-28 18:55:52,308 - WARNING - 220107 OR Treasury Telnet of VOIP - Tesira card & ShoreTel_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,309 - INFO - Valid report: 230801 ColumBank Fox - Community rm_copy.md
+2025-04-28 18:55:52,310 - INFO - Valid report: 220505 Mentor - D1115 Smith Rock3_copy.md
+2025-04-28 18:55:52,310 - INFO - Valid report: 230322 UofO Knight - rm108+_copy.md
+2025-04-28 18:55:52,311 - INFO - Valid report: 230622b iQ CU Vanc - Cam_copy.md
+2025-04-28 18:55:52,311 - WARNING - 230602 UO Kn Seminar - Vid flicker_copy.md: ['MISSING_FIELD:Description of work performed']
+2025-04-28 18:55:52,312 - INFO - Valid report: 220908 Mentor - E4022 Foxtail_copy.md
+2025-04-28 18:55:52,312 - INFO - Valid report: 221020 Clackamas ESD - Spring DTP post-inst cam fix_copy.md
+2025-04-28 18:55:52,313 - WARNING - 230215 Abcam visit overview pre-report_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,313 - INFO - Valid report: 230110 Vanc ESD - HDMI xmtr_copy.md
+2025-04-28 18:55:52,313 - INFO - Valid report: 221006 CMHosp Astoria Seaside HDMI_copy.md
+2025-04-28 18:55:52,314 - INFO - Valid report: 220218 MAPS 221 - display band_copy.md
+2025-04-28 18:55:52,314 - INFO - Valid report: 221102 Standard Ins - Sig TP (ps)2_copy.md
+2025-04-28 18:55:52,315 - INFO - Valid report: 230427 UofO Knight - rm108+_copy.md
+2025-04-28 18:55:52,315 - WARNING - 230323 Roos tk close and open new_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,316 - INFO - Valid report: 220622 AHS - 508 Zoom TPanel4_copy.md
+2025-04-28 18:55:52,316 - INFO - Valid report: 230130 ClackamasESD - MtHope DSP levels_copy.md
+2025-04-28 18:55:52,317 - WARNING - 220818 Vanc water Extron 1608 RMA to Parts1_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,317 - WARNING - 220627 DLR - conf rm audio 8_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,318 - WARNING - 221004 MealsOnWheels - PC audio_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,318 - WARNING - 221017 Mountainside HS Gym Projector notes_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,319 - WARNING - 220720 DLR - front conf rm cam_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,319 - WARNING - 230629 Gartner PM3 Bachelor_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,320 - WARNING - 220604 Clackamas ESD Ticket split dev 02_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,321 - INFO - Valid report: 220217 Columbia Spo - Bugaboo2_copy.md
+2025-04-28 18:55:52,321 - INFO - Valid report: 220406 Stoller Vinyards - audio & video2_copy.md
+2025-04-28 18:55:52,321 - WARNING - 230104 Juniper Apts - Projector Screen_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,322 - INFO - Valid report: 221006 Mentor - D1115 Smith Rock4 install_copy.md
+2025-04-28 18:55:52,322 - INFO - Valid report: 220504 Columbia Bank Tigard - HDMI_copy.md
+2025-04-28 18:55:52,323 - WARNING - 230119 OSU Gymnast - TP audio2_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,323 - WARNING - 220331-1821 DLR notes_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,323 - INFO - Valid report: 221025 Moda Verizon - QSFP_copy.md
+2025-04-28 18:55:52,324 - WARNING - 230717 Gartner 920 Fremont Barco_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,324 - INFO - Valid report: 230426 Abcam Eug1 - Cafe mics & Proj2-cGPT2 ed1_copy.md
+2025-04-28 18:55:52,325 - WARNING - 220323 UofO Mariota Center - mult2_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,326 - WARNING - 221213 Mentor - D1405 Redmond - Fan_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,326 - INFO - Valid report: 230404 Jesuit HS Hollman Cafe5_copy.md
+2025-04-28 18:55:52,327 - INFO - Valid report: 230109 Mentor - D2040 TP_copy.md
+2025-04-28 18:55:52,327 - WARNING - 211220 UW T550 (& some E308 & T435)_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,327 - INFO - Valid report: 230315 Acumed Hillsb - iPad_copy.md
+2025-04-28 18:55:52,328 - INFO - Valid report: 220808 Mentor - E2022 Sequoia_copy.md
+2025-04-28 18:55:52,328 - INFO - Valid report: 230511 Selco CU Eug McKenzie cam_copy.md
+2025-04-28 18:55:52,329 - INFO - Valid report: 230517 Abcam Eug - Cafe tp PTZ control2_copy.md
+2025-04-28 18:55:52,329 - WARNING - 211112 Garmin Fiasco_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,330 - WARNING - 230822 Forest Grove Power Disp Wall1_copy.md: ['MISSING_FIELD:Next steps']
+2025-04-28 18:55:52,330 - INFO - Valid report: 220803 Mentor - D - Signage_copy.md
+2025-04-28 18:55:52,330 - INFO - Valid report: 221025 Moda Verizon - QSFP copy_copy.md
+2025-04-28 18:55:52,331 - WARNING - 220531 sbrown Mentor report_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,331 - INFO - Valid report: 220125 METpdx hdmi_copy.md
+2025-04-28 18:55:52,332 - INFO - Valid report: 230426 Abcam Eug1 - Cafe mics & Proj2-cGPT1_copy.md
+2025-04-28 18:55:52,332 - INFO - Valid report: 230131 Standard Ins - Flex projector3_copy.md
+2025-04-28 18:55:52,333 - INFO - Valid report: 220608 DLR - Atrium mics hot CREATE TICKET_copy.md
+2025-04-28 18:55:52,333 - INFO - Valid report: 220705 Oregon Justice Ctr - mult speaker issues_copy.md
+2025-04-28 18:55:52,333 - INFO - Valid report: 220207 Pape Group - Phone ext change_copy.md
+2025-04-28 18:55:52,334 - INFO - Valid report: 220907 Standard Ins - Sig TP (ps)_copy.md
+2025-04-28 18:55:52,334 - INFO - Valid report: 220422 AHS - 508 Zoom TPanel_copy.md
+2025-04-28 18:55:52,335 - INFO - Valid report: 220118 UofO Knight - rm106 HDMI_copy.md
+2025-04-28 18:55:52,335 - INFO - Valid report: 230525 Verizon Moda x1_copy.md
+2025-04-28 18:55:52,336 - WARNING - 211202 DWFritz - Projector_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,336 - WARNING - 230821 Gartner Cafe Cart cam1 PRE01_copy.md: ['MISSING_FIELD:Description of problem', 'DUPLICATE_FIELD:Issue resolved', 'DUPLICATE_FIELD:Next steps']
+2025-04-28 18:55:52,337 - INFO - Valid report: 220314 Stoller Vinyards - audio & video_copy.md
+2025-04-28 18:55:52,337 - WARNING - 230807ish Updated Test Plan for mix-O, gpt misc 1_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,338 - WARNING - 220608 DLR - conf rm audio 7_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,338 - INFO - Valid report: 230213 Abcam Eug4 - Mito tp (neg)_copy.md
+2025-04-28 18:55:52,338 - INFO - Valid report: 220418 Clackamas ESD - cams_copy.md
+2025-04-28 18:55:52,339 - WARNING - 220608 Email about Room Use from Earl_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,339 - INFO - Valid report: 230214 Abcam Eug3 - Mito cam2 (neg)_copy.md
+2025-04-28 18:55:52,339 - INFO - Valid report: 230111 Standard Ins - Flex projector2_copy.md
+2025-04-28 18:55:52,340 - INFO - Valid report: 230614 Abcam Eug - HDMI Sheehan2_copy.md
+2025-04-28 18:55:52,340 - INFO - Valid report: 221019 Mentor - D - Brightsign reset_copy.md
+2025-04-28 18:55:52,340 - WARNING - 221221 Hillsboro Lib1 - HDMI_copy.md: ['UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-28 18:55:52,341 - INFO - Valid report: 230418 Abcam Eug1 - Cafe mics & Proj_copy.md
+2025-04-28 18:55:52,341 - INFO - Valid report: 220623 Clackamas ESD - HDMI MtHope_copy.md
+2025-04-28 18:55:52,342 - INFO - Valid report: 220120 MAPS Haw - blurry cam_copy.md
+2025-04-28 18:55:52,342 - INFO - Valid report: 230404 Jesuit HS Hollman Cafe4_copy.md
+2025-04-28 18:55:52,343 - WARNING - 230823 MVHS XR18 hist recap for gpt 01_copy.md: ['MISSING_FIELD:Date of service', 'MISSING_FIELD:Technician name', 'MISSING_FIELD:Customer point of contact', 'MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,343 - INFO - Valid report: 230118 Abcam Eug2 - Cafe Proj_copy.md
+2025-04-28 18:55:52,344 - WARNING - 230807ish MVHS testing schedule, gpt misc_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,344 - INFO - Valid report: 211209 MAPS Salem - tpanel date alt_copy.md
+2025-04-28 18:55:52,345 - WARNING - 220128 CoMemoAsto PM+_copy.md: ['MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,345 - WARNING - 221111 UofO Mariota Center - M63 office vid_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,346 - INFO - Valid report: 220509 AHS - 508 Zoom TPanel2_copy.md
+2025-04-28 18:55:52,346 - WARNING - 220405 MentorPM rpt 01_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,346 - INFO - Valid report: 220818 Mentor - A Commons - Weight rm display3_copy.md
+2025-04-28 18:55:52,347 - INFO - Valid report: 220112 UWSOM T435 - HDMI follow-up1_copy.md
+2025-04-28 18:55:52,347 - INFO - Valid report: 221028 ClackamasESD - SpringEra TPanel_copy.md
+2025-04-28 18:55:52,348 - WARNING - 221117 ColumBank Vanc - Proj_copy.md: ['MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-28 18:55:52,348 - WARNING - 220404 TillamookPUD - Video wall config_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,348 - INFO - Valid report: 220805 Garmin Siletz - Spkr2b_copy.md
+2025-04-28 18:55:52,349 - WARNING - 211112 Salem Garmin notes_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,349 - WARNING - 230601 HillsbLib BWood Community rm projector filter parts req_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,349 - INFO - Valid report: 220506 Salem Library - Auditorium5_copy.md
+2025-04-28 18:55:52,350 - INFO - Valid report: 230320 UofO Knight - rm314 logins2_copy.md
+2025-04-28 18:55:52,350 - WARNING - 211227 Sato Elem - Prjctr 2_copy.md: ['MISSING_FIELD:Customer point of contact']
+2025-04-28 18:55:52,351 - INFO - Valid report: 220407 Ford Alumni ballroom, screen1_copy.md
+2025-04-28 18:55:52,351 - WARNING - 220124 TillamookPUD - display+_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,352 - INFO - Valid report: 221205 MAPS Salem - Controller NTP_copy.md
+2025-04-28 18:55:52,352 - INFO - Valid report: 220722 Mentor - D1115 Smith Rock3_copy.md
+2025-04-28 18:55:52,352 - WARNING - 220906 CMHosp Astoria PM_copy.md: ['MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,353 - INFO - Valid report: 220908 Mentor - E2020 Redwood_copy.md
+2025-04-28 18:55:52,353 - INFO - Valid report: 220712 EOU Loso Hall - Back Stage Speaker_copy.md
+2025-04-28 18:55:52,354 - INFO - Valid report: 230206 Acumed Hillsb - tp_copy.md
+2025-04-28 18:55:52,354 - INFO - Valid report: 230508 Abcam Eug - Cafe UC-Engine_copy.md
+2025-04-28 18:55:52,354 - WARNING - 230612 iQ CU Vanc - Conf rm PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,355 - WARNING - 220604 Clackamas ESD Ticket split dev 01_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,355 - WARNING - 230821 Gartner Cafe Cart cam1 PRE03_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-28 18:55:52,356 - WARNING - 220527 Clackamas ESD Issues Reported_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,356 - WARNING - 220216 UofO Mariota Center - mult_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,356 - INFO - Valid report: 230309 ClackamasESD - MtHope DSP levels3_copy.md
+2025-04-28 18:55:52,357 - WARNING - 230307 PPS Roos com iPads 1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,357 - WARNING - 220103 TillamookPUD - display+_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,358 - INFO - Valid report: 230808 DLR - Atrium labels2 2_copy.md
+2025-04-28 18:55:52,358 - WARNING - 211021 Pacific Crest school - Projector 1_copy.md: ['MISSING_FIELD:Description of work performed']
+2025-04-28 18:55:52,358 - INFO - Valid report: 220921 Mentor - D1041 Sunriver_copy.md
+2025-04-28 18:55:52,359 - INFO - Valid report: 220831 OHSU Hillsboro - Vortex_copy.md
+2025-04-28 18:55:52,359 - INFO - Valid report: 220420 Salem Library - Sys Survey_copy.md
+2025-04-28 18:55:52,359 - INFO - Valid report: 220225 MAPS Haw - blurry cam2_copy.md
+2025-04-28 18:55:52,360 - INFO - Valid report: 220721 Salem Library - PA Vocia settings2_copy.md
+2025-04-28 18:55:52,360 - INFO - Valid report: 230323 Abcam Eug - HDMI Gene_copy.md
+2025-04-28 18:55:52,360 - WARNING - 230708 DLR - Atrium Mic levels & Restart2_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,361 - INFO - Valid report: 220818 Mentor - D1346 Tawfik - TP2_copy.md
+2025-04-28 18:55:52,361 - INFO - Valid report: 211018 WWalker Elem - 1608_copy.md
+2025-04-28 18:55:52,362 - INFO - Valid report: 220601 Vanc CityCounChambers - Ph Audio_copy.md
+2025-04-28 18:55:52,362 - INFO - Valid report: 220802 Mentor - D1346 Tawfik - TP1_copy.md
+2025-04-28 18:55:52,362 - WARNING - 230807ish Updated Test Plan for mix-O, gpt misc 3_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,363 - WARNING - 220111 (Tue) UW T435 HDMI problem ID_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,363 - WARNING - 220112 (Wed) UW T435 recap of long day 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,363 - INFO - Valid report: 221111 Pape Eugene - rm 103 Planar ends SMason_copy.md
+2025-04-28 18:55:52,364 - INFO - Valid report: 220218 Park Academy - HDMI jacks+_copy.md
+2025-04-28 18:55:52,364 - WARNING - 211008 UW Rehab PM & mics+_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Description of work performed']
+2025-04-28 18:55:52,364 - INFO - Valid report: 230308 Abcam Eug - Cafe tp4_copy.md
+2025-04-28 18:55:52,365 - INFO - Valid report: 230323 Abcam Eug - HDMI Crouch_copy.md
+2025-04-28 18:55:52,365 - INFO - Valid report: 230907 UofO Knight - rm106 cam ctl2_copy.md
+2025-04-28 18:55:52,365 - INFO - Valid report: 230531 Abcam Eug - Cafe cam img flip v1_copy.md
+2025-04-28 18:55:52,366 - INFO - Valid report: 220801 Clackamas ESD - MtHope USB2 Install_copy.md
+2025-04-28 18:55:52,366 - INFO - Valid report: 211221 Scott Edwards Arch - FE3_copy.md
+2025-04-28 18:55:52,366 - INFO - Valid report: 230803 UO Ford Ballroom screen Mid_copy.md
+2025-04-28 18:55:52,367 - INFO - Valid report: 221228 Vanc CityCounChambers - mics_copy.md
+2025-04-28 18:55:52,367 - WARNING - 230114-121200 t2mdC (28) Crestron UC-engine-s-t (EWEB)_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,368 - INFO - Valid report: 230526 HillsbLib - Brookwood2 Community proj turns off_copy.md
+2025-04-28 18:55:52,368 - INFO - Valid report: 220713 EOU Loso Hall - Dante_copy.md
+2025-04-28 18:55:52,368 - WARNING - 230705 DLR - Atrium Mic levels & Restart PRE02_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Description of work performed']
+2025-04-28 18:55:52,369 - WARNING - 230802 gpt init prompt - Dv Ford Alumni Middle Screen_copy.md: ['DUPLICATE_FIELD:Description of work performed', 'DUPLICATE_FIELD:Issue resolved', 'DUPLICATE_FIELD:Next steps']
+2025-04-28 18:55:52,370 - WARNING - 230503 DLR - conf rm audio 12_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,371 - WARNING - 220602 Morland Church - all notes to-date_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,371 - WARNING - 230504 PPS 74th St ALS 1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,372 - WARNING - 220909 DLR - front conf rm cam_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,372 - INFO - Valid report: 220321 Wells - AMX goo1_copy.md
+2025-04-28 18:55:52,373 - WARNING - 230821-1701 MVHS XR18 scratchpad_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,373 - INFO - Valid report: 220420 Garmin Siletz - USB_copy.md
+2025-04-28 18:55:52,373 - INFO - Valid report: 220506 Garmin Siletz - USB4_copy.md
+2025-04-28 18:55:52,374 - WARNING - 211122 Park Academy - SmartBoards & projectors_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,374 - INFO - Valid report: 230113 EWEB - rm 103 HDMI_copy.md
+2025-04-28 18:55:52,375 - WARNING - 230824 MVHS XR18 noise x3 PRE01_copy.md: ['MISSING_FIELD:Description of problem', 'DUPLICATE_FIELD:Date of service', 'DUPLICATE_FIELD:Technician name', 'DUPLICATE_FIELD:Customer point of contact']
+2025-04-28 18:55:52,375 - INFO - Valid report: 221011 ThermoFisher - Barco_copy.md
+2025-04-28 18:55:52,376 - INFO - Valid report: 220803 Mentor - A Commons - Weight rm display2_copy.md
+2025-04-28 18:55:52,376 - WARNING - 220613 Moreland out_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,377 - INFO - Valid report: 220106 Oregon Treasury - VOIP_copy.md
+2025-04-28 18:55:52,377 - INFO - Valid report: 230517 Abcam Eug - Cafe spkr zones_copy.md
+2025-04-28 18:55:52,377 - WARNING - 220915 UofO Mariota Center - TV Tuners2_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,378 - WARNING - 221014 CMHosp Astoria iPads_copy.md: ['MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,378 - INFO - Valid report: 230425 Abcam Eug - Cafe RMC2_copy.md
+2025-04-28 18:55:52,378 - INFO - Valid report: 220803 Mentor - E3020 Azalea_copy.md
+2025-04-28 18:55:52,379 - INFO - Valid report: 211021 METpdx - gym prjct_copy.md
+2025-04-28 18:55:52,379 - WARNING - 230628 Gartner PM1b_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,379 - INFO - Valid report: 220314 TillamookPUD - display+_copy.md
+2025-04-28 18:55:52,380 - INFO - Valid report: 221129 Mentor - A103A Big Muddy_copy.md
+2025-04-28 18:55:52,380 - INFO - Valid report: 230510 Abcam Eug - Cafe RMC5_copy.md
+2025-04-28 18:55:52,380 - INFO - Valid report: 220630 Garmin Siletz - Spkr2_copy.md
+2025-04-28 18:55:52,381 - INFO - Valid report: 230220 ClackamasESD - MtHope DSP levels2 copy_copy.md
+2025-04-28 18:55:52,381 - WARNING - 220517 Wells drawings search tech note_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,382 - INFO - Valid report: 220826 Garmin Siletz - Spkr2c_copy.md
+2025-04-28 18:55:52,382 - INFO - Valid report: 230509 Abcam Eug - Cafe UC-Engine2_copy.md
+2025-04-28 18:55:52,382 - WARNING - 230705 DLR - Atrium Mic levels & Restart PRE03_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,383 - WARNING - 230905 PPS Roos MULT1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,383 - INFO - Valid report: 220207 Columbia Spo - Bugaboo_copy.md
+2025-04-28 18:55:52,384 - INFO - Valid report: 220211 DLR - conf rm audio 1_copy.md
+2025-04-28 18:55:52,384 - WARNING - 211207 UofO Rec - TPanel+_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,385 - INFO - Valid report: 220118 UofO Knight - 3rd FL TX_copy.md
+2025-04-28 18:55:52,385 - INFO - Valid report: 220217 Columbia Spo - Bugaboo2 2_copy.md
+2025-04-28 18:55:52,385 - INFO - Valid report: 230126 Hillsboro Lib2 - Brookwood audio_copy.md
+2025-04-28 18:55:52,386 - WARNING - 220527 Clackamas ESD rpt 01_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,387 - INFO - Valid report: 230302 Sato Elem - Cafe mics_copy.md
+2025-04-28 18:55:52,387 - INFO - Valid report: 230516 Abcam Eug - Cafe tp PTZ control_copy.md
+2025-04-28 18:55:52,388 - INFO - Valid report: 230525 Verizon Moda x2_copy.md
+2025-04-28 18:55:52,388 - WARNING - 230821 Gartner Cafe Cart cam1 PRE02_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Description of work performed', 'MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-28 18:55:52,389 - INFO - Valid report: 221212 ColumBank Fox - Community rm2_copy.md
+2025-04-28 18:55:52,389 - WARNING - 230719 Gartner PM8_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,390 - WARNING - 221101 Vanc Firstenberg CC - Assess1_copy.md: ['MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,390 - WARNING - 220531 RSmith report for example_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,390 - WARNING - 220223 AHS TPanel Pre-Report 01_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,391 - INFO - Valid report: 230426 Abcam Eug1 - Cafe mics & Proj2-cGPT2_copy.md
+2025-04-28 18:55:52,391 - INFO - Valid report: 221031 EWEB - rm 103 cam & hdmi_copy.md
+2025-04-28 18:55:52,392 - INFO - Valid report: 221206 ColumBank Asto - Kiosk_copy.md
+2025-04-28 18:55:52,392 - INFO - Valid report: 220623 Clackamas ESD - HDMI Spring_copy.md
+2025-04-28 18:55:52,392 - INFO - Valid report: 221011 Salem Library - Anderson B Lectern_copy.md
+2025-04-28 18:55:52,393 - INFO - Valid report: 230509 Abcam Eug - Cafe RMC4_copy.md
+2025-04-28 18:55:52,393 - INFO - Valid report: 220420 MAPS Hawth ZR - Cam Screw_copy.md
+2025-04-28 18:55:52,394 - WARNING - 230823 MVHS XR18 hist recap for gpt 02_copy.md: ['MISSING_FIELD:Date of service', 'MISSING_FIELD:Technician name', 'MISSING_FIELD:Customer point of contact', 'MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,394 - INFO - Valid report: 221010 Clackamas ESD - Spring DTP post-inst_copy.md
+2025-04-28 18:55:52,395 - INFO - Valid report: 230323 Abcam Eug - HDMI Ball_copy.md
+2025-04-28 18:55:52,395 - WARNING - 230331 MVHS Theater Stagebox1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,396 - INFO - Valid report: 220218 Twality Mid School - HDMI2_copy.md
+2025-04-28 18:55:52,396 - INFO - Valid report: 230418 Abcam Eug - Cafe RMC_copy.md
+2025-04-28 18:55:52,396 - INFO - Valid report: 230313 Jesuit HS Hollman Cafe1_copy.md
+2025-04-28 18:55:52,397 - INFO - Valid report: 230526 HillsbLib - Brookwood1 Board rm no proj_copy.md
+2025-04-28 18:55:52,397 - WARNING - 230807ish Updated Test Plan for mix-O, gpt misc 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,398 - WARNING - 230822 Forest Grove Power Disp Wall1 PRE01_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Next steps']
+2025-04-28 18:55:52,398 - WARNING - 220111 (Tue) UW T435 Op Check 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,398 - WARNING - 220707 AHS IT request for room 508, as sent to Ruben_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,398 - WARNING - 220310 DLR recap to Ruben_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,399 - WARNING - 230714 Gartner PM6_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,399 - INFO - Valid report: 230620 JesuitHS Cafe glue IR ems_copy.md
+2025-04-28 18:55:52,399 - INFO - Valid report: 230327 Jesuit HS Hollman Cafe2_copy.md
+2025-04-28 18:55:52,400 - WARNING - 220905 CMHosp Astoria PM_copy.md: ['MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,400 - WARNING - 211215 MetLife - PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,401 - INFO - Valid report: 220928 Mentor - C1350 Bristlecone_copy.md
+2025-04-28 18:55:52,401 - WARNING - 221215 Mountainside HS - Gym mics_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,401 - INFO - Valid report: 230210 Stoller Vinyards - VidWall split bad2_copy.md
+2025-04-28 18:55:52,402 - INFO - Valid report: 230530 ThermoFisher - bldg J rm B & C_copy.md
+2025-04-28 18:55:52,402 - INFO - Valid report: 220104 Columbia Spo - Newton Ridge_copy.md
+2025-04-28 18:55:52,403 - WARNING - 230615 Gartner PM1_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,403 - WARNING - 230705 DLR - Atrium Mic levels & Restart PRE-1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,403 - INFO - Valid report: 230222 Abcam Eug - Cafe tp3_copy.md
+2025-04-28 18:55:52,404 - INFO - Valid report: 230808 DLR - Atrium labels2_copy.md
+2025-04-28 18:55:52,404 - INFO - Valid report: 220224 UofO Knight - 3rd FL TX2_copy.md
+2025-04-28 18:55:52,404 - WARNING - 221024 Clackamas ESD - SpringEra PM 1_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,405 - INFO - Valid report: 220622 AHS - 508 Zoom TPanel3_copy.md
+2025-04-28 18:55:52,405 - WARNING - 220318 Park Academy - SmartBoards & projectors2_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,406 - INFO - Valid report: 220808 Mentor - E2020 Redwood_copy.md
+2025-04-28 18:55:52,406 - INFO - Valid report: 220517 Wells - System assess1_copy.md
+2025-04-28 18:55:52,406 - WARNING - 220527 Clackamas ESD Issues - responses_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,407 - WARNING - 230403 DLR - conf rm audio 10_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,409 - INFO - Valid report: 221219 Pacific Crest school - Projector Assessment_copy.md
+2025-04-28 18:55:52,410 - INFO - Valid report: 220218 ThermoFisher - Conf rm (NO MD RPT MADE)_copy.md
+2025-04-28 18:55:52,411 - INFO - Valid report: 230213 Abcam Eug5 - 102-3 disp off_copy.md
+2025-04-28 18:55:52,414 - INFO - Valid report: 220701 Astoria Middle school - screen2_copy.md
+2025-04-28 18:55:52,417 - INFO - Valid report: 220628 Salem Library - PA Vocia settings_copy.md
+2025-04-28 18:55:52,417 - INFO - Valid report: 220908 Mentor - E0410 Rogue_copy.md
+2025-04-28 18:55:52,418 - INFO - Valid report: 230523 JesuitHS Cafe remote btns_copy.md
+2025-04-28 18:55:52,420 - WARNING - 230515 Abcam Sheehan HDMI RMA_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,422 - INFO - Valid report: 230321 UofO Knight - rm156-8_copy.md
+2025-04-28 18:55:52,425 - INFO - Valid report: 230223-4 UofO Knight - rm108 HDMI_copy.md
+2025-04-28 18:55:52,428 - INFO - Valid report: 230803 UofO Knight - rm106 cam ctl_copy.md
+2025-04-28 18:55:52,429 - INFO - Valid report: 230803 UO Ford Ballroom screen Mid PRE02_copy.md
+2025-04-28 18:55:52,430 - WARNING - 220804 Mentor note to ticket (from sb) for D1405 (fan plus)_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,430 - INFO - Valid report: 230511 Selco CU Eug Crestron swx_copy.md
+2025-04-28 18:55:52,431 - INFO - Valid report: 230118 Abcam Eug1 - Cafe mics_copy.md
+2025-04-28 18:55:52,431 - INFO - Valid report: 220516 Astoria Middle school - screen_copy.md
+2025-04-28 18:55:52,431 - INFO - Valid report: 220304 DLR - conf rm audio 4_copy.md
+2025-04-28 18:55:52,432 - INFO - Valid report: 230508 Abcam Eug - Cafe cam, Vaddio (230504)_copy.md
+2025-04-28 18:55:52,432 - INFO - Valid report: 220505 Mentor - D3040 Eagle Creek1_copy.md
+2025-04-28 18:55:52,433 - WARNING - 211222 Sato Elem - Prjctr_copy.md: ['MISSING_FIELD:Customer point of contact']
+2025-04-28 18:55:52,434 - WARNING - 230808-1856 MVHS Behringer XR18 RMA (gpt)_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,434 - INFO - Valid report: 220808 Mentor - C2042 McKenzie_copy.md
+2025-04-28 18:55:52,435 - WARNING - 230324 Roosevelt ticket split_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,436 - INFO - Valid report: 230728 DLR - Atrium DSP_copy.md
+2025-04-28 18:55:52,436 - WARNING - 220606 sbrown Mentor report_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,437 - INFO - Valid report: 220328 Salem Library - Auditorium1_copy.md
+2025-04-28 18:55:52,437 - INFO - Valid report: 230623 iQ CU Vanc - HDMI_copy.md
+2025-04-28 18:55:52,438 - INFO - Valid report: 230421 DLR - Atrium mics_copy.md
+2025-04-28 18:55:52,438 - WARNING - 221026 Clack SpringEra New Tks, notes_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,439 - INFO - Valid report: 220722 Mentor - A Commons - Weight rm Display_copy.md
+2025-04-28 18:55:52,439 - INFO - Valid report: 221027 Papé Auditorium Tech content bak 02_copy.md
+2025-04-28 18:55:52,439 - INFO - Valid report: 220308 UWSOM SLU Brotman CODEC & camera_copy.md
+2025-04-28 18:55:52,440 - WARNING - 221017 Mountainside HS - Gym TP_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,440 - INFO - Valid report: 221108 ClackamasESD - SpringEra TPanel2_copy.md
+2025-04-28 18:55:52,441 - WARNING - 220812-1833 DWFritz IN1608 Options email_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,441 - WARNING - 220302 Franklin update - we didn't drop the ball_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,442 - WARNING - 230816 UofO Mariota Center - 165&177 office vid1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,442 - WARNING - 230515 SELCO CU Vaddio cam RMA_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,443 - WARNING - 230215 UofO Mariota Center - M63 office vid2_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,443 - INFO - Valid report: 221129 Vanc ESD - Klickitat audio_copy.md
+2025-04-28 18:55:52,443 - INFO - Valid report: 220808 Mentor - E2042 Noble_copy.md
+2025-04-28 18:55:52,444 - INFO - Valid report: 220725 Salem Library - PA Vocia settings3_copy.md
+2025-04-28 18:55:52,444 - WARNING - 211129 MealsOnWheels - tp & screen_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,444 - INFO - Valid report: 220920 Mentor - A103A Big Muddy_copy.md
+2025-04-28 18:55:52,445 - WARNING - 230331 MVHS Band rm mixer1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,445 - INFO - Valid report: 221220 Mentor - D2040-2 & D1237_copy.md
+2025-04-28 18:55:52,446 - INFO - Valid report: 220301 DLR - conf rm audio 2_copy.md
+2025-04-28 18:55:52,446 - WARNING - 220802 Mentor - D1405 Redmond - Fan +_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,446 - INFO - Valid report: 211123 UofO Knight Campus - Crestron2_copy.md
+2025-04-28 18:55:52,447 - INFO - Valid report: 220817 Mentor - E2042 Noble2_copy.md
+2025-04-28 18:55:52,447 - WARNING - 220921 DLR - front conf rm cam_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,447 - WARNING - 220819 MealsOnWheels - tp & screen Parts em1_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,448 - WARNING - 230717 Gartner PM7_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,448 - INFO - Valid report: 221026 Mentor - D1237 Steven Swirling fan install_copy.md
+2025-04-28 18:55:52,449 - INFO - Valid report: 220913 Clackamas ESD - HDMI Spring HMDI_copy.md
+2025-04-28 18:55:52,449 - WARNING - 230307 UofO Mariota Center - 177_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,449 - INFO - Valid report: 230330 Jesuit HS Hollman Cafe3_copy.md
+2025-04-28 18:55:52,450 - INFO - Valid report: 220512 Salem Library - Auditorium6_copy.md
+2025-04-28 18:55:52,450 - INFO - Valid report: 220908 Mentor - E2022 Sequoia_copy.md
+2025-04-28 18:55:52,450 - WARNING - 230821 Gartner Cafe Cart cam1_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-28 18:55:52,451 - WARNING - 230629 Gartner PM3 Adams_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,451 - INFO - Valid report: 230221 Sato Elem - Prjctr Feb '23_copy.md
+2025-04-28 18:55:52,452 - WARNING - 220602 Moreland church notes_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,452 - WARNING - 220202 Gartner PM+_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,452 - WARNING - 220112 (Wed) UW T435 recap of long day_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,453 - INFO - Valid report: 230209 Stoller Vinyards - VidWall split bad_copy.md
+2025-04-28 18:55:52,453 - INFO - Valid report: 230427 Abcam Eug - Cafe cam, Vaddio (230504)_copy.md
+2025-04-28 18:55:52,453 - WARNING - 220309-10 UWSOM T435 - HDMI follow-up2_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,454 - INFO - Valid report: 230328 OSU Kearney 311_copy.md
+2025-04-28 18:55:52,454 - INFO - Valid report: 230228 UO Ford 403 Zoom2_copy.md
+2025-04-28 18:55:52,454 - WARNING - 220419 iQ CU Vanc - Conf rm PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,455 - INFO - Valid report: 230508 Abcam Eug - Cafe RMC3_copy.md
+2025-04-28 18:55:52,455 - WARNING - 230405 DLR - conf rm audio 11_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,455 - INFO - Valid report: 220602 Moreland church pre-rpt work_copy.md
+2025-04-28 18:55:52,456 - WARNING - 220809 DWFritz - Projector2_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,456 - INFO - Valid report: 230626 Sato Elem - post-projector ctl confirm_copy.md
+2025-04-28 18:55:52,456 - WARNING - 230824-2003 MVHS XR18s Post-visit Status and Next Steps v01_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,457 - INFO - Valid report: 220602 Moreland Church - multiple_copy.md
+2025-04-28 18:55:52,457 - INFO - Valid report: 220127 Pacific Crest school - Projector 2_copy.md
+2025-04-28 18:55:52,457 - INFO - Valid report: 230512 UofO Knight - rm261J logins (Merc)_copy.md
+2025-04-28 18:55:52,458 - WARNING - 220202 MetLife - PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,458 - INFO - Valid report: 220801 Clackamas ESD - HDMI Spring_copy.md
+2025-04-28 18:55:52,459 - WARNING - 230807ish MVHS XR18 text, gpt misc_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,459 - INFO - Valid report: 230314 Gladstone CC BMD1_copy.md
+2025-04-28 18:55:52,459 - INFO - Valid report: 220222 AHS - Breakroom TPanel_copy.md
+2025-04-28 18:55:52,460 - INFO - Valid report: 220331 DLR - conf rm audio 6_copy.md
+2025-04-28 18:55:52,460 - INFO - Valid report: 220912 Vanc Water Edu - Reinst Extron_copy.md
+2025-04-28 18:55:52,460 - INFO - Valid report: 230509 Abcam Eug - Cafe cam, Vaddio (230504)_copy.md
+2025-04-28 18:55:52,461 - WARNING - 211103 METpdx hdmi_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,461 - INFO - Valid report: 220315 DLR - conf rm audio 5_copy.md
+2025-04-28 18:55:52,461 - INFO - Valid report: 230803 UO Ford Ballroom screen Mid PRE01_copy.md
+2025-04-28 18:55:52,462 - INFO - Valid report: 220315 Franklin HS Gym HDMI_copy.md
+2025-04-28 18:55:52,462 - INFO - Valid report: 220321 Twality Mid School - HDMI3_copy.md
+2025-04-28 18:55:52,462 - WARNING - 220103 Tillimook actual to file_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,463 - WARNING - 220519 Cornelius city hall - PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,463 - INFO - Valid report: 221117 WWalker Elem - Gym Projector_copy.md
+2025-04-28 18:55:52,464 - INFO - Valid report: 220111 UWSOM T435 - HDMI_copy.md
+2025-04-28 18:55:52,464 - INFO - Valid report: 211224 Hilton Duniway - spkrs+_copy.md
+2025-04-28 18:55:52,464 - INFO - Valid report: 230223 UofO Knight - rm314 logins_copy.md
+2025-04-28 18:55:52,465 - INFO - Valid report: 221028 ClackamasESD - SpringEra Audio Levels_copy.md
+2025-04-28 18:55:52,465 - WARNING - 220107 OR Treasury Telnet of VOIP - Tesira card & ShoreTel 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,465 - INFO - Valid report: 221027 Papé Auditorium Tech content bak 01_copy.md
+2025-04-28 18:55:52,466 - INFO - Valid report: 220427 Salem Library - Auditorium2_copy.md
+2025-04-28 18:55:52,466 - INFO - Valid report: 220121 Hilton Duniway - spkrs+_copy.md
+2025-04-28 18:55:52,466 - INFO - Valid report: 220503 Wells - AMX goo2_copy.md
+2025-04-28 18:55:52,467 - INFO - Valid report: 220621 Vanc CityCounChambers - Ph Audio_copy.md
+2025-04-28 18:55:52,467 - INFO - Valid report: 220810 Oregon Treasury - Leak_copy.md
+2025-04-28 18:55:52,468 - WARNING - 220623 Clackamas ESD Springwater Issues_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,468 - INFO - Valid report: 230228 Mentor - C2040-2_copy.md
+2025-04-28 18:55:52,468 - WARNING - 230710 Gartner PM4_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,469 - INFO - Valid report: 220817 Vanc Water Edu - Projector2_copy.md
+2025-04-28 18:55:52,469 - WARNING - 221017 pre-report - Mountainside HS Gym Projector_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,469 - WARNING - 220927 MealsOnWheels - inst tp_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,470 - WARNING - 220201 AFSC Seattle PM+_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,470 - INFO - Valid report: 220921 Mentor - E2022 Sequoia_copy.md
+2025-04-28 18:55:52,471 - WARNING - 220531 rsmith Mentor prev rooms, for example_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,472 - INFO - Valid report: 220518 VGarciaMemMedical - tpanel_copy.md
+2025-04-28 18:55:52,472 - WARNING - 211220 UW T550 (& some E308 & T435) 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,472 - WARNING - 220325 EOU Loso Hall - PM_copy.md: ['MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,473 - WARNING - 220600 visit to ClackamasESD - Extron Q re Firmware_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,473 - WARNING - 230822 Forest Grove Power Disp Wall1 PRE02_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Next steps']
+2025-04-28 18:55:52,474 - INFO - Valid report: 230103 Mentor - A103A Big Muddy3_copy.md
+2025-04-28 18:55:52,474 - WARNING - 220228 CMHosp Astoria_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,474 - WARNING - 220720 DLR - conf rm audio 9_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,475 - WARNING - 230727 Gartner PM9_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,475 - WARNING - 220609 UofO Rec - mult_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,475 - INFO - Valid report: 230214 Abcam Eug2 - Cafe tp_copy.md
+2025-04-28 18:55:52,476 - INFO - Valid report: 221027 Pape Eugene - rm 103 Planar_copy.md
+2025-04-28 18:55:52,476 - WARNING - 230608 PPS 74th St ALS 4_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,477 - WARNING - 220216 PeaceHealth - assist_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,477 - WARNING - 230823 Forest Grove Power Disp Wall misc gpt text work 3_copy.md: ['MISSING_FIELD:Next steps']
+2025-04-28 18:55:52,477 - INFO - Valid report: 230508 Abcam Eug - HDMI Sheehan_copy.md
+2025-04-28 18:55:52,478 - INFO - Valid report: 230323 Abcam Eug - HDMI Mito_copy.md
+2025-04-28 18:55:52,478 - INFO - Valid report: 221018 Salem Library - Install Blue-ray player_copy.md
+2025-04-28 18:55:52,478 - WARNING - 221111 UO MM - M63 office vid OPTION notes_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,479 - INFO - Valid report: 230427 Abcam Eug - HDMI Sheehan_copy.md
+2025-04-28 18:55:52,479 - WARNING - 220727 UO MM TV Tuner RMA note dev 01_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,479 - WARNING - 220930 MG D1346 tk close note_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,480 - INFO - Valid report: 230110 Vanc ESD - Klickitat audio2_copy.md
+2025-04-28 18:55:52,480 - WARNING - 230824 MVHS XR18 noise x3_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Description of work performed', 'MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-28 18:55:52,480 - INFO - Valid report: 220830 Mentor - D2237, display_copy.md
+2025-04-28 18:55:52,481 - INFO - Valid report: 220428 Salem Library - Auditorium3_copy.md
+2025-04-28 18:55:52,481 - INFO - Valid report: 230426 Abcam Eug1 - Cafe mics & Proj2-sb1_copy.md
+2025-04-28 18:55:52,481 - WARNING - 220930 ClackamasESD em to Rob informing of new wall plates_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,482 - WARNING - 230713 Gartner PM5_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,482 - WARNING - 211112 Garmin fiasco 1 Friday_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,483 - WARNING - 230518 PPS 74th St ALS 2_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,483 - INFO - Valid report: 230202 Mentor - D1237 tp2_copy.md
+2025-04-28 18:55:52,483 - INFO - Valid report: 230118 Abcam Eug3 - Mito cam_copy.md
+2025-04-28 18:55:52,484 - INFO - Valid report: 230211 ColumBank Fox - Community rm3_copy.md
+2025-04-28 18:55:52,484 - INFO - Valid report: 220119 PCC Sylv projector_copy.md
+2025-04-28 18:55:52,485 - INFO - Valid report: 220209 Columbia Spo - Bugaboo_copy.md
+2025-04-28 18:55:52,485 - INFO - Valid report: 230222 Abcam Eug - Mito cam3_copy.md
+2025-04-28 18:55:52,485 - INFO - Valid report: 220429 Hilton - DSP error_copy.md
+2025-04-28 18:55:52,486 - INFO - Valid report: 220502 Mentor - D1115 Smith Rock1 (unused)_copy.md
+2025-04-28 18:55:52,486 - WARNING - 230629 Gartner PM3 Glenn_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,486 - INFO - Valid report: 221102 Standard Ins - Mega TP_copy.md
+2025-04-28 18:55:52,487 - INFO - Valid report: 220801 Clackamas ESD - HDMI Spring tmp new_copy.md
+2025-04-28 18:55:52,487 - INFO - Valid report: 220830 Mentor - D1348 Madras_copy.md
+2025-04-28 18:55:52,487 - INFO - Valid report: 230531 Abcam Eug - HDMI Ball2_copy.md
+2025-04-28 18:55:52,488 - WARNING - 230105 OSU Gymnast - TP audio_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,488 - WARNING - 230705 DLR - Atrium Mic levels & Restart_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Next steps']
+2025-04-28 18:55:52,488 - WARNING - 230823 Forest Grove Power Disp Wall misc gpt text work 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,489 - INFO - Valid report: 221216 KPMG Pdx 3714 - Audio2_copy.md
+2025-04-28 18:55:52,489 - INFO - Valid report: 221104 UofO Knight - AirMedia macs_copy.md
+2025-04-28 18:55:52,490 - WARNING - 221130 ClackamasESD - MtHope PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,490 - INFO - Valid report: 230906 DLR - Atrium labels3_copy.md
+2025-04-28 18:55:52,490 - INFO - Valid report: 220722 Mentor - E2020 Redwood cables_copy.md
+2025-04-28 18:55:52,491 - WARNING - 211216 UWSOM Main - PM+_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,491 - INFO - Valid report: 230216 Pacific Crest school - Box repair_copy.md
+2025-04-28 18:55:52,492 - INFO - Valid report: 220719 Oregon Justice Ctr - mult speaker issues2_copy.md
+2025-04-28 18:55:52,492 - INFO - Valid report: 220214 Stoller Vinyards - Video Wall2_copy.md
+2025-04-28 18:55:52,492 - WARNING - 220111 (Tue) UW T435 Op Check_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,493 - INFO - Valid report: 220817 Mentor - E3042 Ponderosa_copy.md
+2025-04-28 18:55:52,493 - INFO - Valid report: 220128 Pacific Crest school - Projector 3 final_copy.md
+2025-04-28 18:55:52,493 - WARNING - 220714 EOU Loso Hall - PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,494 - WARNING - 220328-2128 EOU dev 01_copy.md: ['MISSING_FIELD:Description of problem', 'DUPLICATE_FIELD:Next steps']
+2025-04-28 18:55:52,494 - INFO - Valid report: 230720 ThermoFisher - bldg J rm B AirMedia replace_copy.md
+2025-04-28 18:55:52,494 - WARNING - 220323 UofO Mariota Center - TV Tuners_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 18:55:52,495 - WARNING - 220714 EOU Loso Hall - INTERNAL NOTES_copy.md: ['MISSING_FIELD:Customer point of contact', 'MISSING_FIELD:Description of problem', 'MISSING_FIELD:Description of work performed', 'MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-28 18:55:52,495 - INFO - Valid report: 230607 OSU Kearney 311-2_copy.md
+2025-04-28 18:55:52,496 - WARNING - 220401 Req for new Svc Tk - Mentor TechOps PM proj, AV1PORTL-0009421_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,496 - INFO - Valid report: 230316 ClackamasESD - MtHope Feedback_copy.md
+2025-04-28 18:55:52,496 - INFO - Valid report: 221201 ColumBank Fox - Community rm_copy.md
+2025-04-28 18:55:52,497 - INFO - Valid report: 220105 UO Knight - tpanel_copy.md
+2025-04-28 18:55:52,497 - INFO - Valid report: 220524 Garmin Siletz - Mon&Aud_copy.md
+2025-04-28 18:55:52,497 - INFO - Valid report: 221102 Standard Ins - Flex projector_copy.md
+2025-04-28 18:55:52,498 - INFO - Valid report: 221208 Scott Edwards Arch - 1608 glitch_copy.md
+2025-04-28 18:55:52,498 - WARNING - 220111 (Tue) UW T435 HDMI problem ID 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 18:55:52,498 - INFO - Valid report: 230428 UofO Knight - rm108+_copy.md
+2025-04-28 18:55:52,499 - WARNING - 211215 UWSOM SLU - PM+_copy.md: ['UNBOLDED_FIELD:Technician name', 'MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-28 18:55:52,499 - WARNING - 221215 Mountainside HS - Gym TP2_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 18:55:52,499 - INFO - Valid report: 220608 DLR - Atrium TP labels_copy.md
+2025-04-28 18:55:52,500 - INFO - Valid report: 230622a iQ CU Vanc - iPad ctrl GUI_copy.md
+2025-04-28 18:55:52,500 - INFO - Processing complete. 268 valid and 175 invalid reports identified.
+2025-04-28 19:18:34,883 - WARNING - 220324-25 EOU Theater PM & Repair1_copy.md: ['MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,884 - INFO - Valid report: 230117 UO Ford 403 Zoom audio_copy.md
+2025-04-28 19:18:34,884 - INFO - Valid report: 220210 Stoller Vinyards - Video Wall_copy.md
+2025-04-28 19:18:34,885 - INFO - Valid report: 221118 KPMG Pdx 3714 - Audio_copy.md
+2025-04-28 19:18:34,885 - INFO - Valid report: 230126 Hillsboro Lib1 - HDMI2_copy.md
+2025-04-28 19:18:34,886 - WARNING - 220920 DWFritz - 1608 inst_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,887 - INFO - Valid report: 230531 Abcam Eug - Cafe cam img flip v2_copy.md
+2025-04-28 19:18:34,887 - WARNING - 211111 Twality Mid School - HDMI_copy.md: ['MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,888 - INFO - Valid report: 220706 Vanc Water Edu - Projector+_copy.md
+2025-04-28 19:18:34,889 - INFO - Valid report: 220428 Garmin Siletz - USB2_copy.md
+2025-04-28 19:18:34,889 - INFO - Valid report: 230725 DLR - Atrium DSP 1_copy.md
+2025-04-28 19:18:34,890 - WARNING - 221103 UofO Mariota Center - TV Tuners3_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,891 - WARNING - 211117 UofO Knight Campus - Crestron1_copy.md: ['MISSING_FIELD:Description of work performed']
+2025-04-28 19:18:34,891 - INFO - Valid report: 221005 Clackamas ESD - Spring DTP inst1_copy.md
+2025-04-28 19:18:34,892 - WARNING - 220323 UofO Mariota Center - Source Routing_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,893 - INFO - Valid report: 220502 Mentor - D1115 Smith Rock2(2day)_copy.md
+2025-04-28 19:18:34,893 - WARNING - 220107 OR Treasury Telnet of VOIP - Tesira card & ShoreTel_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,894 - INFO - Valid report: 230801 ColumBank Fox - Community rm_copy.md
+2025-04-28 19:18:34,894 - INFO - Valid report: 220505 Mentor - D1115 Smith Rock3_copy.md
+2025-04-28 19:18:34,895 - INFO - Valid report: 230322 UofO Knight - rm108+_copy.md
+2025-04-28 19:18:34,895 - INFO - Valid report: 230622b iQ CU Vanc - Cam_copy.md
+2025-04-28 19:18:34,896 - WARNING - 230602 UO Kn Seminar - Vid flicker_copy.md: ['MISSING_FIELD:Description of work performed']
+2025-04-28 19:18:34,897 - INFO - Valid report: 220908 Mentor - E4022 Foxtail_copy.md
+2025-04-28 19:18:34,897 - INFO - Valid report: 221020 Clackamas ESD - Spring DTP post-inst cam fix_copy.md
+2025-04-28 19:18:34,898 - INFO - Valid report: 230110 Vanc ESD - HDMI xmtr_copy.md
+2025-04-28 19:18:34,898 - INFO - Valid report: 221006 CMHosp Astoria Seaside HDMI_copy.md
+2025-04-28 19:18:34,899 - INFO - Valid report: 220218 MAPS 221 - display band_copy.md
+2025-04-28 19:18:34,899 - INFO - Valid report: 221102 Standard Ins - Sig TP (ps)2_copy.md
+2025-04-28 19:18:34,900 - INFO - Valid report: 230427 UofO Knight - rm108+_copy.md
+2025-04-28 19:18:34,900 - WARNING - 230323 Roos tk close and open new_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,901 - INFO - Valid report: 220622 AHS - 508 Zoom TPanel4_copy.md
+2025-04-28 19:18:34,901 - INFO - Valid report: 230130 ClackamasESD - MtHope DSP levels_copy.md
+2025-04-28 19:18:34,902 - WARNING - 220818 Vanc water Extron 1608 RMA to Parts1_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,902 - WARNING - 220627 DLR - conf rm audio 8_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,903 - WARNING - 221004 MealsOnWheels - PC audio_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,903 - WARNING - 220720 DLR - front conf rm cam_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,903 - WARNING - 230629 Gartner PM3 Bachelor_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,904 - WARNING - 220604 Clackamas ESD Ticket split dev 02_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,905 - INFO - Valid report: 220217 Columbia Spo - Bugaboo2_copy.md
+2025-04-28 19:18:34,905 - INFO - Valid report: 220406 Stoller Vinyards - audio & video2_copy.md
+2025-04-28 19:18:34,906 - WARNING - 230104 Juniper Apts - Projector Screen_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,906 - INFO - Valid report: 221006 Mentor - D1115 Smith Rock4 install_copy.md
+2025-04-28 19:18:34,907 - INFO - Valid report: 220504 Columbia Bank Tigard - HDMI_copy.md
+2025-04-28 19:18:34,907 - WARNING - 230119 OSU Gymnast - TP audio2_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,908 - WARNING - 220331-1821 DLR notes_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,908 - INFO - Valid report: 221025 Moda Verizon - QSFP_copy.md
+2025-04-28 19:18:34,909 - WARNING - 230717 Gartner 920 Fremont Barco_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,909 - INFO - Valid report: 230426 Abcam Eug1 - Cafe mics & Proj2-cGPT2 ed1_copy.md
+2025-04-28 19:18:34,910 - WARNING - 220323 UofO Mariota Center - mult2_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,910 - WARNING - 221213 Mentor - D1405 Redmond - Fan_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,911 - INFO - Valid report: 230404 Jesuit HS Hollman Cafe5_copy.md
+2025-04-28 19:18:34,911 - INFO - Valid report: 230109 Mentor - D2040 TP_copy.md
+2025-04-28 19:18:34,911 - WARNING - 211220 UW T550 (& some E308 & T435)_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,912 - INFO - Valid report: 230315 Acumed Hillsb - iPad_copy.md
+2025-04-28 19:18:34,912 - INFO - Valid report: 220808 Mentor - E2022 Sequoia_copy.md
+2025-04-28 19:18:34,913 - INFO - Valid report: 230511 Selco CU Eug McKenzie cam_copy.md
+2025-04-28 19:18:34,913 - INFO - Valid report: 230517 Abcam Eug - Cafe tp PTZ control2_copy.md
+2025-04-28 19:18:34,913 - WARNING - 211112 Garmin Fiasco_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,914 - WARNING - 230822 Forest Grove Power Disp Wall1_copy.md: ['MISSING_FIELD:Next steps']
+2025-04-28 19:18:34,914 - INFO - Valid report: 220803 Mentor - D - Signage_copy.md
+2025-04-28 19:18:34,915 - INFO - Valid report: 221025 Moda Verizon - QSFP copy_copy.md
+2025-04-28 19:18:34,915 - INFO - Valid report: 220125 METpdx hdmi_copy.md
+2025-04-28 19:18:34,915 - INFO - Valid report: 230131 Standard Ins - Flex projector3_copy.md
+2025-04-28 19:18:34,916 - INFO - Valid report: 220608 DLR - Atrium mics hot CREATE TICKET_copy.md
+2025-04-28 19:18:34,916 - INFO - Valid report: 220705 Oregon Justice Ctr - mult speaker issues_copy.md
+2025-04-28 19:18:34,916 - INFO - Valid report: 220207 Pape Group - Phone ext change_copy.md
+2025-04-28 19:18:34,917 - INFO - Valid report: 220907 Standard Ins - Sig TP (ps)_copy.md
+2025-04-28 19:18:34,919 - INFO - Valid report: 220422 AHS - 508 Zoom TPanel_copy.md
+2025-04-28 19:18:34,919 - INFO - Valid report: 220118 UofO Knight - rm106 HDMI_copy.md
+2025-04-28 19:18:34,920 - INFO - Valid report: 230525 Verizon Moda x1_copy.md
+2025-04-28 19:18:34,920 - WARNING - 211202 DWFritz - Projector_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,921 - INFO - Valid report: 220314 Stoller Vinyards - audio & video_copy.md
+2025-04-28 19:18:34,921 - WARNING - 220608 DLR - conf rm audio 7_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,921 - INFO - Valid report: 230213 Abcam Eug4 - Mito tp (neg)_copy.md
+2025-04-28 19:18:34,922 - INFO - Valid report: 220418 Clackamas ESD - cams_copy.md
+2025-04-28 19:18:34,923 - WARNING - 220608 Email about Room Use from Earl_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,923 - INFO - Valid report: 230214 Abcam Eug3 - Mito cam2 (neg)_copy.md
+2025-04-28 19:18:34,923 - INFO - Valid report: 230111 Standard Ins - Flex projector2_copy.md
+2025-04-28 19:18:34,924 - INFO - Valid report: 230614 Abcam Eug - HDMI Sheehan2_copy.md
+2025-04-28 19:18:34,924 - INFO - Valid report: 221019 Mentor - D - Brightsign reset_copy.md
+2025-04-28 19:18:34,925 - WARNING - 221221 Hillsboro Lib1 - HDMI_copy.md: ['UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-28 19:18:34,925 - INFO - Valid report: 230418 Abcam Eug1 - Cafe mics & Proj_copy.md
+2025-04-28 19:18:34,925 - INFO - Valid report: 220623 Clackamas ESD - HDMI MtHope_copy.md
+2025-04-28 19:18:34,926 - INFO - Valid report: 220120 MAPS Haw - blurry cam_copy.md
+2025-04-28 19:18:34,926 - INFO - Valid report: 230404 Jesuit HS Hollman Cafe4_copy.md
+2025-04-28 19:18:34,926 - INFO - Valid report: 230118 Abcam Eug2 - Cafe Proj_copy.md
+2025-04-28 19:18:34,927 - INFO - Valid report: 211209 MAPS Salem - tpanel date alt_copy.md
+2025-04-28 19:18:34,927 - WARNING - 220128 CoMemoAsto PM+_copy.md: ['MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,928 - WARNING - 221111 UofO Mariota Center - M63 office vid_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,928 - INFO - Valid report: 220509 AHS - 508 Zoom TPanel2_copy.md
+2025-04-28 19:18:34,929 - WARNING - 220405 MentorPM rpt 01_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,929 - INFO - Valid report: 220818 Mentor - A Commons - Weight rm display3_copy.md
+2025-04-28 19:18:34,929 - INFO - Valid report: 220112 UWSOM T435 - HDMI follow-up1_copy.md
+2025-04-28 19:18:34,930 - INFO - Valid report: 221028 ClackamasESD - SpringEra TPanel_copy.md
+2025-04-28 19:18:34,930 - WARNING - 221117 ColumBank Vanc - Proj_copy.md: ['MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-28 19:18:34,930 - WARNING - 220404 TillamookPUD - Video wall config_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,931 - INFO - Valid report: 220805 Garmin Siletz - Spkr2b_copy.md
+2025-04-28 19:18:34,931 - WARNING - 211112 Salem Garmin notes_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,931 - WARNING - 230601 HillsbLib BWood Community rm projector filter parts req_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,932 - INFO - Valid report: 220506 Salem Library - Auditorium5_copy.md
+2025-04-28 19:18:34,932 - INFO - Valid report: 230320 UofO Knight - rm314 logins2_copy.md
+2025-04-28 19:18:34,933 - WARNING - 211227 Sato Elem - Prjctr 2_copy.md: ['MISSING_FIELD:Customer point of contact']
+2025-04-28 19:18:34,933 - INFO - Valid report: 220407 Ford Alumni ballroom, screen1_copy.md
+2025-04-28 19:18:34,933 - WARNING - 220124 TillamookPUD - display+_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,934 - INFO - Valid report: 221205 MAPS Salem - Controller NTP_copy.md
+2025-04-28 19:18:34,934 - INFO - Valid report: 220722 Mentor - D1115 Smith Rock3_copy.md
+2025-04-28 19:18:34,934 - WARNING - 220906 CMHosp Astoria PM_copy.md: ['MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,935 - INFO - Valid report: 220908 Mentor - E2020 Redwood_copy.md
+2025-04-28 19:18:34,935 - INFO - Valid report: 220712 EOU Loso Hall - Back Stage Speaker_copy.md
+2025-04-28 19:18:34,936 - INFO - Valid report: 230206 Acumed Hillsb - tp_copy.md
+2025-04-28 19:18:34,936 - INFO - Valid report: 230508 Abcam Eug - Cafe UC-Engine_copy.md
+2025-04-28 19:18:34,937 - WARNING - 230612 iQ CU Vanc - Conf rm PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,937 - WARNING - 220604 Clackamas ESD Ticket split dev 01_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,938 - WARNING - 220527 Clackamas ESD Issues Reported_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,938 - WARNING - 220216 UofO Mariota Center - mult_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,938 - INFO - Valid report: 230309 ClackamasESD - MtHope DSP levels3_copy.md
+2025-04-28 19:18:34,939 - WARNING - 230307 PPS Roos com iPads 1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,939 - WARNING - 220103 TillamookPUD - display+_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,940 - WARNING - 211021 Pacific Crest school - Projector 1_copy.md: ['MISSING_FIELD:Description of work performed']
+2025-04-28 19:18:34,940 - INFO - Valid report: 220921 Mentor - D1041 Sunriver_copy.md
+2025-04-28 19:18:34,940 - INFO - Valid report: 220831 OHSU Hillsboro - Vortex_copy.md
+2025-04-28 19:18:34,940 - INFO - Valid report: 220420 Salem Library - Sys Survey_copy.md
+2025-04-28 19:18:34,941 - INFO - Valid report: 220225 MAPS Haw - blurry cam2_copy.md
+2025-04-28 19:18:34,941 - INFO - Valid report: 220721 Salem Library - PA Vocia settings2_copy.md
+2025-04-28 19:18:34,941 - INFO - Valid report: 230323 Abcam Eug - HDMI Gene_copy.md
+2025-04-28 19:18:34,942 - WARNING - 230708 DLR - Atrium Mic levels & Restart2_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,942 - INFO - Valid report: 220818 Mentor - D1346 Tawfik - TP2_copy.md
+2025-04-28 19:18:34,942 - INFO - Valid report: 211018 WWalker Elem - 1608_copy.md
+2025-04-28 19:18:34,943 - INFO - Valid report: 220601 Vanc CityCounChambers - Ph Audio_copy.md
+2025-04-28 19:18:34,943 - INFO - Valid report: 220802 Mentor - D1346 Tawfik - TP1_copy.md
+2025-04-28 19:18:34,944 - WARNING - 220111 (Tue) UW T435 HDMI problem ID_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,944 - WARNING - 220112 (Wed) UW T435 recap of long day 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,945 - INFO - Valid report: 221111 Pape Eugene - rm 103 Planar ends SMason_copy.md
+2025-04-28 19:18:34,945 - INFO - Valid report: 220218 Park Academy - HDMI jacks+_copy.md
+2025-04-28 19:18:34,945 - WARNING - 211008 UW Rehab PM & mics+_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Description of work performed']
+2025-04-28 19:18:34,946 - INFO - Valid report: 230308 Abcam Eug - Cafe tp4_copy.md
+2025-04-28 19:18:34,946 - INFO - Valid report: 230323 Abcam Eug - HDMI Crouch_copy.md
+2025-04-28 19:18:34,946 - INFO - Valid report: 230907 UofO Knight - rm106 cam ctl2_copy.md
+2025-04-28 19:18:34,947 - INFO - Valid report: 230531 Abcam Eug - Cafe cam img flip v1_copy.md
+2025-04-28 19:18:34,947 - INFO - Valid report: 220801 Clackamas ESD - MtHope USB2 Install_copy.md
+2025-04-28 19:18:34,947 - INFO - Valid report: 211221 Scott Edwards Arch - FE3_copy.md
+2025-04-28 19:18:34,948 - INFO - Valid report: 230803 UO Ford Ballroom screen Mid_copy.md
+2025-04-28 19:18:34,948 - INFO - Valid report: 221228 Vanc CityCounChambers - mics_copy.md
+2025-04-28 19:18:34,949 - WARNING - 230114-121200 t2mdC (28) Crestron UC-engine-s-t (EWEB)_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,949 - INFO - Valid report: 230526 HillsbLib - Brookwood2 Community proj turns off_copy.md
+2025-04-28 19:18:34,949 - INFO - Valid report: 220713 EOU Loso Hall - Dante_copy.md
+2025-04-28 19:18:34,950 - WARNING - 230503 DLR - conf rm audio 12_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,950 - WARNING - 230504 PPS 74th St ALS 1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,950 - WARNING - 220909 DLR - front conf rm cam_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,950 - INFO - Valid report: 220321 Wells - AMX goo1_copy.md
+2025-04-28 19:18:34,951 - INFO - Valid report: 220420 Garmin Siletz - USB_copy.md
+2025-04-28 19:18:34,951 - INFO - Valid report: 220506 Garmin Siletz - USB4_copy.md
+2025-04-28 19:18:34,952 - WARNING - 211122 Park Academy - SmartBoards & projectors_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,952 - INFO - Valid report: 230113 EWEB - rm 103 HDMI_copy.md
+2025-04-28 19:18:34,952 - INFO - Valid report: 221011 ThermoFisher - Barco_copy.md
+2025-04-28 19:18:34,953 - INFO - Valid report: 220803 Mentor - A Commons - Weight rm display2_copy.md
+2025-04-28 19:18:34,953 - WARNING - 220613 Moreland out_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,954 - INFO - Valid report: 220106 Oregon Treasury - VOIP_copy.md
+2025-04-28 19:18:34,954 - INFO - Valid report: 230517 Abcam Eug - Cafe spkr zones_copy.md
+2025-04-28 19:18:34,954 - WARNING - 220915 UofO Mariota Center - TV Tuners2_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,955 - WARNING - 221014 CMHosp Astoria iPads_copy.md: ['MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,955 - INFO - Valid report: 230425 Abcam Eug - Cafe RMC2_copy.md
+2025-04-28 19:18:34,955 - INFO - Valid report: 220803 Mentor - E3020 Azalea_copy.md
+2025-04-28 19:18:34,956 - INFO - Valid report: 211021 METpdx - gym prjct_copy.md
+2025-04-28 19:18:34,956 - WARNING - 230628 Gartner PM1b_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,956 - INFO - Valid report: 220314 TillamookPUD - display+_copy.md
+2025-04-28 19:18:34,957 - INFO - Valid report: 221129 Mentor - A103A Big Muddy_copy.md
+2025-04-28 19:18:34,957 - INFO - Valid report: 230510 Abcam Eug - Cafe RMC5_copy.md
+2025-04-28 19:18:34,957 - INFO - Valid report: 220630 Garmin Siletz - Spkr2_copy.md
+2025-04-28 19:18:34,958 - INFO - Valid report: 230220 ClackamasESD - MtHope DSP levels2 copy_copy.md
+2025-04-28 19:18:34,958 - WARNING - 220517 Wells drawings search tech note_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,958 - INFO - Valid report: 220826 Garmin Siletz - Spkr2c_copy.md
+2025-04-28 19:18:34,959 - INFO - Valid report: 230509 Abcam Eug - Cafe UC-Engine2_copy.md
+2025-04-28 19:18:34,959 - WARNING - 230905 PPS Roos MULT1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,959 - INFO - Valid report: 220207 Columbia Spo - Bugaboo_copy.md
+2025-04-28 19:18:34,960 - INFO - Valid report: 220211 DLR - conf rm audio 1_copy.md
+2025-04-28 19:18:34,960 - WARNING - 211207 UofO Rec - TPanel+_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,961 - INFO - Valid report: 220118 UofO Knight - 3rd FL TX_copy.md
+2025-04-28 19:18:34,961 - INFO - Valid report: 220217 Columbia Spo - Bugaboo2 2_copy.md
+2025-04-28 19:18:34,961 - INFO - Valid report: 230126 Hillsboro Lib2 - Brookwood audio_copy.md
+2025-04-28 19:18:34,962 - WARNING - 220527 Clackamas ESD rpt 01_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,962 - INFO - Valid report: 230302 Sato Elem - Cafe mics_copy.md
+2025-04-28 19:18:34,962 - INFO - Valid report: 230516 Abcam Eug - Cafe tp PTZ control_copy.md
+2025-04-28 19:18:34,963 - INFO - Valid report: 230525 Verizon Moda x2_copy.md
+2025-04-28 19:18:34,963 - INFO - Valid report: 221212 ColumBank Fox - Community rm2_copy.md
+2025-04-28 19:18:34,963 - WARNING - 230719 Gartner PM8_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,964 - WARNING - 221101 Vanc Firstenberg CC - Assess1_copy.md: ['MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,964 - INFO - Valid report: 221031 EWEB - rm 103 cam & hdmi_copy.md
+2025-04-28 19:18:34,964 - INFO - Valid report: 221206 ColumBank Asto - Kiosk_copy.md
+2025-04-28 19:18:34,965 - INFO - Valid report: 220623 Clackamas ESD - HDMI Spring_copy.md
+2025-04-28 19:18:34,965 - INFO - Valid report: 221011 Salem Library - Anderson B Lectern_copy.md
+2025-04-28 19:18:34,965 - INFO - Valid report: 230509 Abcam Eug - Cafe RMC4_copy.md
+2025-04-28 19:18:34,966 - INFO - Valid report: 220420 MAPS Hawth ZR - Cam Screw_copy.md
+2025-04-28 19:18:34,966 - INFO - Valid report: 221010 Clackamas ESD - Spring DTP post-inst_copy.md
+2025-04-28 19:18:34,966 - INFO - Valid report: 230323 Abcam Eug - HDMI Ball_copy.md
+2025-04-28 19:18:34,967 - WARNING - 230331 MVHS Theater Stagebox1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,967 - INFO - Valid report: 220218 Twality Mid School - HDMI2_copy.md
+2025-04-28 19:18:34,968 - INFO - Valid report: 230418 Abcam Eug - Cafe RMC_copy.md
+2025-04-28 19:18:34,968 - INFO - Valid report: 230313 Jesuit HS Hollman Cafe1_copy.md
+2025-04-28 19:18:34,968 - INFO - Valid report: 230526 HillsbLib - Brookwood1 Board rm no proj_copy.md
+2025-04-28 19:18:34,969 - WARNING - 220111 (Tue) UW T435 Op Check 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,969 - WARNING - 220707 AHS IT request for room 508, as sent to Ruben_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,969 - WARNING - 220310 DLR recap to Ruben_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,970 - WARNING - 230714 Gartner PM6_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,970 - INFO - Valid report: 230620 JesuitHS Cafe glue IR ems_copy.md
+2025-04-28 19:18:34,970 - INFO - Valid report: 230327 Jesuit HS Hollman Cafe2_copy.md
+2025-04-28 19:18:34,970 - WARNING - 220905 CMHosp Astoria PM_copy.md: ['MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,971 - WARNING - 211215 MetLife - PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,971 - INFO - Valid report: 220928 Mentor - C1350 Bristlecone_copy.md
+2025-04-28 19:18:34,971 - WARNING - 221215 Mountainside HS - Gym mics_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,972 - INFO - Valid report: 230210 Stoller Vinyards - VidWall split bad2_copy.md
+2025-04-28 19:18:34,972 - INFO - Valid report: 230530 ThermoFisher - bldg J rm B & C_copy.md
+2025-04-28 19:18:34,972 - INFO - Valid report: 220104 Columbia Spo - Newton Ridge_copy.md
+2025-04-28 19:18:34,973 - WARNING - 230615 Gartner PM1_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,973 - INFO - Valid report: 230222 Abcam Eug - Cafe tp3_copy.md
+2025-04-28 19:18:34,973 - INFO - Valid report: 230808 DLR - Atrium labels2_copy.md
+2025-04-28 19:18:34,974 - INFO - Valid report: 220224 UofO Knight - 3rd FL TX2_copy.md
+2025-04-28 19:18:34,974 - WARNING - 221024 Clackamas ESD - SpringEra PM 1_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,974 - INFO - Valid report: 220622 AHS - 508 Zoom TPanel3_copy.md
+2025-04-28 19:18:34,975 - WARNING - 220318 Park Academy - SmartBoards & projectors2_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,975 - INFO - Valid report: 220808 Mentor - E2020 Redwood_copy.md
+2025-04-28 19:18:34,976 - INFO - Valid report: 220517 Wells - System assess1_copy.md
+2025-04-28 19:18:34,976 - WARNING - 220527 Clackamas ESD Issues - responses_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,976 - WARNING - 230403 DLR - conf rm audio 10_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,976 - INFO - Valid report: 221219 Pacific Crest school - Projector Assessment_copy.md
+2025-04-28 19:18:34,977 - INFO - Valid report: 220218 ThermoFisher - Conf rm (NO MD RPT MADE)_copy.md
+2025-04-28 19:18:34,977 - INFO - Valid report: 230213 Abcam Eug5 - 102-3 disp off_copy.md
+2025-04-28 19:18:34,977 - INFO - Valid report: 220701 Astoria Middle school - screen2_copy.md
+2025-04-28 19:18:34,978 - INFO - Valid report: 220628 Salem Library - PA Vocia settings_copy.md
+2025-04-28 19:18:34,978 - INFO - Valid report: 220908 Mentor - E0410 Rogue_copy.md
+2025-04-28 19:18:34,978 - INFO - Valid report: 230523 JesuitHS Cafe remote btns_copy.md
+2025-04-28 19:18:34,979 - WARNING - 230515 Abcam Sheehan HDMI RMA_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,979 - INFO - Valid report: 230321 UofO Knight - rm156-8_copy.md
+2025-04-28 19:18:34,979 - INFO - Valid report: 230223-4 UofO Knight - rm108 HDMI_copy.md
+2025-04-28 19:18:34,980 - INFO - Valid report: 230803 UofO Knight - rm106 cam ctl_copy.md
+2025-04-28 19:18:34,980 - WARNING - 220804 Mentor note to ticket (from sb) for D1405 (fan plus)_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,980 - INFO - Valid report: 230511 Selco CU Eug Crestron swx_copy.md
+2025-04-28 19:18:34,980 - INFO - Valid report: 230118 Abcam Eug1 - Cafe mics_copy.md
+2025-04-28 19:18:34,981 - INFO - Valid report: 220516 Astoria Middle school - screen_copy.md
+2025-04-28 19:18:34,981 - INFO - Valid report: 220304 DLR - conf rm audio 4_copy.md
+2025-04-28 19:18:34,981 - INFO - Valid report: 230508 Abcam Eug - Cafe cam, Vaddio (230504)_copy.md
+2025-04-28 19:18:34,982 - INFO - Valid report: 220505 Mentor - D3040 Eagle Creek1_copy.md
+2025-04-28 19:18:34,982 - WARNING - 211222 Sato Elem - Prjctr_copy.md: ['MISSING_FIELD:Customer point of contact']
+2025-04-28 19:18:34,982 - INFO - Valid report: 220808 Mentor - C2042 McKenzie_copy.md
+2025-04-28 19:18:34,982 - WARNING - 230324 Roosevelt ticket split_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,983 - INFO - Valid report: 230728 DLR - Atrium DSP_copy.md
+2025-04-28 19:18:34,983 - WARNING - 220606 sbrown Mentor report_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,983 - INFO - Valid report: 220328 Salem Library - Auditorium1_copy.md
+2025-04-28 19:18:34,984 - INFO - Valid report: 230623 iQ CU Vanc - HDMI_copy.md
+2025-04-28 19:18:34,984 - INFO - Valid report: 230421 DLR - Atrium mics_copy.md
+2025-04-28 19:18:34,984 - WARNING - 221026 Clack SpringEra New Tks, notes_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,985 - INFO - Valid report: 220722 Mentor - A Commons - Weight rm Display_copy.md
+2025-04-28 19:18:34,985 - INFO - Valid report: 221027 Papé Auditorium Tech content bak 02_copy.md
+2025-04-28 19:18:34,985 - INFO - Valid report: 220308 UWSOM SLU Brotman CODEC & camera_copy.md
+2025-04-28 19:18:34,985 - WARNING - 221017 Mountainside HS - Gym TP_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,986 - INFO - Valid report: 221108 ClackamasESD - SpringEra TPanel2_copy.md
+2025-04-28 19:18:34,986 - WARNING - 220812-1833 DWFritz IN1608 Options email_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,987 - WARNING - 220302 Franklin update - we didn't drop the ball_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,987 - WARNING - 230816 UofO Mariota Center - 165&177 office vid1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,987 - WARNING - 230515 SELCO CU Vaddio cam RMA_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,988 - WARNING - 230215 UofO Mariota Center - M63 office vid2_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,988 - INFO - Valid report: 221129 Vanc ESD - Klickitat audio_copy.md
+2025-04-28 19:18:34,988 - INFO - Valid report: 220808 Mentor - E2042 Noble_copy.md
+2025-04-28 19:18:34,989 - INFO - Valid report: 220725 Salem Library - PA Vocia settings3_copy.md
+2025-04-28 19:18:34,989 - WARNING - 211129 MealsOnWheels - tp & screen_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,989 - INFO - Valid report: 220920 Mentor - A103A Big Muddy_copy.md
+2025-04-28 19:18:34,990 - WARNING - 230331 MVHS Band rm mixer1_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,990 - INFO - Valid report: 221220 Mentor - D2040-2 & D1237_copy.md
+2025-04-28 19:18:34,990 - INFO - Valid report: 220301 DLR - conf rm audio 2_copy.md
+2025-04-28 19:18:34,991 - WARNING - 220802 Mentor - D1405 Redmond - Fan +_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,991 - INFO - Valid report: 211123 UofO Knight Campus - Crestron2_copy.md
+2025-04-28 19:18:34,991 - INFO - Valid report: 220817 Mentor - E2042 Noble2_copy.md
+2025-04-28 19:18:34,992 - WARNING - 220921 DLR - front conf rm cam_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,992 - WARNING - 220819 MealsOnWheels - tp & screen Parts em1_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,992 - WARNING - 230717 Gartner PM7_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,993 - INFO - Valid report: 221026 Mentor - D1237 Steven Swirling fan install_copy.md
+2025-04-28 19:18:34,993 - INFO - Valid report: 220913 Clackamas ESD - HDMI Spring HMDI_copy.md
+2025-04-28 19:18:34,993 - WARNING - 230307 UofO Mariota Center - 177_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,993 - INFO - Valid report: 230330 Jesuit HS Hollman Cafe3_copy.md
+2025-04-28 19:18:34,994 - INFO - Valid report: 220512 Salem Library - Auditorium6_copy.md
+2025-04-28 19:18:34,994 - INFO - Valid report: 220908 Mentor - E2022 Sequoia_copy.md
+2025-04-28 19:18:34,995 - WARNING - 230821 Gartner Cafe Cart cam1_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-28 19:18:34,995 - WARNING - 230629 Gartner PM3 Adams_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,995 - INFO - Valid report: 230221 Sato Elem - Prjctr Feb '23_copy.md
+2025-04-28 19:18:34,996 - WARNING - 220202 Gartner PM+_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,996 - WARNING - 220112 (Wed) UW T435 recap of long day_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:34,996 - INFO - Valid report: 230209 Stoller Vinyards - VidWall split bad_copy.md
+2025-04-28 19:18:34,997 - INFO - Valid report: 230427 Abcam Eug - Cafe cam, Vaddio (230504)_copy.md
+2025-04-28 19:18:34,997 - WARNING - 220309-10 UWSOM T435 - HDMI follow-up2_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,997 - INFO - Valid report: 230328 OSU Kearney 311_copy.md
+2025-04-28 19:18:34,998 - INFO - Valid report: 230228 UO Ford 403 Zoom2_copy.md
+2025-04-28 19:18:34,998 - WARNING - 220419 iQ CU Vanc - Conf rm PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,998 - INFO - Valid report: 230508 Abcam Eug - Cafe RMC3_copy.md
+2025-04-28 19:18:34,999 - WARNING - 230405 DLR - conf rm audio 11_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:34,999 - WARNING - 220809 DWFritz - Projector2_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:34,999 - INFO - Valid report: 230626 Sato Elem - post-projector ctl confirm_copy.md
+2025-04-28 19:18:34,999 - INFO - Valid report: 220602 Moreland Church - multiple_copy.md
+2025-04-28 19:18:35,000 - INFO - Valid report: 220127 Pacific Crest school - Projector 2_copy.md
+2025-04-28 19:18:35,000 - INFO - Valid report: 230512 UofO Knight - rm261J logins (Merc)_copy.md
+2025-04-28 19:18:35,000 - WARNING - 220202 MetLife - PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:35,001 - INFO - Valid report: 220801 Clackamas ESD - HDMI Spring_copy.md
+2025-04-28 19:18:35,001 - INFO - Valid report: 230314 Gladstone CC BMD1_copy.md
+2025-04-28 19:18:35,001 - INFO - Valid report: 220222 AHS - Breakroom TPanel_copy.md
+2025-04-28 19:18:35,002 - INFO - Valid report: 220331 DLR - conf rm audio 6_copy.md
+2025-04-28 19:18:35,002 - INFO - Valid report: 220912 Vanc Water Edu - Reinst Extron_copy.md
+2025-04-28 19:18:35,002 - INFO - Valid report: 230509 Abcam Eug - Cafe cam, Vaddio (230504)_copy.md
+2025-04-28 19:18:35,003 - WARNING - 211103 METpdx hdmi_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:35,003 - INFO - Valid report: 220315 DLR - conf rm audio 5_copy.md
+2025-04-28 19:18:35,003 - INFO - Valid report: 220315 Franklin HS Gym HDMI_copy.md
+2025-04-28 19:18:35,003 - INFO - Valid report: 220321 Twality Mid School - HDMI3_copy.md
+2025-04-28 19:18:35,004 - WARNING - 220103 Tillimook actual to file_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:35,004 - WARNING - 220519 Cornelius city hall - PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:35,005 - INFO - Valid report: 221117 WWalker Elem - Gym Projector_copy.md
+2025-04-28 19:18:35,005 - INFO - Valid report: 220111 UWSOM T435 - HDMI_copy.md
+2025-04-28 19:18:35,005 - INFO - Valid report: 211224 Hilton Duniway - spkrs+_copy.md
+2025-04-28 19:18:35,005 - INFO - Valid report: 230223 UofO Knight - rm314 logins_copy.md
+2025-04-28 19:18:35,006 - INFO - Valid report: 221028 ClackamasESD - SpringEra Audio Levels_copy.md
+2025-04-28 19:18:35,006 - WARNING - 220107 OR Treasury Telnet of VOIP - Tesira card & ShoreTel 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:35,006 - INFO - Valid report: 221027 Papé Auditorium Tech content bak 01_copy.md
+2025-04-28 19:18:35,007 - INFO - Valid report: 220427 Salem Library - Auditorium2_copy.md
+2025-04-28 19:18:35,007 - INFO - Valid report: 220121 Hilton Duniway - spkrs+_copy.md
+2025-04-28 19:18:35,007 - INFO - Valid report: 220503 Wells - AMX goo2_copy.md
+2025-04-28 19:18:35,007 - INFO - Valid report: 220621 Vanc CityCounChambers - Ph Audio_copy.md
+2025-04-28 19:18:35,008 - INFO - Valid report: 220810 Oregon Treasury - Leak_copy.md
+2025-04-28 19:18:35,008 - WARNING - 220623 Clackamas ESD Springwater Issues_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:35,008 - INFO - Valid report: 230228 Mentor - C2040-2_copy.md
+2025-04-28 19:18:35,009 - WARNING - 230710 Gartner PM4_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:35,009 - INFO - Valid report: 220817 Vanc Water Edu - Projector2_copy.md
+2025-04-28 19:18:35,009 - WARNING - 220927 MealsOnWheels - inst tp_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:35,010 - WARNING - 220201 AFSC Seattle PM+_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:35,010 - INFO - Valid report: 220921 Mentor - E2022 Sequoia_copy.md
+2025-04-28 19:18:35,010 - INFO - Valid report: 220518 VGarciaMemMedical - tpanel_copy.md
+2025-04-28 19:18:35,011 - WARNING - 211220 UW T550 (& some E308 & T435) 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:35,011 - WARNING - 220325 EOU Loso Hall - PM_copy.md: ['MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:35,011 - WARNING - 220600 visit to ClackamasESD - Extron Q re Firmware_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:35,012 - INFO - Valid report: 230103 Mentor - A103A Big Muddy3_copy.md
+2025-04-28 19:18:35,012 - WARNING - 220228 CMHosp Astoria_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:35,012 - WARNING - 220720 DLR - conf rm audio 9_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:35,013 - WARNING - 230727 Gartner PM9_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:35,013 - WARNING - 220609 UofO Rec - mult_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:35,013 - INFO - Valid report: 230214 Abcam Eug2 - Cafe tp_copy.md
+2025-04-28 19:18:35,014 - INFO - Valid report: 221027 Pape Eugene - rm 103 Planar_copy.md
+2025-04-28 19:18:35,014 - WARNING - 230608 PPS 74th St ALS 4_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:35,015 - WARNING - 220216 PeaceHealth - assist_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:35,015 - WARNING - 230823 Forest Grove Power Disp Wall misc gpt text work 3_copy.md: ['MISSING_FIELD:Next steps']
+2025-04-28 19:18:35,015 - INFO - Valid report: 230508 Abcam Eug - HDMI Sheehan_copy.md
+2025-04-28 19:18:35,016 - INFO - Valid report: 230323 Abcam Eug - HDMI Mito_copy.md
+2025-04-28 19:18:35,016 - INFO - Valid report: 221018 Salem Library - Install Blue-ray player_copy.md
+2025-04-28 19:18:35,016 - WARNING - 221111 UO MM - M63 office vid OPTION notes_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:35,017 - INFO - Valid report: 230427 Abcam Eug - HDMI Sheehan_copy.md
+2025-04-28 19:18:35,017 - WARNING - 220727 UO MM TV Tuner RMA note dev 01_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:35,017 - WARNING - 220930 MG D1346 tk close note_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:35,018 - INFO - Valid report: 230110 Vanc ESD - Klickitat audio2_copy.md
+2025-04-28 19:18:35,018 - WARNING - 230824 MVHS XR18 noise x3_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Description of work performed', 'MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-28 19:18:35,018 - INFO - Valid report: 220830 Mentor - D2237, display_copy.md
+2025-04-28 19:18:35,019 - INFO - Valid report: 220428 Salem Library - Auditorium3_copy.md
+2025-04-28 19:18:35,019 - WARNING - 220930 ClackamasESD em to Rob informing of new wall plates_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:35,019 - WARNING - 230713 Gartner PM5_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:35,019 - WARNING - 211112 Garmin fiasco 1 Friday_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:35,020 - WARNING - 230518 PPS 74th St ALS 2_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:35,020 - INFO - Valid report: 230202 Mentor - D1237 tp2_copy.md
+2025-04-28 19:18:35,020 - INFO - Valid report: 230118 Abcam Eug3 - Mito cam_copy.md
+2025-04-28 19:18:35,021 - INFO - Valid report: 230211 ColumBank Fox - Community rm3_copy.md
+2025-04-28 19:18:35,021 - INFO - Valid report: 220119 PCC Sylv projector_copy.md
+2025-04-28 19:18:35,022 - INFO - Valid report: 220209 Columbia Spo - Bugaboo_copy.md
+2025-04-28 19:18:35,022 - INFO - Valid report: 230222 Abcam Eug - Mito cam3_copy.md
+2025-04-28 19:18:35,022 - INFO - Valid report: 220429 Hilton - DSP error_copy.md
+2025-04-28 19:18:35,022 - INFO - Valid report: 220502 Mentor - D1115 Smith Rock1 (unused)_copy.md
+2025-04-28 19:18:35,023 - WARNING - 230629 Gartner PM3 Glenn_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:35,023 - INFO - Valid report: 221102 Standard Ins - Mega TP_copy.md
+2025-04-28 19:18:35,023 - INFO - Valid report: 220801 Clackamas ESD - HDMI Spring tmp new_copy.md
+2025-04-28 19:18:35,024 - INFO - Valid report: 220830 Mentor - D1348 Madras_copy.md
+2025-04-28 19:18:35,024 - INFO - Valid report: 230531 Abcam Eug - HDMI Ball2_copy.md
+2025-04-28 19:18:35,024 - WARNING - 230105 OSU Gymnast - TP audio_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:35,025 - WARNING - 230705 DLR - Atrium Mic levels & Restart_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Next steps']
+2025-04-28 19:18:35,025 - INFO - Valid report: 221216 KPMG Pdx 3714 - Audio2_copy.md
+2025-04-28 19:18:35,025 - INFO - Valid report: 221104 UofO Knight - AirMedia macs_copy.md
+2025-04-28 19:18:35,026 - WARNING - 221130 ClackamasESD - MtHope PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:35,026 - INFO - Valid report: 230906 DLR - Atrium labels3_copy.md
+2025-04-28 19:18:35,026 - INFO - Valid report: 220722 Mentor - E2020 Redwood cables_copy.md
+2025-04-28 19:18:35,027 - WARNING - 211216 UWSOM Main - PM+_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:35,027 - INFO - Valid report: 230216 Pacific Crest school - Box repair_copy.md
+2025-04-28 19:18:35,028 - INFO - Valid report: 220719 Oregon Justice Ctr - mult speaker issues2_copy.md
+2025-04-28 19:18:35,028 - INFO - Valid report: 220214 Stoller Vinyards - Video Wall2_copy.md
+2025-04-28 19:18:35,028 - WARNING - 220111 (Tue) UW T435 Op Check_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:35,029 - INFO - Valid report: 220817 Mentor - E3042 Ponderosa_copy.md
+2025-04-28 19:18:35,029 - INFO - Valid report: 220128 Pacific Crest school - Projector 3 final_copy.md
+2025-04-28 19:18:35,029 - WARNING - 220714 EOU Loso Hall - PM_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:35,030 - WARNING - 220328-2128 EOU dev 01_copy.md: ['MISSING_FIELD:Description of problem', 'DUPLICATE_FIELD:Next steps']
+2025-04-28 19:18:35,030 - INFO - Valid report: 230720 ThermoFisher - bldg J rm B AirMedia replace_copy.md
+2025-04-28 19:18:35,031 - WARNING - 220323 UofO Mariota Center - TV Tuners_copy.md: ['MISSING_FIELD:Description of problem']
+2025-04-28 19:18:35,031 - WARNING - 220714 EOU Loso Hall - INTERNAL NOTES_copy.md: ['MISSING_FIELD:Customer point of contact', 'MISSING_FIELD:Description of problem', 'MISSING_FIELD:Description of work performed', 'MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-28 19:18:35,032 - INFO - Valid report: 230607 OSU Kearney 311-2_copy.md
+2025-04-28 19:18:35,032 - WARNING - 220401 Req for new Svc Tk - Mentor TechOps PM proj, AV1PORTL-0009421_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:35,032 - INFO - Valid report: 230316 ClackamasESD - MtHope Feedback_copy.md
+2025-04-28 19:18:35,033 - INFO - Valid report: 221201 ColumBank Fox - Community rm_copy.md
+2025-04-28 19:18:35,033 - INFO - Valid report: 220105 UO Knight - tpanel_copy.md
+2025-04-28 19:18:35,033 - INFO - Valid report: 220524 Garmin Siletz - Mon&Aud_copy.md
+2025-04-28 19:18:35,034 - INFO - Valid report: 221102 Standard Ins - Flex projector_copy.md
+2025-04-28 19:18:35,034 - INFO - Valid report: 221208 Scott Edwards Arch - 1608 glitch_copy.md
+2025-04-28 19:18:35,034 - WARNING - 220111 (Tue) UW T435 HDMI problem ID 2_copy.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-28 19:18:35,035 - INFO - Valid report: 230428 UofO Knight - rm108+_copy.md
+2025-04-28 19:18:35,035 - WARNING - 211215 UWSOM SLU - PM+_copy.md: ['UNBOLDED_FIELD:Technician name', 'MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-28 19:18:35,035 - WARNING - 221215 Mountainside HS - Gym TP2_copy.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-28 19:18:35,036 - INFO - Valid report: 220608 DLR - Atrium TP labels_copy.md
+2025-04-28 19:18:35,036 - INFO - Valid report: 230622a iQ CU Vanc - iPad ctrl GUI_copy.md
+2025-04-28 19:18:35,036 - INFO - Processing complete. 261 valid and 145 invalid reports identified.
