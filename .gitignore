@@ -4,3 +4,4 @@ __pycache__/
 .DS_Store
 
 _md_input/
+_md_output/
