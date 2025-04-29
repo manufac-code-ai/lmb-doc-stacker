@@ -8,60 +8,8 @@ from pathlib import Path
 from datetime import datetime
 from collections import Counter
 
-# Required fields that must be present in markdown files
-REQUIRED_FIELDS = [
-    "**Date of service:**",
-    "**Technician name:**",
-    "**Customer point of contact:**",
-    "**Description of problem:**",
-    "**Description of work performed:**",
-    "**Issue resolved?**",
-    "**Next steps?**"
-]
-
-# Alternative acceptable field labels for "Description of problem"
-FIELD_ALTERNATIVES = {
-    "**Description of problem:**": [
-        "**Description of problems/requests:**",
-        "**Problems and requests:**",
-        "**Issues reported:**",
-        "**Problems encountered:**",
-        "**Service request:**",
-        "**Reported issue(s):**",
-        # Variants with colon outside
-        "**Description of problem**:",
-        "**Description of problems/requests**:",
-        "**Problems and requests**:",
-        "**Issues reported**:",
-        "**Problems encountered**:",
-        "**Service request**:",
-        "**Reported issue(s)**:",
-    ],
-    # Add alternatives for other fields as needed
-    "**Issue resolved?**": [
-        "**Issue(s) resolved?**",
-        "**Problem resolved?**",
-        "**Resolution status:**",
-        "**Resolved?**",
-        # Variants with question mark outside
-        "**Issue resolved**?",
-        "**Issue(s) resolved**?",
-        "**Problem resolved**?",
-    ],
-    "**Next steps?**": [
-        "**Next steps:**",
-        "**Future actions:**",
-        "**Follow-up required:**",
-        "**Follow-up actions:**",
-        "**Recommended next steps:**",
-        # Variants with question mark outside
-        "**Next steps**?",
-        "**Future actions**?",
-        "**Follow-up required**?",
-        "**Follow-up actions**?",
-        "**Recommended next steps**?",
-    ]
-}
+# Import field definitions from the validation_fields module
+from validation_fields import REQUIRED_FIELDS, FIELD_ALTERNATIVES, get_plain_field_name
 
 def normalize_markdown_content(content):
     """
@@ -136,18 +84,18 @@ def validate_report(file_path):
                     # Field is missing or not formatted correctly
                     if plain_field in normalized_content:
                         # Field exists but not bolded
-                        field_name = plain_field.replace(':', '').replace('?', '')
+                        field_name = get_plain_field_name(field)
                         error_codes.append(f"UNBOLDED_FIELD:{field_name}")
                     else:
                         # Field is completely missing (even after normalization)
-                        field_name = field.replace('**', '').replace(':', '').replace('?', '')
+                        field_name = get_plain_field_name(field)
                         error_codes.append(f"MISSING_FIELD:{field_name}")
             
             # Check for duplicated fields
             for field in REQUIRED_FIELDS:
                 occurrences = normalized_content.count(field)
                 if occurrences > 1:
-                    field_name = field.replace('**', '').replace(':', '').replace('?', '')
+                    field_name = get_plain_field_name(field)
                     error_codes.append(f"DUPLICATE_FIELD:{field_name}")
             
             # Check for empty fields (optional feature)
@@ -167,7 +115,7 @@ def validate_report(file_path):
                     
                     field_content = normalized_content[field_pos:next_field_pos].strip()
                     if not field_content:
-                        field_name = field.replace('**', '').replace(':', '').replace('?', '')
+                        field_name = get_plain_field_name(field)
                         error_codes.append(f"EMPTY_FIELD:{field_name}")
                     
         is_valid = len(error_codes) == 0
@@ -177,9 +125,29 @@ def validate_report(file_path):
         logging.error(f"Error processing {file_path}: {e}")
         return False, [f"ERROR:{str(e)}"]
 
+def analyze_error_patterns(file_errors):
+    """
+    Create a reverse mapping of which files have each error type.
+    
+    Args:
+        file_errors: Dictionary mapping filenames to their errors
+        
+    Returns:
+        dict: Mapping from error codes to lists of filenames
+    """
+    error_to_files = {}
+    
+    for filename, errors in file_errors.items():
+        for error in errors:
+            if error not in error_to_files:
+                error_to_files[error] = []
+            error_to_files[error].append(filename)
+    
+    return error_to_files
+
 def process_folder(input_folder, output_base="_md_output", move_files=False):
     """
-    Process markdown files and sort them into valid/invalid categories.
+    Process markdown files and sort them into valid/invalid/unstructured categories.
     
     Args:
         input_folder: Path to folder containing markdown files
@@ -187,24 +155,28 @@ def process_folder(input_folder, output_base="_md_output", move_files=False):
         move_files: Whether to move files (True) or copy them (False)
     
     Returns:
-        tuple: (valid_count, invalid_count, error_counter)
+        tuple: (valid_count, invalid_count, unstructured_count, error_counter)
     """
     input_path = Path(input_folder)
     
     # Create output directories
     valid_dir = Path(output_base) / "valid"
     invalid_dir = Path(output_base) / "invalid"
+    unstructured_dir = Path(output_base) / "unstructured"  # New directory for unstructured docs
     
     valid_dir.mkdir(exist_ok=True, parents=True)
     invalid_dir.mkdir(exist_ok=True, parents=True)
+    unstructured_dir.mkdir(exist_ok=True, parents=True)  # Create unstructured directory
     
     # Summary logs
     summary_log = Path(output_base) / "summary.txt"
     error_summary_csv = Path(output_base) / "error_summary.csv"
+    rare_errors_log = Path(output_base) / "rare_errors.txt"
     
     total_files = 0
     valid_files = 0
     invalid_files = 0
+    unstructured_files = 0  # Counter for unstructured files
     error_counter = Counter()
     file_errors = {}  # To store errors per file for the summary
     
@@ -232,6 +204,16 @@ def process_folder(input_folder, output_base="_md_output", move_files=False):
                     shutil.copy2(file_path, destination)
                 log.write(f"✓ VALID: {file_path.name}\n")
                 logging.info(f"Valid report: {file_path.name}")
+            elif "UNSTRUCTURED_DOCUMENT" in error_codes:
+                # Handle unstructured documents separately
+                unstructured_files += 1
+                destination = unstructured_dir / file_path.name
+                if move_files:
+                    shutil.move(file_path, destination)
+                else:
+                    shutil.copy2(file_path, destination)
+                log.write(f"◯ UNSTRUCTURED: {file_path.name}\n")
+                logging.info(f"Unstructured document: {file_path.name}")
             else:
                 invalid_files += 1
                 destination = invalid_dir / file_path.name
@@ -250,6 +232,7 @@ def process_folder(input_folder, output_base="_md_output", move_files=False):
         if total_files > 0:
             log.write(f"Valid reports: {valid_files} ({valid_files/total_files*100:.1f}%)\n")
             log.write(f"Invalid reports: {invalid_files} ({invalid_files/total_files*100:.1f}%)\n")
+            log.write(f"Unstructured documents: {unstructured_files} ({unstructured_files/total_files*100:.1f}%)\n")
         else:
             log.write("No files processed.\n")
     
@@ -260,12 +243,45 @@ def process_folder(input_folder, output_base="_md_output", move_files=False):
         for error, count in sorted(error_counter.items(), key=lambda x: x[1], reverse=True):
             csv_writer.writerow([error, count])
     
-    logging.info(f"Processing complete. {valid_files} valid and {invalid_files} invalid reports identified.")
+    # Analyze error patterns to identify rare errors and their files
+    error_to_files = analyze_error_patterns(file_errors)
+    
+    # Write detailed report of rare errors (count <= 2)
+    with open(rare_errors_log, 'w', encoding='utf-8') as rare_log:
+        rare_log.write("Rare Error Analysis\n")
+        rare_log.write("==================\n\n")
+        rare_log.write("This report identifies files with uncommon errors (occurring in 2 or fewer files)\n\n")
+        
+        # Find rare errors
+        rare_errors = {error: files for error, files in error_to_files.items() 
+                      if len(files) <= 2 and error != "UNSTRUCTURED_DOCUMENT"}  # Exclude unstructured docs from rare errors
+        
+        if rare_errors:
+            for error, files in sorted(rare_errors.items()):
+                rare_log.write(f"Error: {error}\n")
+                rare_log.write("Files:\n")
+                for file in files:
+                    rare_log.write(f"  - {file}\n")
+                rare_log.write("\n")
+        else:
+            rare_log.write("No rare errors found.\n")
+    
+    # Print rare errors to console for immediate attention
+    if error_to_files:
+        rare_errors = {error: files for error, files in error_to_files.items() 
+                      if len(files) <= 2 and error != "UNSTRUCTURED_DOCUMENT"}
+        if rare_errors:
+            print("\nRare errors (occurring in 2 or fewer files):")
+            for error, files in sorted(rare_errors.items()):
+                print(f"  {error}: {', '.join(files)}")
+            print(f"\nSee {output_base}/rare_errors.txt for complete details")
+    
+    logging.info(f"Processing complete. {valid_files} valid, {invalid_files} invalid, and {unstructured_files} unstructured documents identified.")
     
     if total_files == 0:
         print(f"No markdown files found in {input_folder}")
     
-    return valid_files, invalid_files, error_counter
+    return valid_files, invalid_files, unstructured_files, error_counter
 
 def main():
     """Main entry point for the script."""
@@ -298,14 +314,14 @@ def main():
     else:
         print("Using normalized validation (accepting alternate field formats)")
         
-    valid, invalid, error_counter = process_folder(
+    valid, invalid, unstructured, error_counter = process_folder(
         args.input, 
         args.output, 
         move_files=args.move
     )
     
-    print(f"Processing complete! Valid: {valid}, Invalid: {invalid}")
-    if valid + invalid > 0:
+    print(f"Processing complete! Valid: {valid}, Invalid: {invalid}, Unstructured: {unstructured}")
+    if valid + invalid + unstructured > 0:
         print(f"See {args.output}/summary.txt for details")
         print(f"Error frequency analysis in {args.output}/error_summary.csv")
         
