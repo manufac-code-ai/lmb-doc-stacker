@@ -60,7 +60,8 @@ def create_stack(stack_name, files, output_dir):
     
     with open(output_file, 'w', encoding='utf-8') as out_file:
         out_file.write(f"# {stack_name} Reports\n\n")
-        out_file.write(f"*Generated on {datetime.now().strftime('%Y-%m-%d %H:%M')}*\n\n")
+        out_file.write(f"*Generated on {datetime.now().strftime('%Y-%m-%d %H:%M')}*\n")
+        out_file.write(f"*Contains {len(files)} reports*\n\n")
         
         for i, file_path in enumerate(files):
             try:
@@ -71,14 +72,123 @@ def create_stack(stack_name, files, output_dir):
                 out_file.write(f"## {i+1}. {filename}\n\n")
                 out_file.write(content)
                 
-                # Add separator between reports unless it's the last one
+                # Add enhanced separator between reports unless it's the last one
                 if i < len(files) - 1:
-                    out_file.write("\n\n---\n\n")
+                    out_file.write("\n\n------\n\n------\n\n")
             except Exception as e:
                 logging.error(f"Error processing file {file_path}: {str(e)}")
     
     logging.info(f"Created stack: {output_file} with {len(files)} reports")
     return output_file
+
+def auto_stack_by_directory(base_dir, output_dir):
+    """Generate stacks automatically based on directory structure."""
+    logging.info(f"Auto-stacking reports from {base_dir}")
+    
+    # Track stacks by name: {stack_name: [file_paths]}
+    stacks = {}
+    
+    # Walk through the directory structure
+    for root, dirs, files in os.walk(base_dir):
+        # Skip ignored directories
+        if any(ignored in root.split(os.sep) for ignored in config.IGNORED_DIRECTORIES):
+            continue
+            
+        # Filter for markdown files
+        md_files = [f for f in files if f.endswith('.md')]
+        if not md_files:
+            continue
+            
+        # Determine stack name based on directory structure
+        rel_path = os.path.relpath(root, base_dir)
+        if rel_path == '.':
+            # Files in the base directory - skip
+            continue
+            
+        parts = rel_path.split(os.sep)
+        
+        if len(parts) == 1:
+            # Top-level folder with reports
+            stack_name = parts[0]
+        else:
+            # Subfolder with reports (use only top and second level)
+            stack_name = f"{parts[0]} {parts[1]}"
+        
+        # Add files to stack
+        if stack_name not in stacks:
+            stacks[stack_name] = []
+            
+        stacks[stack_name].extend([os.path.join(root, f) for f in md_files])
+    
+    # Create stacks for each group
+    created_stacks = []
+    stack_contents = {}  # Track contents for stack log
+    
+    for stack_name, files in stacks.items():
+        if files:
+            # Sort files by company, room, then date
+            sorted_files = sort_files_by_company_room_date(files)
+            
+            # Store contents for stack log
+            stack_contents[stack_name] = [os.path.basename(f) for f in sorted_files]
+            
+            # Create the stack file
+            stack_file = create_stack(stack_name, sorted_files, output_dir)
+            if stack_file:
+                created_stacks.append(stack_file)
+                print(f"  Created stack '{stack_name}' with {len(files)} reports")
+    
+    # Create the stack log
+    create_stack_log(stack_contents, output_dir)
+    
+    return created_stacks
+
+def sort_files_by_company_room_date(files):
+    """Sort files by company, room, then date."""
+    def sort_key(filepath):
+        filename = os.path.basename(filepath)
+        
+        # Extract date - handle date ranges like "250316-8"
+        date_match = re.match(r'(\d{6})(?:-\d+)?', filename)
+        date = date_match.group(1) if date_match else "000000"
+        
+        # Extract company and room
+        parts = filename[7:].split(' - ', 1)  # Skip date prefix + space
+        
+        if len(parts) < 2:
+            company = parts[0] if parts else ""
+            room = ""
+        else:
+            company = parts[0]
+            room = parts[1].replace('.md', '')
+            
+        # Return sort key tuple - sort by company, then room, then date
+        return (company, room, date)
+    
+    return sorted(files, key=sort_key)
+
+def create_stack_log(stack_contents, output_dir):
+    """Create a log file showing all stacks and their contents."""
+    log_file = os.path.join(output_dir, "stack_hierarchy.md")
+    
+    with open(log_file, 'w', encoding='utf-8') as f:
+        f.write("# Report Stack Hierarchy\n\n")
+        f.write(f"*Generated on {datetime.now().strftime('%Y-%m-%d %H:%M')}*\n\n")
+        f.write(f"This document lists all {len(stack_contents)} stacks and their contents.\n\n")
+        
+        for stack_name, reports in sorted(stack_contents.items()):
+            f.write(f"## {stack_name}\n\n")
+            f.write(f"Contains {len(reports)} reports:\n\n")
+            
+            for i, report in enumerate(reports):
+                f.write(f"* {i+1}. {report}\n")
+            
+            f.write("\n")
+    
+    logging.info(f"Created stack hierarchy log: {log_file}")
+    print(f"  Created stack hierarchy log with {len(stack_contents)} stacks")
+    
+    return log_file
 
 def run_stacking(args):
     """Run the report stacking process."""
@@ -89,42 +199,55 @@ def run_stacking(args):
     # Ensure output directory exists
     output_dir = ensure_directory_exists(args.output)
     
-    # Parse config file
-    stacks = parse_config_file(args.config)
-    
-    if not stacks:
-        logging.error("No stacks defined in config file")
-        print(f"No stacks found in config file: {args.config}")
-        return
-    
-    print(f"Found {len(stacks)} stacks in config file")
-    
-    # Find all markdown files in the source directory
-    all_files = find_markdown_files(args.input, recursive=True)
-    all_files_dict = {f.name: str(f) for f in all_files}
-    
-    # Process each stack
+    # Process based on mode
     created_stacks = []
+    stack_contents = {}
     
-    for stack_name, filenames in stacks.items():
-        print(f"\nProcessing stack: {stack_name}")
+    if hasattr(args, 'auto') and args.auto:
+        print(f"Using automatic directory-based stacking from {args.input}")
+        created_stacks = auto_stack_by_directory(args.input, output_dir)
+    else:
+        # Traditional config-based stacking (existing functionality)
+        stacks = parse_config_file(args.config)
         
-        # Find the files in the directory
-        file_paths = []
-        for filename in filenames:
-            if filename in all_files_dict:
-                file_paths.append(all_files_dict[filename])
+        if not stacks:
+            logging.error("No stacks defined in config file")
+            print(f"No stacks found in config file: {args.config}")
+            return
+        
+        print(f"Found {len(stacks)} stacks in config file")
+        
+        # Find all markdown files in the source directory
+        all_files = find_markdown_files(args.input, recursive=True)
+        all_files_dict = {f.name: str(f) for f in all_files}
+        
+        # Process each stack
+        for stack_name, filenames in stacks.items():
+            print(f"\nProcessing stack: {stack_name}")
+            
+            # Find the files in the directory
+            file_paths = []
+            for filename in filenames:
+                if filename in all_files_dict:
+                    file_paths.append(all_files_dict[filename])
+                else:
+                    logging.warning(f"File not found: {filename}")
+            
+            # Create the stack file
+            if file_paths:
+                # Store contents for stack log
+                stack_contents[stack_name] = [os.path.basename(f) for f in file_paths]
+                
+                stack_file = create_stack(stack_name, file_paths, output_dir)
+                if stack_file:
+                    created_stacks.append(stack_file)
+                    print(f"  Created stack with {len(file_paths)} reports")
             else:
-                logging.warning(f"File not found: {filename}")
+                print(f"  No matching files found for stack: {stack_name}")
         
-        # Create the stack file
-        if file_paths:
-            stack_file = create_stack(stack_name, file_paths, output_dir)
-            if stack_file:
-                created_stacks.append(stack_file)
-                print(f"  Created stack with {len(file_paths)} reports")
-        else:
-            print(f"  No matching files found for stack: {stack_name}")
+        # Create the stack log for config-based stacks too
+        if stack_contents:
+            create_stack_log(stack_contents, output_dir)
     
     # Print summary
     print(f"\nStacking complete! Created {len(created_stacks)} stacks in {output_dir}")
