@@ -1,10 +1,17 @@
+# Python virtual environment and cache
 .venv/
 __pycache__/
 *.pyc
+
+# OS files
 .DS_Store
 
+# Input and output directories
 _md_input/
-_md_output/
-_offload/
+_out/
 
+# Configuration files (generally user-specific)
 org_config.md
+
+# Logs
+report_validation.log
