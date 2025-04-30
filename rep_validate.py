@@ -8,7 +8,7 @@ import statistics  # Add this import for median calculation
 from pathlib import Path
 from datetime import datetime
 from collections import Counter
-import config  # Add this import with the other imports
+import config.config as config  # Add this import with the other imports
 
 # Import field definitions from the validation_fields module
 from validation_fields import REQUIRED_FIELDS, FIELD_ALTERNATIVES, get_plain_field_name
@@ -55,8 +55,11 @@ def normalize_markdown_content(content):
     
     return normalized
 
-def setup_logger(log_file='report_validation.log'):
+def setup_logger(log_file=config.LOG_FILE):
     """Configure logging to file and console."""
+    # Make sure log directory exists
+    os.makedirs(os.path.dirname(log_file), exist_ok=True)
+    
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
@@ -193,18 +196,26 @@ def find_markdown_files(base_dir, recursive=config.RECURSIVE_SEARCH):
     logging.info(f"Found {len(all_files)} markdown files to process")
     return all_files
 
+def get_ignored_reports():
+    """Read the ignore file for reports that should be excluded from validation."""
+    ignored_reports = set()
+    
+    if os.path.exists(config.IGNORE_FILE):
+        with open(config.IGNORE_FILE, 'r', encoding='utf-8') as f:
+            for line in f:
+                # Strip whitespace and skip empty lines or comments
+                filename = line.strip()
+                if filename and not filename.startswith('#'):
+                    ignored_reports.add(filename)
+                    
+        if ignored_reports:
+            logging.info(f"Found {len(ignored_reports)} reports to exclude from validation")
+    
+    return ignored_reports
+
 def process_folder(input_folder, output_base=config.OUTPUT_DIR, move_files=False, report_only=config.DEFAULT_REPORT_ONLY):
     """
     Process markdown files and sort them into categories.
-    
-    Args:
-        input_folder: Path to folder containing markdown files
-        output_base: Base folder name for output
-        move_files: Whether to move files (True) or copy them (False)
-        report_only: If True, don't move/copy files, just analyze
-        
-    Returns:
-        tuple: (valid_count, invalid_count, pm_count, error_counter, word_stats)
     """
     # Find all markdown files, potentially in subdirectories
     markdown_files = find_markdown_files(input_folder)
@@ -221,11 +232,14 @@ def process_folder(input_folder, output_base=config.OUTPUT_DIR, move_files=False
     valid_dir.mkdir(exist_ok=True, parents=True)
     invalid_dir.mkdir(exist_ok=True, parents=True)
     
-    # Summary logs now also go in the validated directory
-    summary_log = validated_dir / "summary.txt"
-    error_summary_csv = validated_dir / "error_summary.csv"
-    rare_errors_log = validated_dir / "rare_errors.txt"
-    word_count_csv = validated_dir / "word_counts.csv"
+    # Use analysis file paths from config
+    summary_log = Path(config.SUMMARY_LOG)
+    error_summary_csv = Path(config.ERROR_SUMMARY)
+    rare_errors_log = Path(config.RARE_ERRORS)
+    word_count_csv = Path(config.WORD_COUNT_CSV)
+    
+    # Make sure log directory exists
+    os.makedirs(Path(config.LOG_DIR), exist_ok=True)
     
     total_files = 0
     valid_files = 0
@@ -240,12 +254,23 @@ def process_folder(input_folder, output_base=config.OUTPUT_DIR, move_files=False
     }
     file_word_counts = {}
     
+    # Get list of reports to ignore
+    ignored_reports = get_ignored_reports()
+    ignored_count = 0
+    
     with open(summary_log, 'w', encoding='utf-8') as log:
         log.write("Report Validation Summary\n")
         log.write("=======================\n\n")
         
         for file_path in markdown_files:
             total_files += 1
+            
+            # Check if this file should be ignored
+            if file_path.name in ignored_reports:
+                log.write(f"⚠️ IGNORED: {file_path.name} (explicitly excluded from validation)\n")
+                logging.info(f"Skipping validation for ignored report: {file_path.name}")
+                ignored_count += 1
+                continue
             
             # Count words in the file
             with open(file_path, 'r', encoding='utf-8') as f:
@@ -350,7 +375,7 @@ def process_folder(input_folder, output_base=config.OUTPUT_DIR, move_files=False
         print(f"No markdown files found in {input_folder}")
     
     # Return values with 0 for PM since we no longer detect them
-    return valid_files, invalid_files, 0, error_counter, word_stats
+    return valid_files, invalid_files, 0, error_counter, word_stats, ignored_count
 
 def main():
     """Main entry point for the script."""
@@ -427,13 +452,24 @@ def main():
         total_files_unfiltered = len(list(Path(args.input).glob('**/*.md')))
         ignored_count = total_files_unfiltered - len(all_files)
     
-    # Run the validation
-    valid, invalid, pm, error_counter, word_stats = process_folder(
+    # Run the validation with the new return value for ignored files
+    valid, invalid, pm, error_counter, word_stats, reports_ignored = process_folder(
         args.input, 
         args.output, 
         move_files=args.move,
         report_only=args.report_only
     )
+    
+    print("\n\nProcessing complete! Valid: {}, Invalid: {}".format(valid, invalid))
+    
+    # Add summary of ignored directories
+    if ignored_count > 0:
+        print(f"Note: {ignored_count} files in excluded directories were not processed")
+        print(f"Excluded directories: {', '.join(config.IGNORED_DIRECTORIES)}")
+    
+    # Add summary of explicitly ignored reports
+    if reports_ignored > 0:
+        print(f"Note: {reports_ignored} reports were explicitly excluded from validation (listed in {config.IGNORE_FILE})")
     
     # Add double newline for better readability
     print("\n\nProcessing complete! Valid: {}, Invalid: {}".format(valid, invalid))
@@ -452,24 +488,25 @@ def main():
     if invalid > 0:
         print(f"Invalid reports average length: {word_stats['invalid']['average']:.1f} words (range: {word_stats['invalid']['min']} to {word_stats['invalid']['max']} words)")
     
-    # Add a newline before file references
+    # Add a newline before file locations
     print("")
     
+    # When showing file locations, reference the new paths
     if valid + invalid > 0:
-        print(f"See {args.output}/validated/summary.txt for details")
-        print(f"Word count analysis in {args.output}/validated/word_counts.csv")
-        print(f"Error frequency analysis in {args.output}/validated/error_summary.csv")
+        print(f"See {config.SUMMARY_LOG} for details")
+        print(f"Word count analysis in {config.WORD_COUNT_CSV}")
+        print(f"Error frequency analysis in {config.ERROR_SUMMARY}")
         
         # Print rare errors reference with better spacing
         if error_counter:
             # Add double newline for visual separation
-            print("\n\nSee {}/validated/rare_errors.txt for complete details".format(args.output))
+            print(f"\n\nSee {config.RARE_ERRORS} for complete details")
             
             # Print top 5 most common errors
             print("\nTop issues found:")
             for error, count in sorted(error_counter.items(), key=lambda x: x[1], reverse=True)[:5]:
                 print(f"  {error}: {count} occurrences")
-                
+    
     # Add final newline to separate from next terminal prompt
     print("")
 

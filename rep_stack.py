@@ -13,6 +13,7 @@ import re
 import logging
 from pathlib import Path
 from datetime import datetime
+import config.config as config
 
 def setup_logger():
     """Configure the logging system."""
@@ -151,10 +152,10 @@ def main():
     """Main entry point for the script."""
     logger = setup_logger()
     
-    # Configuration
-    config_path = "org_config.md"
-    input_dir = "_md_input"
-    output_dir = "_out/stacks"  # Changed from concat_out to stacks
+    # Configuration (using values from config module)
+    config_path = "config/org_config.md"
+    input_dir = config.SOURCE_DIR
+    output_dir = f"{config.OUTPUT_DIR}/stacks"
     
     # Parse config file
     logger.info(f"Reading stack configurations from {config_path}")

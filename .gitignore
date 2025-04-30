@@ -9,9 +9,13 @@ __pycache__/
 # Input and output directories
 _md_input/
 _out/
+_logs/
 
 # Configuration files (generally user-specific)
-org_config.md
+config/org_config.md
+config/rep_ignore.txt
 
-# Logs
-report_validation.log
+# Logs and analysis output files
+_logs/*.log
+_logs/val_*.txt
+_logs/val_*.csv

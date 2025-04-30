@@ -25,5 +25,15 @@ IGNORED_DIRECTORIES = [
     '_Diagnostic and Assist'
 ]
 
-# Log file path
-LOG_FILE = "report_validation.log"
+# File exclusion settings
+IGNORE_FILE = "config/rep_ignore.txt"  # File containing list of reports to skip validation
+
+# Log and analysis output configuration
+LOG_DIR = "_logs"  # Directory for log files
+LOG_FILE = f"{LOG_DIR}/val.log"  # Main validation log
+
+# Analysis output files with clearer, shorter names
+SUMMARY_LOG = f"{LOG_DIR}/val_summary.txt"  # Validation report summary
+ERROR_SUMMARY = f"{LOG_DIR}/val_errors.csv"  # CSV of error frequencies
+RARE_ERRORS = f"{LOG_DIR}/val_rare.txt"      # List of rare errors
+WORD_COUNT_CSV = f"{LOG_DIR}/val_words.csv"  # Word count analysis
