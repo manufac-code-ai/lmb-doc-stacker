@@ -10548,3 +10548,867 @@
 2025-04-30 05:22:39,580 - WARNING - 240314 Longview, Port of - Cams.md: ['MISSING_FIELD:Issue resolved']
 2025-04-30 05:22:39,580 - INFO - Valid report: 240419 Longview, Port of - Disp4.md
 2025-04-30 05:22:39,581 - INFO - Processing complete. 4 valid, 1 invalid, and 0 PM reports identified.
+2025-04-30 13:33:21,613 - INFO - Valid report: 211202 DWFritz - Projector.md
+2025-04-30 13:33:21,614 - INFO - Valid report: 230908 Bigfoot tp.md
+2025-04-30 13:33:21,614 - INFO - Valid report: 230104 Juniper Apts - Projector Screen.md
+2025-04-30 13:33:21,615 - INFO - Valid report: 220809 DWFritz - Projector2.md
+2025-04-30 13:33:21,615 - INFO - Valid report: 220920 DWFritz - 1608 inst.md
+2025-04-30 13:33:21,616 - INFO - Valid report: 220222 AHS - Breakroom TPanel.md
+2025-04-30 13:33:21,617 - INFO - Valid report: 220214 Stoller Vinyards - Video Wall2.md
+2025-04-30 13:33:21,617 - INFO - Valid report: 221027 Papé Auditorium Tech content bak 02.md
+2025-04-30 13:33:21,618 - INFO - Valid report: 220210 Stoller Vinyards - Video Wall.md
+2025-04-30 13:33:21,618 - INFO - Valid report: 231222 Nordstrom LED wall1.md
+2025-04-30 13:33:21,619 - INFO - Valid report: 221111 Pape Eugene - rm 103 Planar ends SMason.md
+2025-04-30 13:33:21,619 - INFO - Valid report: 220406 Stoller Vinyards - audio & video2.md
+2025-04-30 13:33:21,620 - INFO - Valid report: 221027 Pape Eugene - rm 103 Planar.md
+2025-04-30 13:33:21,620 - INFO - Valid report: 230210 Stoller Vinyards - VidWall split bad2.md
+2025-04-30 13:33:21,621 - INFO - Valid report: 221027 Papé Auditorium Tech content bak 01.md
+2025-04-30 13:33:21,622 - INFO - Valid report: 220314 Stoller Vinyards - audio & video.md
+2025-04-30 13:33:21,622 - INFO - Valid report: 230209 Stoller Vinyards - VidWall split bad.md
+2025-04-30 13:33:21,623 - INFO - Valid report: 221005 Clackamas ESD - Spring DTP inst1.md
+2025-04-30 13:33:21,623 - INFO - Valid report: 220913 Clackamas ESD - HDMI Spring HMDI.md
+2025-04-30 13:33:21,624 - INFO - Valid report: 221028 Clackamas ESD - SpringEra Audio Levels.md
+2025-04-30 13:33:21,624 - INFO - Valid report: 230220 Clackamas ESD - MtHope DSP levels2 copy.md
+2025-04-30 13:33:21,625 - INFO - Valid report: 230316 Clackamas ESD - MtHope Feedback.md
+2025-04-30 13:33:21,625 - INFO - Valid report: 220801 Clackamas ESD - HDMI Spring.md
+2025-04-30 13:33:21,626 - INFO - Valid report: 221028 Clackamas ESD - SpringEra TPanel.md
+2025-04-30 13:33:21,626 - INFO - Valid report: 221020 Clackamas ESD - Spring DTP post-inst cam fix.md
+2025-04-30 13:33:21,627 - INFO - Valid report: 230309 Clackamas ESD - MtHope DSP levels3.md
+2025-04-30 13:33:21,628 - INFO - Valid report: 230110 Vanc ESD - Klickitat audio2.md
+2025-04-30 13:33:21,628 - INFO - Valid report: 220418 Clackamas ESD - cams.md
+2025-04-30 13:33:21,629 - INFO - Valid report: 220801 Clackamas ESD - MtHope USB2 Install.md
+2025-04-30 13:33:21,629 - INFO - Valid report: 221010 Clackamas ESD - Spring DTP post-inst.md
+2025-04-30 13:33:21,630 - INFO - Valid report: 221108 Clackamas ESD - SpringEra TPanel2.md
+2025-04-30 13:33:21,630 - INFO - Valid report: 220623 Clackamas ESD - HDMI MtHope.md
+2025-04-30 13:33:21,631 - INFO - Valid report: 220623 Clackamas ESD - HDMI Spring.md
+2025-04-30 13:33:21,631 - INFO - Valid report: 230110 Vanc ESD - HDMI xmtr.md
+2025-04-30 13:33:21,632 - INFO - Valid report: 231020 Vanc ESD - HDMI xmtr x2.md
+2025-04-30 13:33:21,632 - INFO - Valid report: 221129 Vanc ESD - Klickitat audio.md
+2025-04-30 13:33:21,632 - INFO - Valid report: 230130 Clackamas ESD - MtHope DSP levels.md
+2025-04-30 13:33:21,633 - INFO - Valid report: 230720 ThermoFisher - bldg J rm B AirMedia replace.md
+2025-04-30 13:33:21,633 - INFO - Valid report: 221014 CMHosp Astoria iPads.md
+2025-04-30 13:33:21,633 - INFO - Valid report: 221006 CMHosp Astoria Seaside HDMI.md
+2025-04-30 13:33:21,634 - INFO - Valid report: 230206 Acumed Hillsb - tp.md
+2025-04-30 13:33:21,634 - INFO - Valid report: 230530 ThermoFisher - bldg J rm B & C.md
+2025-04-30 13:33:21,634 - INFO - Valid report: 220518 VGarciaMemMedical - tpanel.md
+2025-04-30 13:33:21,635 - INFO - Valid report: 221011 ThermoFisher - Barco.md
+2025-04-30 13:33:21,635 - INFO - Valid report: 220831 OHSU Hillsboro - Vortex.md
+2025-04-30 13:33:21,636 - INFO - Valid report: 230315 Acumed Hillsb - iPad.md
+2025-04-30 13:33:21,636 - INFO - Valid report: 230717 Gartner 920 Fremont Barco.md
+2025-04-30 13:33:21,637 - INFO - Valid report: 230821 Gartner Cafe Cart cam1.md
+2025-04-30 13:33:21,637 - INFO - Valid report: 231005 Gartner phones rm 931.md
+2025-04-30 13:33:21,637 - INFO - Valid report: 231115 Gartner Cafe Mic missing2.md
+2025-04-30 13:33:21,638 - INFO - Valid report: 230928 Gartner Cafe Mic missing.md
+2025-04-30 13:33:21,638 - INFO - Valid report: 231026 Gartner Cafe VTC & Spkr2.md
+2025-04-30 13:33:21,639 - INFO - Valid report: 231004 Gartner 912&924 cal tp.md
+2025-04-30 13:33:21,639 - INFO - Valid report: 230925 Gartner Table 9-2 Barco.md
+2025-04-30 13:33:21,640 - INFO - Valid report: 231005 Gartner phones rm 926.md
+2025-04-30 13:33:21,640 - WARNING - 230915 metpdx new pj assess 01.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 13:33:21,641 - WARNING - 240320 North Eugene HS PA Extron.md: ['MISSING_FIELD:Issue resolved']
+2025-04-30 13:33:21,641 - WARNING - 231027 OJD Madras Assess1.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 13:33:21,641 - WARNING - 221117 ColumBank Vanc - Proj.md: ['MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-30 13:33:21,641 - WARNING - 231027 OJD Madras List 01-03.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 13:33:21,642 - WARNING - 211103 METpdx hdmi.md: ['MISSING_FIELD:Description of problem']
+2025-04-30 13:33:21,643 - WARNING - 231027 OJD Madras Screen loc Assessment.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 13:33:21,644 - WARNING - 221101 Vanc Firstenberg CC - Assess1.md: ['MISSING_FIELD:Issue resolved']
+2025-04-30 13:33:21,644 - WARNING - 220216 PeaceHealth - assist.md: ['MISSING_FIELD:Description of problem']
+2025-04-30 13:33:21,645 - WARNING - 240118 OSU MU VidWall - Handoff Site-walk.md: ['MISSING_FIELD:Description of problem']
+2025-04-30 13:33:21,645 - INFO - Valid report: 231127 Synopsys vtc audio5.md
+2025-04-30 13:33:21,645 - INFO - Valid report: 240408 Synopsys Mult Conf Podium HDMI Audio2.md
+2025-04-30 13:33:21,645 - INFO - Valid report: 240314 Synopsys Mult Conf Podium HDMI Audio.md
+2025-04-30 13:33:21,646 - INFO - Valid report: 240408 Synopsys Mult Conf Podium HDMI Audio3.md
+2025-04-30 13:33:21,646 - INFO - Valid report: 240110 Synopsys room state err.md
+2025-04-30 13:33:21,646 - INFO - Valid report: 240319 Synopsys Disp#2 Replace1.md
+2025-04-30 13:33:21,647 - INFO - Valid report: 240109 Synopsys Display #2 - 02.md
+2025-04-30 13:33:21,647 - INFO - Valid report: 231024 Synopsys vtc audio3.md
+2025-04-30 13:33:21,648 - INFO - Valid report: 231114 Synopsys Mult Conf Podium HDMI.md
+2025-04-30 13:33:21,648 - INFO - Valid report: 231102 Synopsys vtc audio4.md
+2025-04-30 13:33:21,648 - INFO - Valid report: 231012 Synopsys vtc audio2.md
+2025-04-30 13:33:21,649 - INFO - Valid report: 231127 Synopsys Display #2.md
+2025-04-30 13:33:21,649 - INFO - Valid report: 231002 Synopsys vtc audio1.md
+2025-04-30 13:33:21,649 - INFO - Valid report: 220602 Moreland Church - multiple.md
+2025-04-30 13:33:21,650 - INFO - Valid report: 211224 Hilton Duniway - spkrs+.md
+2025-04-30 13:33:21,650 - INFO - Valid report: 220121 Hilton Duniway - spkrs+.md
+2025-04-30 13:33:21,650 - INFO - Valid report: 220429 Hilton - DSP error.md
+2025-04-30 13:33:21,651 - INFO - Valid report: 221205 MAPS Salem - Controller NTP.md
+2025-04-30 13:33:21,651 - INFO - Valid report: 230622a iQ CU Vanc - iPad ctrl GUI.md
+2025-04-30 13:33:21,651 - INFO - Valid report: 220907 Standard Ins - Sig TP (ps).md
+2025-04-30 13:33:21,652 - INFO - Valid report: 230511 Selco CU Eug McKenzie cam.md
+2025-04-30 13:33:21,652 - INFO - Valid report: 221212 ColumBank Fox - Community rm2.md
+2025-04-30 13:33:21,652 - INFO - Valid report: 230622b iQ CU Vanc - Cam.md
+2025-04-30 13:33:21,653 - INFO - Valid report: 230511 Selco CU Eug Crestron swx.md
+2025-04-30 13:33:21,653 - INFO - Valid report: 220503 Wells - AMX goo2.md
+2025-04-30 13:33:21,653 - INFO - Valid report: 220120 MAPS Haw - blurry cam.md
+2025-04-30 13:33:21,653 - INFO - Valid report: 230131 Standard Ins - Flex projector3.md
+2025-04-30 13:33:21,654 - INFO - Valid report: 220225 MAPS Haw - blurry cam2.md
+2025-04-30 13:33:21,654 - INFO - Valid report: 220321 Wells - AMX goo1.md
+2025-04-30 13:33:21,654 - INFO - Valid report: 220504 Columbia Bank Tigard - HDMI.md
+2025-04-30 13:33:21,654 - INFO - Valid report: 220218 MAPS 221 - display band.md
+2025-04-30 13:33:21,655 - INFO - Valid report: 220517 Wells - System assess1.md
+2025-04-30 13:33:21,655 - INFO - Valid report: 230801 ColumBank Fox - Community rm.md
+2025-04-30 13:33:21,655 - INFO - Valid report: 221102 Standard Ins - Flex projector.md
+2025-04-30 13:33:21,656 - INFO - Valid report: 230623 iQ CU Vanc - HDMI.md
+2025-04-30 13:33:21,656 - INFO - Valid report: 221102 Standard Ins - Sig TP (ps)2.md
+2025-04-30 13:33:21,656 - INFO - Valid report: 221206 ColumBank Asto - Kiosk.md
+2025-04-30 13:33:21,657 - INFO - Valid report: 230211 ColumBank Fox - Community rm3.md
+2025-04-30 13:33:21,657 - INFO - Valid report: 230111 Standard Ins - Flex projector2.md
+2025-04-30 13:33:21,657 - INFO - Valid report: 221201 ColumBank Fox - Community rm.md
+2025-04-30 13:33:21,658 - INFO - Valid report: 220420 MAPS Hawth ZR - Cam Screw.md
+2025-04-30 13:33:21,658 - INFO - Valid report: 221102 Standard Ins - Mega TP.md
+2025-04-30 13:33:21,658 - INFO - Valid report: 211209 MAPS Salem - tpanel date alt.md
+2025-04-30 13:33:21,659 - INFO - Valid report: 230927 WSU Vanc UCB1 Projector & audio PRE01.md
+2025-04-30 13:33:21,659 - INFO - Valid report: 230607 OSU Kearney 311-2.md
+2025-04-30 13:33:21,660 - INFO - Valid report: 220309-10 UWSOM T435 - HDMI follow-up2.md
+2025-04-30 13:33:21,660 - INFO - Valid report: 220712 EOU Loso Hall - Back Stage Speaker.md
+2025-04-30 13:33:21,660 - INFO - Valid report: 230927 WSU Vanc UCB1 Projector & audio PRE04.md
+2025-04-30 13:33:21,660 - INFO - Valid report: 240410 OSU Gymnast - Bluetooth1.md
+2025-04-30 13:33:21,660 - INFO - Valid report: 231023 WSU Vanc UCB2.md
+2025-04-30 13:33:21,661 - INFO - Valid report: 230105 OSU Gymnast - TP audio.md
+2025-04-30 13:33:21,661 - INFO - Valid report: 220111 UWSOM T435 - HDMI.md
+2025-04-30 13:33:21,661 - INFO - Valid report: 220713 EOU Loso Hall - Dante.md
+2025-04-30 13:33:21,662 - INFO - Valid report: 220119 PCC Sylv projector.md
+2025-04-30 13:33:21,662 - INFO - Valid report: 230328 OSU Kearney 311.md
+2025-04-30 13:33:21,662 - INFO - Valid report: 220308 UWSOM SLU Brotman CODEC & camera.md
+2025-04-30 13:33:21,663 - INFO - Valid report: 230119 OSU Gymnast - TP audio2.md
+2025-04-30 13:33:21,663 - INFO - Valid report: 230927 WSU Vanc UCB1 Projector & audio PRE03.md
+2025-04-30 13:33:21,663 - INFO - Valid report: 220112 UWSOM T435 - HDMI follow-up1.md
+2025-04-30 13:33:21,663 - INFO - Valid report: 230927 WSU Vanc UCB1 Projector & audio.md
+2025-04-30 13:33:21,664 - INFO - Valid report: 230927 WSU Vanc UCB1 Projector & audio PRE02.md
+2025-04-30 13:33:21,664 - INFO - Valid report: 230525 Verizon Moda x2.md
+2025-04-30 13:33:21,664 - INFO - Valid report: 221025 Moda Verizon - QSFP.md
+2025-04-30 13:33:21,665 - INFO - Valid report: 230525 Verizon Moda x1.md
+2025-04-30 13:33:21,665 - INFO - Valid report: 220719 Oregon Justice Ctr - mult speaker issues2.md
+2025-04-30 13:33:21,665 - INFO - Valid report: 220706 Vanc Water Edu - Projector+.md
+2025-04-30 13:33:21,666 - INFO - Valid report: 220705 Oregon Justice Ctr - mult speaker issues.md
+2025-04-30 13:33:21,666 - INFO - Valid report: 220106 Oregon Treasury - VOIP.md
+2025-04-30 13:33:21,666 - INFO - Valid report: 220912 Vanc Water Edu - Reinst Extron.md
+2025-04-30 13:33:21,666 - INFO - Valid report: 220817 Vanc Water Edu - Projector2.md
+2025-04-30 13:33:21,667 - INFO - Valid report: 220810 Oregon Treasury - Leak.md
+2025-04-30 13:33:21,667 - INFO - Valid report: 220506 Salem Library - Auditorium5.md
+2025-04-30 13:33:21,667 - INFO - Valid report: 230526 HillsbLib - Brookwood2 Community proj turns off.md
+2025-04-30 13:33:21,668 - INFO - Valid report: 231208 HillsbLib - Brookwood1 BoardRm3 reinstall.md
+2025-04-30 13:33:21,668 - INFO - Valid report: 220428 Salem Library - Auditorium3.md
+2025-04-30 13:33:21,668 - WARNING - 221221 Hillsboro Lib1 - HDMI.md: ['UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-30 13:33:21,668 - INFO - Valid report: 221018 Salem Library - Install Blue-ray player.md
+2025-04-30 13:33:21,669 - INFO - Valid report: 221011 Salem Library - Anderson B Lectern.md
+2025-04-30 13:33:21,669 - INFO - Valid report: 220420 Salem Library - Sys Survey.md
+2025-04-30 13:33:21,669 - INFO - Valid report: 230526 HillsbLib - Brookwood1 Board rm no proj.md
+2025-04-30 13:33:21,669 - INFO - Valid report: 220512 Salem Library - Auditorium6.md
+2025-04-30 13:33:21,670 - INFO - Valid report: 230126 Hillsboro Lib1 - HDMI2.md
+2025-04-30 13:33:21,670 - INFO - Valid report: 220427 Salem Library - Auditorium2.md
+2025-04-30 13:33:21,670 - INFO - Valid report: 220725 Salem Library - PA Vocia settings3.md
+2025-04-30 13:33:21,670 - INFO - Valid report: 231020 HillsbLib - Brookwood1 BoardRm2.md
+2025-04-30 13:33:21,671 - INFO - Valid report: 230126 Hillsboro Lib2 - Brookwood audio.md
+2025-04-30 13:33:21,671 - INFO - Valid report: 220628 Salem Library - PA Vocia settings.md
+2025-04-30 13:33:21,671 - INFO - Valid report: 220721 Salem Library - PA Vocia settings2.md
+2025-04-30 13:33:21,671 - INFO - Valid report: 220328 Salem Library - Auditorium1.md
+2025-04-30 13:33:21,672 - INFO - Valid report: 221031 EWEB - rm 103 cam & hdmi.md
+2025-04-30 13:33:21,672 - INFO - Valid report: 230113 EWEB - rm 103 HDMI.md
+2025-04-30 13:33:21,673 - INFO - Valid report: 240305 Cornelius city hall mult.md
+2025-04-30 13:33:21,673 - INFO - Valid report: 240326 Longview, Port of - Cams2.md
+2025-04-30 13:33:21,673 - INFO - Valid report: 230822 Forest Grove Power Disp Wall1.md
+2025-04-30 13:33:21,674 - INFO - Valid report: 221228 Vanc CityCounChambers - mics.md
+2025-04-30 13:33:21,674 - INFO - Valid report: 220103 Tillamook actual to file.md
+2025-04-30 13:33:21,674 - INFO - Valid report: 230314 Gladstone CC BMD1.md
+2025-04-30 13:33:21,674 - INFO - Valid report: 220621 Vanc CityCounChambers - Ph Audio.md
+2025-04-30 13:33:21,675 - INFO - Valid report: 220103 TillamookPUD - display+.md
+2025-04-30 13:33:21,675 - INFO - Valid report: 240108 Forest Grove Power Disp Wall2.md
+2025-04-30 13:33:21,676 - INFO - Valid report: 220601 Vanc CityCounChambers - Ph Audio.md
+2025-04-30 13:33:21,676 - INFO - Valid report: 220124 TillamookPUD - display+.md
+2025-04-30 13:33:21,676 - INFO - Valid report: 220404 TillamookPUD - Video wall config.md
+2025-04-30 13:33:21,677 - INFO - Valid report: 240314 Longview, Port of - Cams.md
+2025-04-30 13:33:21,677 - INFO - Valid report: 220314 TillamookPUD - display+.md
+2025-04-30 13:33:21,677 - INFO - Valid report: 240419 Longview, Port of - Disp4.md
+2025-04-30 13:33:21,678 - INFO - Valid report: 230922 Cornelius city hall tp black.md
+2025-04-30 13:33:21,678 - INFO - Valid report: 230614 Abcam Eug - HDMI Sheehan2.md
+2025-04-30 13:33:21,678 - INFO - Valid report: 231009 Abcam Eug - HDMI Gene2.md
+2025-04-30 13:33:21,679 - INFO - Valid report: 230427 Abcam Eug - HDMI Sheehan.md
+2025-04-30 13:33:21,679 - INFO - Valid report: 230912 Abcam Eug - HDMI Gene.md
+2025-04-30 13:33:21,679 - INFO - Valid report: 230323 Abcam Eug - HDMI Crouch.md
+2025-04-30 13:33:21,679 - INFO - Valid report: 230508 Abcam Eug - HDMI Sheehan.md
+2025-04-30 13:33:21,680 - INFO - Valid report: 230323 Abcam Eug - HDMI Ball.md
+2025-04-30 13:33:21,680 - INFO - Valid report: 230222 Abcam Eug - Mito cam3.md
+2025-04-30 13:33:21,681 - INFO - Valid report: 230213 Abcam Eug5 - 102-3 disp off.md
+2025-04-30 13:33:21,681 - INFO - Valid report: 230323 Abcam Eug - HDMI Mito.md
+2025-04-30 13:33:21,681 - INFO - Valid report: 231009 Abcam Eug - HDMI Crouch1.md
+2025-04-30 13:33:21,681 - INFO - Valid report: 230531 Abcam Eug - HDMI Ball2.md
+2025-04-30 13:33:21,682 - INFO - Valid report: 230323 Abcam Eug - HDMI Gene.md
+2025-04-30 13:33:21,682 - INFO - Valid report: 230118 Abcam Eug3 - Mito cam.md
+2025-04-30 13:33:21,682 - INFO - Valid report: 231130 Abcam Eug - HDMI Crouch2.md
+2025-04-30 13:33:21,683 - INFO - Valid report: 230508 Abcam Eug - Cafe RMC3.md
+2025-04-30 13:33:21,683 - INFO - Valid report: 230509 Abcam Eug - Cafe cam, Vaddio.md
+2025-04-30 13:33:21,683 - INFO - Valid report: 230510 Abcam Eug - Cafe RMC5.md
+2025-04-30 13:33:21,683 - INFO - Valid report: 230531 Abcam Eug - Cafe cam img flip v1.md
+2025-04-30 13:33:21,684 - INFO - Valid report: 230517 Abcam Eug - Cafe spkr zones.md
+2025-04-30 13:33:21,684 - INFO - Valid report: 230427 Abcam Eug - Cafe cam, Vaddio (230504).md
+2025-04-30 13:33:21,684 - INFO - Valid report: 230118 Abcam Eug2 - Cafe Proj.md
+2025-04-30 13:33:21,685 - INFO - Valid report: 230418 Abcam Eug1 - Cafe mics & Proj.md
+2025-04-30 13:33:21,685 - INFO - Valid report: 230118 Abcam Eug1 - Cafe mics.md
+2025-04-30 13:33:21,685 - INFO - Valid report: 230517 Abcam Eug - Cafe tp PTZ control2.md
+2025-04-30 13:33:21,686 - INFO - Valid report: 230508 Abcam Eug - Cafe UC-Engine.md
+2025-04-30 13:33:21,686 - INFO - Valid report: 230425 Abcam Eug - Cafe RMC2.md
+2025-04-30 13:33:21,686 - INFO - Valid report: 230418 Abcam Eug - Cafe RMC.md
+2025-04-30 13:33:21,686 - INFO - Valid report: 230509 Abcam Eug - Cafe RMC4.md
+2025-04-30 13:33:21,687 - INFO - Valid report: 231106 Abcam Eug - Cafe Projector RMC.md
+2025-04-30 13:33:21,687 - INFO - Valid report: 230308 Abcam Eug - Cafe tp4.md
+2025-04-30 13:33:21,687 - INFO - Valid report: 230214 Abcam Eug2 - Cafe tp.md
+2025-04-30 13:33:21,688 - INFO - Valid report: 230509 Abcam Eug - Cafe UC-Engine2.md
+2025-04-30 13:33:21,688 - INFO - Valid report: 230531 Abcam Eug - Cafe cam img flip v2.md
+2025-04-30 13:33:21,688 - INFO - Valid report: 230508 Abcam Eug - Cafe cam, Vaddio.md
+2025-04-30 13:33:21,689 - INFO - Valid report: 230426 Abcam Eug1 - Cafe mics & Proj2-cGPT2.md
+2025-04-30 13:33:21,689 - INFO - Valid report: 230516 Abcam Eug - Cafe tp PTZ control.md
+2025-04-30 13:33:21,689 - INFO - Valid report: 230222 Abcam Eug - Cafe tp3.md
+2025-04-30 13:33:21,689 - INFO - Valid report: 220608 DLR - Atrium TP labels.md
+2025-04-30 13:33:21,690 - INFO - Valid report: 230808 DLR - Atrium labels2.md
+2025-04-30 13:33:21,690 - INFO - Valid report: 230705 DLR - Atrium Mic levels & Restart.md
+2025-04-30 13:33:21,690 - INFO - Valid report: 240111 DLR - Atrium labels5.md
+2025-04-30 13:33:21,691 - INFO - Valid report: 231129 DLR - Atrium labels4.md
+2025-04-30 13:33:21,691 - INFO - Valid report: 230708 DLR - Atrium Mic levels & Restart2.md
+2025-04-30 13:33:21,691 - INFO - Valid report: 230728 DLR - Atrium DSP.md
+2025-04-30 13:33:21,691 - INFO - Valid report: 230906 DLR - Atrium labels3.md
+2025-04-30 13:33:21,692 - INFO - Valid report: 230421 DLR - Atrium mics.md
+2025-04-30 13:33:21,692 - INFO - Valid report: 230725 DLR - Atrium DSP 1.md
+2025-04-30 13:33:21,692 - INFO - Valid report: 231214 DLR - Atrium labels5.md
+2025-04-30 13:33:21,692 - INFO - Valid report: 220608 DLR - conf rm audio 7.md
+2025-04-30 13:33:21,693 - INFO - Valid report: 220909 DLR - front conf rm cam.md
+2025-04-30 13:33:21,693 - INFO - Valid report: 220921 DLR - front conf rm cam.md
+2025-04-30 13:33:21,693 - INFO - Valid report: 220211 DLR - conf rm audio 1.md
+2025-04-30 13:33:21,693 - INFO - Valid report: 220315 DLR - conf rm audio 5.md
+2025-04-30 13:33:21,693 - INFO - Valid report: 220301 DLR - conf rm audio 2.md
+2025-04-30 13:33:21,694 - INFO - Valid report: 230403 DLR - conf rm audio 10.md
+2025-04-30 13:33:21,694 - INFO - Valid report: 220720 DLR - front conf rm cam.md
+2025-04-30 13:33:21,694 - INFO - Valid report: 220627 DLR - conf rm audio 8.md
+2025-04-30 13:33:21,694 - INFO - Valid report: 220720 DLR - conf rm audio 9.md
+2025-04-30 13:33:21,695 - INFO - Valid report: 230405 DLR - conf rm audio 11.md
+2025-04-30 13:33:21,695 - INFO - Valid report: 230503 DLR - conf rm audio 12.md
+2025-04-30 13:33:21,695 - INFO - Valid report: 220331 DLR - conf rm audio 6.md
+2025-04-30 13:33:21,695 - INFO - Valid report: 220304 DLR - conf rm audio 4.md
+2025-04-30 13:33:21,696 - INFO - Valid report: 220915 UofO Mariota Center - TV Tuners2.md
+2025-04-30 13:33:21,696 - INFO - Valid report: 230228 UofO Ford 403 Zoom2.md
+2025-04-30 13:33:21,696 - INFO - Valid report: 230816 UofO Mariota Center - 165&177 office vid1.md
+2025-04-30 13:33:21,696 - INFO - Valid report: 230803 UofO Ford Ballroom screen Mid.md
+2025-04-30 13:33:21,697 - INFO - Valid report: 220407 UofO Ford Alumni ballroom, screen1.md
+2025-04-30 13:33:21,697 - INFO - Valid report: 231003 UofO Ford Ballroom screen Mid3.md
+2025-04-30 13:33:21,697 - INFO - Valid report: 230911 UofO Ford Ballroom screen Mid2.md
+2025-04-30 13:33:21,698 - INFO - Valid report: 220216 UofO Mariota Center - mult.md
+2025-04-30 13:33:21,698 - INFO - Valid report: 211207 UofO Rec - TPanel+.md
+2025-04-30 13:33:21,698 - INFO - Valid report: 221103 UofO Mariota Center - TV Tuners3.md
+2025-04-30 13:33:21,699 - INFO - Valid report: 220323 UofO Mariota Center - Source Routing.md
+2025-04-30 13:33:21,699 - INFO - Valid report: 230215 UofO Mariota Center - M63 office vid2.md
+2025-04-30 13:33:21,699 - INFO - Valid report: 230117 UofO Ford 403 Zoom audio.md
+2025-04-30 13:33:21,700 - INFO - Valid report: 230307 UofO Mariota Center - 177.md
+2025-04-30 13:33:21,700 - INFO - Valid report: 220609 UofO Rec - mult.md
+2025-04-30 13:33:21,701 - INFO - Valid report: 221111 UofO Mariota Center - M63 office vid.md
+2025-04-30 13:33:21,701 - INFO - Valid report: 220323 UofO Mariota Center - TV Tuners.md
+2025-04-30 13:33:21,701 - INFO - Valid report: 220323 UofO Mariota Center - mult2.md
+2025-04-30 13:33:21,702 - INFO - Valid report: 231130 UofO Ford Ballroom HDMI.md
+2025-04-30 13:33:21,702 - INFO - Valid report: 230602 UofO Knight - Seminar Vid flicker.md
+2025-04-30 13:33:21,702 - INFO - Valid report: 230428 UofO Knight - rm108+.md
+2025-04-30 13:33:21,703 - INFO - Valid report: 230427 UofO Knight - rm108+.md
+2025-04-30 13:33:21,703 - INFO - Valid report: 220105 UofO Knight - tpanel.md
+2025-04-30 13:33:21,703 - INFO - Valid report: 240126 UofO Knight - rm108 USB Cam on Mac.md
+2025-04-30 13:33:21,703 - INFO - Valid report: 211117 UofO Knight - Crestron1.md
+2025-04-30 13:33:21,703 - INFO - Valid report: 220118 UofO Knight - rm106 HDMI.md
+2025-04-30 13:33:21,704 - INFO - Valid report: 230223 UofO Knight - rm314 logins.md
+2025-04-30 13:33:21,704 - INFO - Valid report: 220224 UofO Knight - 3rd FL TX2.md
+2025-04-30 13:33:21,704 - INFO - Valid report: 230223-4 UofO Knight - rm108 HDMI.md
+2025-04-30 13:33:21,705 - INFO - Valid report: 221104 UofO Knight - AirMedia macs.md
+2025-04-30 13:33:21,705 - INFO - Valid report: 230322 UofO Knight - rm108+.md
+2025-04-30 13:33:21,705 - INFO - Valid report: 240126 UofO Knight - rm106 Mics quiet.md
+2025-04-30 13:33:21,706 - INFO - Valid report: 211123 UofO Knight - Crestron2.md
+2025-04-30 13:33:21,706 - INFO - Valid report: 230907 UofO Knight - rm106 cam ctl2.md
+2025-04-30 13:33:21,706 - INFO - Valid report: 230320 UofO Knight - rm314 logins2.md
+2025-04-30 13:33:21,707 - INFO - Valid report: 230803 UofO Knight - rm106 cam ctl.md
+2025-04-30 13:33:21,707 - INFO - Valid report: 230512 UofO Knight - rm261J logins (Merc).md
+2025-04-30 13:33:21,707 - INFO - Valid report: 220118 UofO Knight - 3rd FL TX.md
+2025-04-30 13:33:21,707 - INFO - Valid report: 230321 UofO Knight - rm156-8.md
+2025-04-30 13:33:21,708 - INFO - Valid report: 230404 Jesuit HS Hollman Cafe5.md
+2025-04-30 13:33:21,708 - INFO - Valid report: 230330 Jesuit HS Hollman Cafe3.md
+2025-04-30 13:33:21,708 - INFO - Valid report: 230404 Jesuit HS Hollman Cafe4.md
+2025-04-30 13:33:21,709 - INFO - Valid report: 221215 Mountainside HS - Gym TP2.md
+2025-04-30 13:33:21,709 - INFO - Valid report: 230327 Jesuit HS Hollman Cafe2.md
+2025-04-30 13:33:21,709 - INFO - Valid report: 230523 JesuitHS Cafe remote btns.md
+2025-04-30 13:33:21,709 - INFO - Valid report: 221215 Mountainside HS - Gym mics.md
+2025-04-30 13:33:21,709 - INFO - Valid report: 221017 Mountainside HS - Gym TP.md
+2025-04-30 13:33:21,710 - INFO - Valid report: 230620 JesuitHS Cafe glue IR ems.md
+2025-04-30 13:33:21,710 - INFO - Valid report: 230313 Jesuit HS Hollman Cafe1.md
+2025-04-30 13:33:21,710 - INFO - Valid report: 231212 PPS Roos com iPads3.md
+2025-04-30 13:33:21,711 - INFO - Valid report: 230307 PPS Roos com iPads 1.md
+2025-04-30 13:33:21,711 - INFO - Valid report: LincolnHS - 137 Proj Lift 240205.md
+2025-04-30 13:33:21,712 - INFO - Valid report: LincolnHS - BCast 240425.md
+2025-04-30 13:33:21,712 - INFO - Valid report: 231107 PPS Roos Gym lift2.md
+2025-04-30 13:33:21,712 - INFO - Valid report: 230905 PPS Roos MULT1.md
+2025-04-30 13:33:21,712 - INFO - Valid report: LincolnHS - 137 Proj Lift 240308.md
+2025-04-30 13:33:21,713 - INFO - Valid report: 231121 PPS Roos com iPads2.md
+2025-04-30 13:33:21,713 - INFO - Valid report: 220315 Franklin HS Gym HDMI.md
+2025-04-30 13:33:21,713 - INFO - Valid report: 240229 North Eugene HS cut cable.md
+2025-04-30 13:33:21,713 - INFO - Valid report: 230331 MVHS Band rm mixer1.md
+2025-04-30 13:33:21,714 - INFO - Valid report: 230824 MVHS XR18 noise x3.md
+2025-04-30 13:33:21,714 - INFO - Valid report: 230331 MVHS Theater Stagebox1.md
+2025-04-30 13:33:21,714 - INFO - Valid report: 220826 Garmin Siletz - Spkr2c.md
+2025-04-30 13:33:21,715 - INFO - Valid report: 220420 Garmin Siletz - USB.md
+2025-04-30 13:33:21,715 - INFO - Valid report: 220524 Garmin Siletz - Mon&Aud.md
+2025-04-30 13:33:21,715 - INFO - Valid report: 220422 AHS - 508 Zoom TPanel.md
+2025-04-30 13:33:21,715 - INFO - Valid report: 220630 Garmin Siletz - Spkr2.md
+2025-04-30 13:33:21,716 - INFO - Valid report: 211129 MealsOnWheels - tp & screen.md
+2025-04-30 13:33:21,716 - INFO - Valid report: 220805 Garmin Siletz - Spkr2b.md
+2025-04-30 13:33:21,716 - INFO - Valid report: 220622 AHS - 508 Zoom TPanel3.md
+2025-04-30 13:33:21,717 - INFO - Valid report: 220622 AHS - 508 Zoom TPanel4.md
+2025-04-30 13:33:21,717 - INFO - Valid report: 220428 Garmin Siletz - USB2.md
+2025-04-30 13:33:21,717 - INFO - Valid report: 220509 AHS - 508 Zoom TPanel2.md
+2025-04-30 13:33:21,718 - INFO - Valid report: 220927 MealsOnWheels - inst tp.md
+2025-04-30 13:33:21,718 - INFO - Valid report: 221004 MealsOnWheels - PC audio.md
+2025-04-30 13:33:21,718 - INFO - Valid report: 220506 Garmin Siletz - USB4.md
+2025-04-30 13:33:21,718 - INFO - Valid report: 220217 Columbia Spo - Bugaboo2.md
+2025-04-30 13:33:21,719 - INFO - Valid report: 211221 Scott Edwards Arch - FE3.md
+2025-04-30 13:33:21,719 - INFO - Valid report: 231205 Workday 329 vtc audio3.md
+2025-04-30 13:33:21,719 - INFO - Valid report: 220104 Columbia Spo - Newton Ridge.md
+2025-04-30 13:33:21,719 - INFO - Valid report: 221118 KPMG Pdx 3714 - Audio.md
+2025-04-30 13:33:21,720 - INFO - Valid report: 221216 KPMG Pdx 3714 - Audio2.md
+2025-04-30 13:33:21,720 - INFO - Valid report: 220207 Columbia Spo - Bugaboo.md
+2025-04-30 13:33:21,720 - INFO - Valid report: 220207 Pape Group - Phone ext change.md
+2025-04-30 13:33:21,720 - INFO - Valid report: 231016 Workday 329 vtc audio1.md
+2025-04-30 13:33:21,721 - INFO - Valid report: 221208 Scott Edwards Arch - 1608 glitch.md
+2025-04-30 13:33:21,721 - INFO - Valid report: 221117 WWalker Elem - Gym Projector.md
+2025-04-30 13:33:21,721 - INFO - Valid report: 211018 WWalker Elem - 1608.md
+2025-04-30 13:33:21,721 - INFO - Valid report: 230608 PPS 74th St ALS 4.md
+2025-04-30 13:33:21,722 - INFO - Valid report: 211227 Sato Elem - Prjctr 2.md
+2025-04-30 13:33:21,722 - INFO - Valid report: 231018 WWalker Elem - Gym pwr amp1 PRE01.md
+2025-04-30 13:33:21,722 - INFO - Valid report: 220701 Astoria Middle school - screen2.md
+2025-04-30 13:33:21,723 - INFO - Valid report: 220516 Astoria Middle school - screen.md
+2025-04-30 13:33:21,723 - INFO - Valid report: 230221 Sato Elem - Prjctr Feb '23.md
+2025-04-30 13:33:21,723 - INFO - Valid report: 231018 WWalker Elem - Gym pwr amp1.md
+2025-04-30 13:33:21,723 - INFO - Valid report: 230518 PPS 74th St ALS 2.md
+2025-04-30 13:33:21,724 - INFO - Valid report: 211111 Twality Mid School - HDMI.md
+2025-04-30 13:33:21,724 - INFO - Valid report: 240122 WWalker Elem - Gym pwr amp2.md
+2025-04-30 13:33:21,724 - INFO - Valid report: 220321 Twality Mid School - HDMI3.md
+2025-04-30 13:33:21,725 - INFO - Valid report: 220218 Twality Mid School - HDMI2.md
+2025-04-30 13:33:21,725 - INFO - Valid report: 230302 Sato Elem - Cafe mics.md
+2025-04-30 13:33:21,725 - INFO - Valid report: 230504 PPS 74th St ALS 1.md
+2025-04-30 13:33:21,726 - INFO - Valid report: 211222 Sato Elem - Prjctr.md
+2025-04-30 13:33:21,726 - INFO - Valid report: 230626 Sato Elem - post-projector ctl confirm.md
+2025-04-30 13:33:21,726 - INFO - Valid report: 211021 Pacific Crest school - Projector 1.md
+2025-04-30 13:33:21,727 - INFO - Valid report: 220125 METpdx hdmi.md
+2025-04-30 13:33:21,727 - INFO - Valid report: 221219 Pacific Crest school - Projector Assessment.md
+2025-04-30 13:33:21,727 - INFO - Valid report: 220128 Pacific Crest school - Projector 3 final.md
+2025-04-30 13:33:21,727 - INFO - Valid report: 220218 Park Academy - HDMI jacks+.md
+2025-04-30 13:33:21,728 - INFO - Valid report: 220318 Park Academy - SmartBoards & projectors2.md
+2025-04-30 13:33:21,728 - INFO - Valid report: 211122 Park Academy - SmartBoards & projectors.md
+2025-04-30 13:33:21,729 - INFO - Valid report: 211020 METpdx - gym prjct.md
+2025-04-30 13:33:21,729 - INFO - Valid report: 220127 Pacific Crest school - Projector 2.md
+2025-04-30 13:33:21,729 - INFO - Valid report: 230216 Pacific Crest school - Box repair.md
+2025-04-30 13:33:21,730 - INFO - Valid report: 230914 METpdx hdmi.md
+2025-04-30 13:33:21,730 - INFO - PM report: 221024 Clackamas ESD - SpringEra PM 1.md
+2025-04-30 13:33:21,730 - INFO - PM report: 221130 ClackamasESD - MtHope PM.md
+2025-04-30 13:33:21,730 - INFO - PM report: 211008 UW Rehab PM & mics+.md
+2025-04-30 13:33:21,730 - INFO - PM report: 211216 UWSOM Main - PM+.md
+2025-04-30 13:33:21,731 - INFO - PM report: 220324-25 EOU Theater PM & Repair1.md
+2025-04-30 13:33:21,731 - INFO - PM report: 211215 UWSOM SLU - PM+.md
+2025-04-30 13:33:21,731 - INFO - PM report: 220714 EOU Loso Hall - PM.md
+2025-04-30 13:33:21,731 - INFO - PM report: 220905 CMHosp Astoria PM.md
+2025-04-30 13:33:21,731 - INFO - PM report: 220201 AFSC Seattle PM+.md
+2025-04-30 13:33:21,732 - INFO - PM report: 220128 CoMemoAsto PM+.md
+2025-04-30 13:33:21,732 - INFO - PM report: 220228 CMHosp Astoria_PM.md
+2025-04-30 13:33:21,732 - INFO - PM report: 220906 CMHosp Astoria PM.md
+2025-04-30 13:33:21,732 - INFO - PM report: 220405 MentorPM rpt 01.md
+2025-04-30 13:33:21,732 - INFO - PM report: 220202 MetLife - PM.md
+2025-04-30 13:33:21,732 - INFO - PM report: 220519 Cornelius city hall - PM.md
+2025-04-30 13:33:21,732 - INFO - PM report: 220419 iQ CU Vanc - Conf rm PM.md
+2025-04-30 13:33:21,732 - INFO - PM report: 211215 MetLife - PM.md
+2025-04-30 13:33:21,733 - INFO - PM report: 240318 TillamookPUD aTV vol & PM.md
+2025-04-30 13:33:21,733 - INFO - PM report: 230612 iQ CU Vanc - Conf rm PM.md
+2025-04-30 13:33:21,733 - INFO - PM report: 230629 Gartner PM3 Adams.md
+2025-04-30 13:33:21,733 - INFO - PM report: 230717 Gartner PM7.md
+2025-04-30 13:33:21,733 - INFO - PM report: 230629 Gartner PM3 Glenn.md
+2025-04-30 13:33:21,733 - INFO - PM report: 230714 Gartner PM6.md
+2025-04-30 13:33:21,733 - INFO - PM report: 230628 Gartner PM1b.md
+2025-04-30 13:33:21,733 - INFO - PM report: 230719 Gartner PM8.md
+2025-04-30 13:33:21,733 - INFO - PM report: 220202 Gartner PM+.md
+2025-04-30 13:33:21,733 - INFO - PM report: 230713 Gartner PM5.md
+2025-04-30 13:33:21,734 - INFO - PM report: 230629 Gartner PM3 Bachelor.md
+2025-04-30 13:33:21,734 - INFO - PM report: 230710 Gartner PM4.md
+2025-04-30 13:33:21,734 - INFO - PM report: 230727 Gartner PM9.md
+2025-04-30 13:33:21,734 - INFO - PM report: 230615 Gartner PM1.md
+2025-04-30 13:33:21,734 - INFO - Valid report: 220830 Mentor - D2237, display.md
+2025-04-30 13:33:21,734 - INFO - Valid report: 230202 Mentor - D1237 tp2.md
+2025-04-30 13:33:21,735 - INFO - Valid report: 220802 Mentor - D1405 Redmond - Fan +.md
+2025-04-30 13:33:21,735 - INFO - Valid report: 220502 Mentor - D1115 Smith Rock2(2day).md
+2025-04-30 13:33:21,735 - INFO - Valid report: 220803 Mentor - D - Signage.md
+2025-04-30 13:33:21,736 - INFO - Valid report: 221006 Mentor - D1115 Smith Rock4 install.md
+2025-04-30 13:33:21,736 - INFO - Valid report: 221019 Mentor - D - Brightsign reset.md
+2025-04-30 13:33:21,736 - INFO - Valid report: 221213 Mentor - D1405 Redmond - Fan.md
+2025-04-30 13:33:21,736 - INFO - Valid report: 220921 Mentor - D1041 Sunriver.md
+2025-04-30 13:33:21,736 - INFO - Valid report: 221026 Mentor - D1237 Steven Swirling fan install.md
+2025-04-30 13:33:21,737 - INFO - Valid report: 220818 Mentor - D1346 Tawfik - TP2.md
+2025-04-30 13:33:21,737 - INFO - Valid report: 220722 Mentor - D1115 Smith Rock3.md
+2025-04-30 13:33:21,737 - INFO - Valid report: 220830 Mentor - D1348 Madras.md
+2025-04-30 13:33:21,737 - INFO - Valid report: 220505 Mentor - D1115 Smith Rock3.md
+2025-04-30 13:33:21,737 - INFO - Valid report: 220502 Mentor - D1115 Smith Rock1 (unused).md
+2025-04-30 13:33:21,738 - INFO - Valid report: 230109 Mentor - D2040 TP.md
+2025-04-30 13:33:21,738 - INFO - Valid report: 220802 Mentor - D1346 Tawfik - TP1.md
+2025-04-30 13:33:21,738 - INFO - Valid report: 220505 Mentor - D3040 Eagle Creek1.md
+2025-04-30 13:33:21,738 - INFO - Valid report: 221220 Mentor - D2040-2 & D1237.md
+2025-04-30 13:33:21,739 - INFO - Valid report: 220817 Mentor - E2042 Noble2.md
+2025-04-30 13:33:21,739 - INFO - Valid report: 220908 Mentor - E4022 Foxtail.md
+2025-04-30 13:33:21,739 - INFO - Valid report: 220722 Mentor - E2020 Redwood cables.md
+2025-04-30 13:33:21,739 - INFO - Valid report: 220808 Mentor - E2042 Noble.md
+2025-04-30 13:33:21,740 - INFO - Valid report: 220808 Mentor - E2022 Sequoia.md
+2025-04-30 13:33:21,740 - INFO - Valid report: 220921 Mentor - E2022 Sequoia.md
+2025-04-30 13:33:21,740 - INFO - Valid report: 220908 Mentor - E2022 Sequoia.md
+2025-04-30 13:33:21,740 - INFO - Valid report: 220817 Mentor - E3042 Ponderosa.md
+2025-04-30 13:33:21,741 - INFO - Valid report: 220908 Mentor - E2020 Redwood.md
+2025-04-30 13:33:21,741 - INFO - Valid report: 220803 Mentor - E3020 Azalea.md
+2025-04-30 13:33:21,741 - INFO - Valid report: 220908 Mentor - E0410 Rogue.md
+2025-04-30 13:33:21,741 - INFO - Valid report: 220808 Mentor - E2020 Redwood.md
+2025-04-30 13:33:21,741 - INFO - Valid report: 220722 Mentor - A Commons - Weight rm Display.md
+2025-04-30 13:33:21,742 - INFO - Valid report: 220818 Mentor - A Commons - Weight rm display3.md
+2025-04-30 13:33:21,742 - INFO - Valid report: 230103 Mentor - A103A Big Muddy3.md
+2025-04-30 13:33:21,742 - INFO - Valid report: 220920 Mentor - A103A Big Muddy.md
+2025-04-30 13:33:21,742 - INFO - Valid report: 230228 Mentor - C2040-2.md
+2025-04-30 13:33:21,743 - INFO - Valid report: 220928 Mentor - C1350 Bristlecone.md
+2025-04-30 13:33:21,743 - INFO - Valid report: 220803 Mentor - A Commons - Weight rm display2.md
+2025-04-30 13:33:21,743 - INFO - Valid report: 220808 Mentor - C2042 McKenzie.md
+2025-04-30 13:33:21,743 - INFO - Valid report: 221129 Mentor - A103A Big Muddy.md
+2025-04-30 13:33:21,745 - INFO - Processing complete. 379 valid, 11 invalid, and 31 PM reports identified.
+2025-04-30 13:44:58,495 - WARNING - 230915 metpdx new pj assess 01.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 13:44:58,495 - WARNING - 240320 North Eugene HS PA Extron.md: ['MISSING_FIELD:Issue resolved']
+2025-04-30 13:44:58,495 - WARNING - 231027 OJD Madras Assess1.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 13:44:58,496 - WARNING - 221117 ColumBank Vanc - Proj.md: ['MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-30 13:44:58,496 - WARNING - 231027 OJD Madras List 01-03.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 13:44:58,496 - WARNING - 211103 METpdx hdmi.md: ['MISSING_FIELD:Description of problem']
+2025-04-30 13:44:58,497 - WARNING - 231027 OJD Madras Screen loc Assessment.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 13:44:58,498 - WARNING - 221101 Vanc Firstenberg CC - Assess1.md: ['MISSING_FIELD:Issue resolved']
+2025-04-30 13:44:58,498 - WARNING - 220216 PeaceHealth - assist.md: ['MISSING_FIELD:Description of problem']
+2025-04-30 13:44:58,499 - WARNING - 240118 OSU MU VidWall - Handoff Site-walk.md: ['MISSING_FIELD:Description of problem']
+2025-04-30 13:44:58,521 - WARNING - 221221 Hillsboro Lib1 - HDMI.md: ['UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-30 13:44:58,574 - INFO - PM report: 221024 Clackamas ESD - SpringEra PM 1.md
+2025-04-30 13:44:58,574 - INFO - PM report: 221130 ClackamasESD - MtHope PM.md
+2025-04-30 13:44:58,575 - INFO - PM report: 211008 UW Rehab PM & mics+.md
+2025-04-30 13:44:58,575 - INFO - PM report: 211216 UWSOM Main - PM+.md
+2025-04-30 13:44:58,575 - INFO - PM report: 220324-25 EOU Theater PM & Repair1.md
+2025-04-30 13:44:58,575 - INFO - PM report: 211215 UWSOM SLU - PM+.md
+2025-04-30 13:44:58,575 - INFO - PM report: 220714 EOU Loso Hall - PM.md
+2025-04-30 13:44:58,575 - INFO - PM report: 220905 CMHosp Astoria PM.md
+2025-04-30 13:44:58,576 - INFO - PM report: 220201 AFSC Seattle PM+.md
+2025-04-30 13:44:58,576 - INFO - PM report: 220128 CoMemoAsto PM+.md
+2025-04-30 13:44:58,576 - INFO - PM report: 220228 CMHosp Astoria_PM.md
+2025-04-30 13:44:58,576 - INFO - PM report: 220906 CMHosp Astoria PM.md
+2025-04-30 13:44:58,576 - INFO - PM report: 220405 MentorPM rpt 01.md
+2025-04-30 13:44:58,576 - INFO - PM report: 220202 MetLife - PM.md
+2025-04-30 13:44:58,576 - INFO - PM report: 220519 Cornelius city hall - PM.md
+2025-04-30 13:44:58,577 - INFO - PM report: 220419 iQ CU Vanc - Conf rm PM.md
+2025-04-30 13:44:58,577 - INFO - PM report: 211215 MetLife - PM.md
+2025-04-30 13:44:58,577 - INFO - PM report: 240318 TillamookPUD aTV vol & PM.md
+2025-04-30 13:44:58,577 - INFO - PM report: 230612 iQ CU Vanc - Conf rm PM.md
+2025-04-30 13:44:58,577 - INFO - PM report: 230629 Gartner PM3 Adams.md
+2025-04-30 13:44:58,577 - INFO - PM report: 230717 Gartner PM7.md
+2025-04-30 13:44:58,577 - INFO - PM report: 230629 Gartner PM3 Glenn.md
+2025-04-30 13:44:58,577 - INFO - PM report: 230714 Gartner PM6.md
+2025-04-30 13:44:58,577 - INFO - PM report: 230628 Gartner PM1b.md
+2025-04-30 13:44:58,577 - INFO - PM report: 230719 Gartner PM8.md
+2025-04-30 13:44:58,577 - INFO - PM report: 220202 Gartner PM+.md
+2025-04-30 13:44:58,578 - INFO - PM report: 230713 Gartner PM5.md
+2025-04-30 13:44:58,578 - INFO - PM report: 230629 Gartner PM3 Bachelor.md
+2025-04-30 13:44:58,578 - INFO - PM report: 230710 Gartner PM4.md
+2025-04-30 13:44:58,578 - INFO - PM report: 230727 Gartner PM9.md
+2025-04-30 13:44:58,578 - INFO - PM report: 230615 Gartner PM1.md
+2025-04-30 13:44:58,588 - INFO - Processing complete. 379 valid, 11 invalid, and 31 PM reports identified.
+2025-04-30 13:45:05,532 - WARNING - 230915 metpdx new pj assess 01.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 13:45:05,532 - WARNING - 240320 North Eugene HS PA Extron.md: ['MISSING_FIELD:Issue resolved']
+2025-04-30 13:45:05,533 - WARNING - 231027 OJD Madras Assess1.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 13:45:05,533 - WARNING - 221117 ColumBank Vanc - Proj.md: ['MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-30 13:45:05,533 - WARNING - 231027 OJD Madras List 01-03.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 13:45:05,533 - WARNING - 211103 METpdx hdmi.md: ['MISSING_FIELD:Description of problem']
+2025-04-30 13:45:05,534 - WARNING - 231027 OJD Madras Screen loc Assessment.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 13:45:05,534 - WARNING - 221101 Vanc Firstenberg CC - Assess1.md: ['MISSING_FIELD:Issue resolved']
+2025-04-30 13:45:05,534 - WARNING - 220216 PeaceHealth - assist.md: ['MISSING_FIELD:Description of problem']
+2025-04-30 13:45:05,535 - WARNING - 240118 OSU MU VidWall - Handoff Site-walk.md: ['MISSING_FIELD:Description of problem']
+2025-04-30 13:45:05,548 - WARNING - 221221 Hillsboro Lib1 - HDMI.md: ['UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-30 13:45:05,586 - INFO - PM report: 221024 Clackamas ESD - SpringEra PM 1.md
+2025-04-30 13:45:05,586 - INFO - PM report: 221130 ClackamasESD - MtHope PM.md
+2025-04-30 13:45:05,586 - INFO - PM report: 211008 UW Rehab PM & mics+.md
+2025-04-30 13:45:05,586 - INFO - PM report: 211216 UWSOM Main - PM+.md
+2025-04-30 13:45:05,586 - INFO - PM report: 220324-25 EOU Theater PM & Repair1.md
+2025-04-30 13:45:05,586 - INFO - PM report: 211215 UWSOM SLU - PM+.md
+2025-04-30 13:45:05,586 - INFO - PM report: 220714 EOU Loso Hall - PM.md
+2025-04-30 13:45:05,586 - INFO - PM report: 220905 CMHosp Astoria PM.md
+2025-04-30 13:45:05,586 - INFO - PM report: 220201 AFSC Seattle PM+.md
+2025-04-30 13:45:05,586 - INFO - PM report: 220128 CoMemoAsto PM+.md
+2025-04-30 13:45:05,586 - INFO - PM report: 220228 CMHosp Astoria_PM.md
+2025-04-30 13:45:05,586 - INFO - PM report: 220906 CMHosp Astoria PM.md
+2025-04-30 13:45:05,587 - INFO - PM report: 220405 MentorPM rpt 01.md
+2025-04-30 13:45:05,587 - INFO - PM report: 220202 MetLife - PM.md
+2025-04-30 13:45:05,587 - INFO - PM report: 220519 Cornelius city hall - PM.md
+2025-04-30 13:45:05,587 - INFO - PM report: 220419 iQ CU Vanc - Conf rm PM.md
+2025-04-30 13:45:05,587 - INFO - PM report: 211215 MetLife - PM.md
+2025-04-30 13:45:05,587 - INFO - PM report: 240318 TillamookPUD aTV vol & PM.md
+2025-04-30 13:45:05,587 - INFO - PM report: 230612 iQ CU Vanc - Conf rm PM.md
+2025-04-30 13:45:05,587 - INFO - PM report: 230629 Gartner PM3 Adams.md
+2025-04-30 13:45:05,587 - INFO - PM report: 230717 Gartner PM7.md
+2025-04-30 13:45:05,587 - INFO - PM report: 230629 Gartner PM3 Glenn.md
+2025-04-30 13:45:05,587 - INFO - PM report: 230714 Gartner PM6.md
+2025-04-30 13:45:05,587 - INFO - PM report: 230628 Gartner PM1b.md
+2025-04-30 13:45:05,587 - INFO - PM report: 230719 Gartner PM8.md
+2025-04-30 13:45:05,587 - INFO - PM report: 220202 Gartner PM+.md
+2025-04-30 13:45:05,587 - INFO - PM report: 230713 Gartner PM5.md
+2025-04-30 13:45:05,587 - INFO - PM report: 230629 Gartner PM3 Bachelor.md
+2025-04-30 13:45:05,588 - INFO - PM report: 230710 Gartner PM4.md
+2025-04-30 13:45:05,588 - INFO - PM report: 230727 Gartner PM9.md
+2025-04-30 13:45:05,588 - INFO - PM report: 230615 Gartner PM1.md
+2025-04-30 13:45:05,595 - INFO - Processing complete. 379 valid, 11 invalid, and 31 PM reports identified.
+2025-04-30 13:52:52,902 - WARNING - 230915 metpdx new pj assess 01.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 13:52:52,903 - WARNING - 240320 North Eugene HS PA Extron.md: ['MISSING_FIELD:Issue resolved']
+2025-04-30 13:52:52,903 - WARNING - 231027 OJD Madras Assess1.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 13:52:52,903 - WARNING - 221117 ColumBank Vanc - Proj.md: ['MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-30 13:52:52,903 - WARNING - 231027 OJD Madras List 01-03.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 13:52:52,904 - WARNING - 211103 METpdx hdmi.md: ['MISSING_FIELD:Description of problem']
+2025-04-30 13:52:52,904 - WARNING - 231027 OJD Madras Screen loc Assessment.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 13:52:52,905 - WARNING - 221101 Vanc Firstenberg CC - Assess1.md: ['MISSING_FIELD:Issue resolved']
+2025-04-30 13:52:52,905 - WARNING - 220216 PeaceHealth - assist.md: ['MISSING_FIELD:Description of problem']
+2025-04-30 13:52:52,906 - WARNING - 240118 OSU MU VidWall - Handoff Site-walk.md: ['MISSING_FIELD:Description of problem']
+2025-04-30 13:52:52,920 - WARNING - 221221 Hillsboro Lib1 - HDMI.md: ['UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-30 13:52:52,958 - INFO - PM report: 221024 Clackamas ESD - SpringEra PM 1.md
+2025-04-30 13:52:52,958 - INFO - PM report: 221130 ClackamasESD - MtHope PM.md
+2025-04-30 13:52:52,958 - INFO - PM report: 211008 UW Rehab PM & mics+.md
+2025-04-30 13:52:52,958 - INFO - PM report: 211216 UWSOM Main - PM+.md
+2025-04-30 13:52:52,958 - INFO - PM report: 220324-25 EOU Theater PM & Repair1.md
+2025-04-30 13:52:52,959 - INFO - PM report: 211215 UWSOM SLU - PM+.md
+2025-04-30 13:52:52,959 - INFO - PM report: 220714 EOU Loso Hall - PM.md
+2025-04-30 13:52:52,959 - INFO - PM report: 220905 CMHosp Astoria PM.md
+2025-04-30 13:52:52,959 - INFO - PM report: 220201 AFSC Seattle PM+.md
+2025-04-30 13:52:52,959 - INFO - PM report: 220128 CoMemoAsto PM+.md
+2025-04-30 13:52:52,959 - INFO - PM report: 220228 CMHosp Astoria_PM.md
+2025-04-30 13:52:52,959 - INFO - PM report: 220906 CMHosp Astoria PM.md
+2025-04-30 13:52:52,959 - INFO - PM report: 220405 MentorPM rpt 01.md
+2025-04-30 13:52:52,959 - INFO - PM report: 220202 MetLife - PM.md
+2025-04-30 13:52:52,959 - INFO - PM report: 220519 Cornelius city hall - PM.md
+2025-04-30 13:52:52,959 - INFO - PM report: 220419 iQ CU Vanc - Conf rm PM.md
+2025-04-30 13:52:52,960 - INFO - PM report: 211215 MetLife - PM.md
+2025-04-30 13:52:52,960 - INFO - PM report: 240318 TillamookPUD aTV vol & PM.md
+2025-04-30 13:52:52,960 - INFO - PM report: 230612 iQ CU Vanc - Conf rm PM.md
+2025-04-30 13:52:52,960 - INFO - PM report: 230629 Gartner PM3 Adams.md
+2025-04-30 13:52:52,960 - INFO - PM report: 230717 Gartner PM7.md
+2025-04-30 13:52:52,960 - INFO - PM report: 230629 Gartner PM3 Glenn.md
+2025-04-30 13:52:52,960 - INFO - PM report: 230714 Gartner PM6.md
+2025-04-30 13:52:52,960 - INFO - PM report: 230628 Gartner PM1b.md
+2025-04-30 13:52:52,960 - INFO - PM report: 230719 Gartner PM8.md
+2025-04-30 13:52:52,960 - INFO - PM report: 220202 Gartner PM+.md
+2025-04-30 13:52:52,960 - INFO - PM report: 230713 Gartner PM5.md
+2025-04-30 13:52:52,960 - INFO - PM report: 230629 Gartner PM3 Bachelor.md
+2025-04-30 13:52:52,960 - INFO - PM report: 230710 Gartner PM4.md
+2025-04-30 13:52:52,960 - INFO - PM report: 230727 Gartner PM9.md
+2025-04-30 13:52:52,960 - INFO - PM report: 230615 Gartner PM1.md
+2025-04-30 13:52:52,968 - INFO - Processing complete. 379 valid, 11 invalid, and 31 PM reports identified.
+2025-04-30 13:52:59,318 - WARNING - 230915 metpdx new pj assess 01.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 13:52:59,319 - WARNING - 240320 North Eugene HS PA Extron.md: ['MISSING_FIELD:Issue resolved']
+2025-04-30 13:52:59,319 - WARNING - 231027 OJD Madras Assess1.md: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 13:52:59,319 - WARNING - 221117 ColumBank Vanc - Proj.md: ['MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-30 13:52:59,320 - WARNING - 231027 OJD Madras List 01-03.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 13:52:59,320 - WARNING - 211103 METpdx hdmi.md: ['MISSING_FIELD:Description of problem']
+2025-04-30 13:52:59,320 - WARNING - 231027 OJD Madras Screen loc Assessment.md: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 13:52:59,321 - WARNING - 221101 Vanc Firstenberg CC - Assess1.md: ['MISSING_FIELD:Issue resolved']
+2025-04-30 13:52:59,321 - WARNING - 220216 PeaceHealth - assist.md: ['MISSING_FIELD:Description of problem']
+2025-04-30 13:52:59,321 - WARNING - 240118 OSU MU VidWall - Handoff Site-walk.md: ['MISSING_FIELD:Description of problem']
+2025-04-30 13:52:59,335 - WARNING - 221221 Hillsboro Lib1 - HDMI.md: ['UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-30 13:52:59,371 - INFO - PM report: 221024 Clackamas ESD - SpringEra PM 1.md
+2025-04-30 13:52:59,371 - INFO - PM report: 221130 ClackamasESD - MtHope PM.md
+2025-04-30 13:52:59,371 - INFO - PM report: 211008 UW Rehab PM & mics+.md
+2025-04-30 13:52:59,371 - INFO - PM report: 211216 UWSOM Main - PM+.md
+2025-04-30 13:52:59,372 - INFO - PM report: 220324-25 EOU Theater PM & Repair1.md
+2025-04-30 13:52:59,372 - INFO - PM report: 211215 UWSOM SLU - PM+.md
+2025-04-30 13:52:59,372 - INFO - PM report: 220714 EOU Loso Hall - PM.md
+2025-04-30 13:52:59,372 - INFO - PM report: 220905 CMHosp Astoria PM.md
+2025-04-30 13:52:59,372 - INFO - PM report: 220201 AFSC Seattle PM+.md
+2025-04-30 13:52:59,372 - INFO - PM report: 220128 CoMemoAsto PM+.md
+2025-04-30 13:52:59,372 - INFO - PM report: 220228 CMHosp Astoria_PM.md
+2025-04-30 13:52:59,372 - INFO - PM report: 220906 CMHosp Astoria PM.md
+2025-04-30 13:52:59,372 - INFO - PM report: 220405 MentorPM rpt 01.md
+2025-04-30 13:52:59,372 - INFO - PM report: 220202 MetLife - PM.md
+2025-04-30 13:52:59,372 - INFO - PM report: 220519 Cornelius city hall - PM.md
+2025-04-30 13:52:59,372 - INFO - PM report: 220419 iQ CU Vanc - Conf rm PM.md
+2025-04-30 13:52:59,372 - INFO - PM report: 211215 MetLife - PM.md
+2025-04-30 13:52:59,372 - INFO - PM report: 240318 TillamookPUD aTV vol & PM.md
+2025-04-30 13:52:59,372 - INFO - PM report: 230612 iQ CU Vanc - Conf rm PM.md
+2025-04-30 13:52:59,373 - INFO - PM report: 230629 Gartner PM3 Adams.md
+2025-04-30 13:52:59,373 - INFO - PM report: 230717 Gartner PM7.md
+2025-04-30 13:52:59,373 - INFO - PM report: 230629 Gartner PM3 Glenn.md
+2025-04-30 13:52:59,373 - INFO - PM report: 230714 Gartner PM6.md
+2025-04-30 13:52:59,373 - INFO - PM report: 230628 Gartner PM1b.md
+2025-04-30 13:52:59,373 - INFO - PM report: 230719 Gartner PM8.md
+2025-04-30 13:52:59,373 - INFO - PM report: 220202 Gartner PM+.md
+2025-04-30 13:52:59,373 - INFO - PM report: 230713 Gartner PM5.md
+2025-04-30 13:52:59,373 - INFO - PM report: 230629 Gartner PM3 Bachelor.md
+2025-04-30 13:52:59,373 - INFO - PM report: 230710 Gartner PM4.md
+2025-04-30 13:52:59,373 - INFO - PM report: 230727 Gartner PM9.md
+2025-04-30 13:52:59,373 - INFO - PM report: 230615 Gartner PM1.md
+2025-04-30 13:52:59,382 - INFO - Processing complete. 379 valid, 11 invalid, and 31 PM reports identified.
+2025-04-30 14:04:55,525 - ERROR - INVALID: 230915 metpdx new pj assess 01.md - Errors: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 14:04:55,526 - ERROR - INVALID: 240320 North Eugene HS PA Extron.md - Errors: ['MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,526 - ERROR - INVALID: 231027 OJD Madras Assess1.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,526 - ERROR - INVALID: 221117 ColumBank Vanc - Proj.md - Errors: ['MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-30 14:04:55,526 - ERROR - INVALID: 231027 OJD Madras List 01-03.md - Errors: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 14:04:55,527 - ERROR - INVALID: 211103 METpdx hdmi.md - Errors: ['MISSING_FIELD:Description of problem']
+2025-04-30 14:04:55,527 - ERROR - INVALID: 231027 OJD Madras Screen loc Assessment.md - Errors: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 14:04:55,528 - ERROR - INVALID: 221101 Vanc Firstenberg CC - Assess1.md - Errors: ['MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,528 - ERROR - INVALID: 220216 PeaceHealth - assist.md - Errors: ['MISSING_FIELD:Description of problem']
+2025-04-30 14:04:55,529 - ERROR - INVALID: 240118 OSU MU VidWall - Handoff Site-walk.md - Errors: ['MISSING_FIELD:Description of problem']
+2025-04-30 14:04:55,543 - ERROR - INVALID: 221221 Hillsboro Lib1 - HDMI.md - Errors: ['UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-30 14:04:55,581 - ERROR - INVALID: 221024 Clackamas ESD - SpringEra PM 1.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,581 - ERROR - INVALID: 221130 ClackamasESD - MtHope PM.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,581 - ERROR - INVALID: 211008 UW Rehab PM & mics+.md - Errors: ['MISSING_FIELD:Description of work performed']
+2025-04-30 14:04:55,582 - ERROR - INVALID: 211215 UWSOM SLU - PM+.md - Errors: ['MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,582 - ERROR - INVALID: 220714 EOU Loso Hall - PM.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,583 - ERROR - INVALID: 220905 CMHosp Astoria PM.md - Errors: ['MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,583 - ERROR - INVALID: 220201 AFSC Seattle PM+.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,583 - ERROR - INVALID: 220128 CoMemoAsto PM+.md - Errors: ['MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,583 - ERROR - INVALID: 220228 CMHosp Astoria_PM.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,584 - ERROR - INVALID: 220906 CMHosp Astoria PM.md - Errors: ['MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,584 - ERROR - INVALID: 220202 MetLife - PM.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,584 - ERROR - INVALID: 220519 Cornelius city hall - PM.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,584 - ERROR - INVALID: 220419 iQ CU Vanc - Conf rm PM.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,585 - ERROR - INVALID: 211215 MetLife - PM.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,585 - ERROR - INVALID: 230612 iQ CU Vanc - Conf rm PM.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,585 - ERROR - INVALID: 230629 Gartner PM3 Adams.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,585 - ERROR - INVALID: 230717 Gartner PM7.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,585 - ERROR - INVALID: 230629 Gartner PM3 Glenn.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,586 - ERROR - INVALID: 230714 Gartner PM6.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,586 - ERROR - INVALID: 230628 Gartner PM1b.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,586 - ERROR - INVALID: 230719 Gartner PM8.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,586 - ERROR - INVALID: 220202 Gartner PM+.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,587 - ERROR - INVALID: 230713 Gartner PM5.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,587 - ERROR - INVALID: 230629 Gartner PM3 Bachelor.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,587 - ERROR - INVALID: 230710 Gartner PM4.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,587 - ERROR - INVALID: 230727 Gartner PM9.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,587 - ERROR - INVALID: 230615 Gartner PM1.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:04:55,594 - INFO - Processing complete. 383 valid, 38 invalid reports identified.
+2025-04-30 14:05:48,843 - ERROR - INVALID: 230915 metpdx new pj assess 01.md - Errors: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 14:05:48,844 - ERROR - INVALID: 240320 North Eugene HS PA Extron.md - Errors: ['MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,844 - ERROR - INVALID: 231027 OJD Madras Assess1.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,844 - ERROR - INVALID: 221117 ColumBank Vanc - Proj.md - Errors: ['MISSING_FIELD:Issue resolved', 'MISSING_FIELD:Next steps']
+2025-04-30 14:05:48,844 - ERROR - INVALID: 231027 OJD Madras List 01-03.md - Errors: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 14:05:48,845 - ERROR - INVALID: 211103 METpdx hdmi.md - Errors: ['MISSING_FIELD:Description of problem']
+2025-04-30 14:05:48,845 - ERROR - INVALID: 231027 OJD Madras Screen loc Assessment.md - Errors: ['UNSTRUCTURED_DOCUMENT']
+2025-04-30 14:05:48,845 - ERROR - INVALID: 221101 Vanc Firstenberg CC - Assess1.md - Errors: ['MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,846 - ERROR - INVALID: 220216 PeaceHealth - assist.md - Errors: ['MISSING_FIELD:Description of problem']
+2025-04-30 14:05:48,846 - ERROR - INVALID: 240118 OSU MU VidWall - Handoff Site-walk.md - Errors: ['MISSING_FIELD:Description of problem']
+2025-04-30 14:05:48,859 - ERROR - INVALID: 221221 Hillsboro Lib1 - HDMI.md - Errors: ['UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-30 14:05:48,896 - ERROR - INVALID: 221024 Clackamas ESD - SpringEra PM 1.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,896 - ERROR - INVALID: 221130 ClackamasESD - MtHope PM.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,896 - ERROR - INVALID: 211008 UW Rehab PM & mics+.md - Errors: ['MISSING_FIELD:Description of work performed']
+2025-04-30 14:05:48,897 - ERROR - INVALID: 211215 UWSOM SLU - PM+.md - Errors: ['MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,897 - ERROR - INVALID: 220714 EOU Loso Hall - PM.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,897 - ERROR - INVALID: 220905 CMHosp Astoria PM.md - Errors: ['MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,898 - ERROR - INVALID: 220201 AFSC Seattle PM+.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,898 - ERROR - INVALID: 220128 CoMemoAsto PM+.md - Errors: ['MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,898 - ERROR - INVALID: 220228 CMHosp Astoria_PM.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,898 - ERROR - INVALID: 220906 CMHosp Astoria PM.md - Errors: ['MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,899 - ERROR - INVALID: 220202 MetLife - PM.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,899 - ERROR - INVALID: 220519 Cornelius city hall - PM.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,899 - ERROR - INVALID: 220419 iQ CU Vanc - Conf rm PM.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,899 - ERROR - INVALID: 211215 MetLife - PM.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,900 - ERROR - INVALID: 230612 iQ CU Vanc - Conf rm PM.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,900 - ERROR - INVALID: 230629 Gartner PM3 Adams.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,900 - ERROR - INVALID: 230717 Gartner PM7.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,900 - ERROR - INVALID: 230629 Gartner PM3 Glenn.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,900 - ERROR - INVALID: 230714 Gartner PM6.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,901 - ERROR - INVALID: 230628 Gartner PM1b.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,901 - ERROR - INVALID: 230719 Gartner PM8.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,901 - ERROR - INVALID: 220202 Gartner PM+.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,901 - ERROR - INVALID: 230713 Gartner PM5.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,901 - ERROR - INVALID: 230629 Gartner PM3 Bachelor.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,902 - ERROR - INVALID: 230710 Gartner PM4.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,902 - ERROR - INVALID: 230727 Gartner PM9.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,902 - ERROR - INVALID: 230615 Gartner PM1.md - Errors: ['MISSING_FIELD:Description of problem', 'MISSING_FIELD:Issue resolved']
+2025-04-30 14:05:48,908 - INFO - Processing complete. 383 valid, 38 invalid reports identified.
+2025-04-30 14:07:57,949 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/230915 metpdx new pj assess 01.md
+2025-04-30 14:07:57,950 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/240320 North Eugene HS PA Extron.md
+2025-04-30 14:07:57,950 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/231027 OJD Madras Assess1.md
+2025-04-30 14:07:57,950 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/221117 ColumBank Vanc - Proj.md
+2025-04-30 14:07:57,950 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/231027 OJD Madras List 01-03.md
+2025-04-30 14:07:57,950 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/211103 METpdx hdmi.md
+2025-04-30 14:07:57,950 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/231027 OJD Madras Screen loc Assessment.md
+2025-04-30 14:07:57,950 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/221101 Vanc Firstenberg CC - Assess1.md
+2025-04-30 14:07:57,950 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/220216 PeaceHealth - assist.md
+2025-04-30 14:07:57,950 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/240118 OSU MU VidWall - Handoff Site-walk.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Edu/221024 Clackamas ESD - SpringEra PM 1.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Edu/221130 ClackamasESD - MtHope PM.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Edu/211008 UW Rehab PM & mics+.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Edu/211216 UWSOM Main - PM+.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Edu/220324-25 EOU Theater PM & Repair1.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Edu/211215 UWSOM SLU - PM+.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Edu/220714 EOU Loso Hall - PM.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Health and Other/220905 CMHosp Astoria PM.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Health and Other/220201 AFSC Seattle PM+.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Health and Other/220128 CoMemoAsto PM+.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Health and Other/220228 CMHosp Astoria_PM.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Health and Other/220906 CMHosp Astoria PM.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Health and Other/220405 MentorPM rpt 01.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Fin and Gov/220202 MetLife - PM.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Fin and Gov/220519 Cornelius city hall - PM.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Fin and Gov/220419 iQ CU Vanc - Conf rm PM.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Fin and Gov/211215 MetLife - PM.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Fin and Gov/240318 TillamookPUD aTV vol & PM.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Fin and Gov/230612 iQ CU Vanc - Conf rm PM.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230629 Gartner PM3 Adams.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230717 Gartner PM7.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230629 Gartner PM3 Glenn.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230714 Gartner PM6.md
+2025-04-30 14:07:57,953 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230628 Gartner PM1b.md
+2025-04-30 14:07:57,954 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230719 Gartner PM8.md
+2025-04-30 14:07:57,954 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/220202 Gartner PM+.md
+2025-04-30 14:07:57,954 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230713 Gartner PM5.md
+2025-04-30 14:07:57,954 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230629 Gartner PM3 Bachelor.md
+2025-04-30 14:07:57,954 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230710 Gartner PM4.md
+2025-04-30 14:07:57,954 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230727 Gartner PM9.md
+2025-04-30 14:07:57,954 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230615 Gartner PM1.md
+2025-04-30 14:07:57,954 - INFO - Found 380 markdown files to process
+2025-04-30 14:07:57,957 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/230915 metpdx new pj assess 01.md
+2025-04-30 14:07:57,957 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/240320 North Eugene HS PA Extron.md
+2025-04-30 14:07:57,957 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/231027 OJD Madras Assess1.md
+2025-04-30 14:07:57,957 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/221117 ColumBank Vanc - Proj.md
+2025-04-30 14:07:57,957 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/231027 OJD Madras List 01-03.md
+2025-04-30 14:07:57,957 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/211103 METpdx hdmi.md
+2025-04-30 14:07:57,957 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/231027 OJD Madras Screen loc Assessment.md
+2025-04-30 14:07:57,957 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/221101 Vanc Firstenberg CC - Assess1.md
+2025-04-30 14:07:57,957 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/220216 PeaceHealth - assist.md
+2025-04-30 14:07:57,957 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_Diagnostic and Assist/240118 OSU MU VidWall - Handoff Site-walk.md
+2025-04-30 14:07:57,960 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Edu/221024 Clackamas ESD - SpringEra PM 1.md
+2025-04-30 14:07:57,960 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Edu/221130 ClackamasESD - MtHope PM.md
+2025-04-30 14:07:57,960 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Edu/211008 UW Rehab PM & mics+.md
+2025-04-30 14:07:57,960 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Edu/211216 UWSOM Main - PM+.md
+2025-04-30 14:07:57,960 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Edu/220324-25 EOU Theater PM & Repair1.md
+2025-04-30 14:07:57,960 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Edu/211215 UWSOM SLU - PM+.md
+2025-04-30 14:07:57,960 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Edu/220714 EOU Loso Hall - PM.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Health and Other/220905 CMHosp Astoria PM.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Health and Other/220201 AFSC Seattle PM+.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Health and Other/220128 CoMemoAsto PM+.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Health and Other/220228 CMHosp Astoria_PM.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Health and Other/220906 CMHosp Astoria PM.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Health and Other/220405 MentorPM rpt 01.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Fin and Gov/220202 MetLife - PM.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Fin and Gov/220519 Cornelius city hall - PM.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Fin and Gov/220419 iQ CU Vanc - Conf rm PM.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Fin and Gov/211215 MetLife - PM.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Fin and Gov/240318 TillamookPUD aTV vol & PM.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Fin and Gov/230612 iQ CU Vanc - Conf rm PM.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230629 Gartner PM3 Adams.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230717 Gartner PM7.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230629 Gartner PM3 Glenn.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230714 Gartner PM6.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230628 Gartner PM1b.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230719 Gartner PM8.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/220202 Gartner PM+.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230713 Gartner PM5.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230629 Gartner PM3 Bachelor.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230710 Gartner PM4.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230727 Gartner PM9.md
+2025-04-30 14:07:57,961 - INFO - Ignoring file in excluded directory: /Users/stevenbrown/Library/Mobile Documents/com~apple~CloudDocs/Documents_SRB iCloud/Projects/SOFTWARE dev SUPPORT projects/Ai MASTER CONTROL/Ai Projects per Model - Local/ChatGPT Projects - local storage/__cgpt_pj Job Dv Rpts/cgpt_pj Job Dv Rpts 9 REPORTS/svc rpts 1 basic/_PM Reports/Gartner/230615 Gartner PM1.md
+2025-04-30 14:07:57,962 - INFO - Found 380 markdown files to process
+2025-04-30 14:07:57,987 - ERROR - INVALID: 221221 Hillsboro Lib1 - HDMI.md - Errors: ['UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-30 14:07:58,029 - INFO - Processing complete. 379 valid, 1 invalid reports identified.
+2025-04-30 14:11:30,190 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/230915 metpdx new pj assess 01.md
+2025-04-30 14:11:30,190 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/240320 North Eugene HS PA Extron.md
+2025-04-30 14:11:30,190 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/231027 OJD Madras Assess1.md
+2025-04-30 14:11:30,190 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/221117 ColumBank Vanc - Proj.md
+2025-04-30 14:11:30,190 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/231027 OJD Madras List 01-03.md
+2025-04-30 14:11:30,190 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/211103 METpdx hdmi.md
+2025-04-30 14:11:30,190 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/231027 OJD Madras Screen loc Assessment.md
+2025-04-30 14:11:30,190 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/221101 Vanc Firstenberg CC - Assess1.md
+2025-04-30 14:11:30,190 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/220216 PeaceHealth - assist.md
+2025-04-30 14:11:30,190 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/240118 OSU MU VidWall - Handoff Site-walk.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Edu/221024 Clackamas ESD - SpringEra PM 1.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Edu/221130 ClackamasESD - MtHope PM.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Edu/211008 UW Rehab PM & mics+.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Edu/211216 UWSOM Main - PM+.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Edu/220324-25 EOU Theater PM & Repair1.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Edu/211215 UWSOM SLU - PM+.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Edu/220714 EOU Loso Hall - PM.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Health and Other/220905 CMHosp Astoria PM.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Health and Other/220201 AFSC Seattle PM+.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Health and Other/220128 CoMemoAsto PM+.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Health and Other/220228 CMHosp Astoria_PM.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Health and Other/220906 CMHosp Astoria PM.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Health and Other/220405 MentorPM rpt 01.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Fin and Gov/220202 MetLife - PM.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Fin and Gov/220519 Cornelius city hall - PM.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Fin and Gov/220419 iQ CU Vanc - Conf rm PM.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Fin and Gov/211215 MetLife - PM.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Fin and Gov/240318 TillamookPUD aTV vol & PM.md
+2025-04-30 14:11:30,195 - INFO - Ignoring file in excluded directory: _PM Reports/Fin and Gov/230612 iQ CU Vanc - Conf rm PM.md
+2025-04-30 14:11:30,196 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230629 Gartner PM3 Adams.md
+2025-04-30 14:11:30,196 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230717 Gartner PM7.md
+2025-04-30 14:11:30,196 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230629 Gartner PM3 Glenn.md
+2025-04-30 14:11:30,196 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230714 Gartner PM6.md
+2025-04-30 14:11:30,196 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230628 Gartner PM1b.md
+2025-04-30 14:11:30,196 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230719 Gartner PM8.md
+2025-04-30 14:11:30,196 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/220202 Gartner PM+.md
+2025-04-30 14:11:30,196 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230713 Gartner PM5.md
+2025-04-30 14:11:30,196 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230629 Gartner PM3 Bachelor.md
+2025-04-30 14:11:30,196 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230710 Gartner PM4.md
+2025-04-30 14:11:30,196 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230727 Gartner PM9.md
+2025-04-30 14:11:30,196 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230615 Gartner PM1.md
+2025-04-30 14:11:30,197 - INFO - Found 380 markdown files to process
+2025-04-30 14:11:30,200 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/230915 metpdx new pj assess 01.md
+2025-04-30 14:11:30,200 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/240320 North Eugene HS PA Extron.md
+2025-04-30 14:11:30,200 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/231027 OJD Madras Assess1.md
+2025-04-30 14:11:30,200 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/221117 ColumBank Vanc - Proj.md
+2025-04-30 14:11:30,200 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/231027 OJD Madras List 01-03.md
+2025-04-30 14:11:30,200 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/211103 METpdx hdmi.md
+2025-04-30 14:11:30,200 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/231027 OJD Madras Screen loc Assessment.md
+2025-04-30 14:11:30,200 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/221101 Vanc Firstenberg CC - Assess1.md
+2025-04-30 14:11:30,200 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/220216 PeaceHealth - assist.md
+2025-04-30 14:11:30,200 - INFO - Ignoring file in excluded directory: _Diagnostic and Assist/240118 OSU MU VidWall - Handoff Site-walk.md
+2025-04-30 14:11:30,202 - INFO - Ignoring file in excluded directory: _PM Reports/Edu/221024 Clackamas ESD - SpringEra PM 1.md
+2025-04-30 14:11:30,202 - INFO - Ignoring file in excluded directory: _PM Reports/Edu/221130 ClackamasESD - MtHope PM.md
+2025-04-30 14:11:30,202 - INFO - Ignoring file in excluded directory: _PM Reports/Edu/211008 UW Rehab PM & mics+.md
+2025-04-30 14:11:30,202 - INFO - Ignoring file in excluded directory: _PM Reports/Edu/211216 UWSOM Main - PM+.md
+2025-04-30 14:11:30,202 - INFO - Ignoring file in excluded directory: _PM Reports/Edu/220324-25 EOU Theater PM & Repair1.md
+2025-04-30 14:11:30,202 - INFO - Ignoring file in excluded directory: _PM Reports/Edu/211215 UWSOM SLU - PM+.md
+2025-04-30 14:11:30,202 - INFO - Ignoring file in excluded directory: _PM Reports/Edu/220714 EOU Loso Hall - PM.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Health and Other/220905 CMHosp Astoria PM.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Health and Other/220201 AFSC Seattle PM+.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Health and Other/220128 CoMemoAsto PM+.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Health and Other/220228 CMHosp Astoria_PM.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Health and Other/220906 CMHosp Astoria PM.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Health and Other/220405 MentorPM rpt 01.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Fin and Gov/220202 MetLife - PM.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Fin and Gov/220519 Cornelius city hall - PM.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Fin and Gov/220419 iQ CU Vanc - Conf rm PM.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Fin and Gov/211215 MetLife - PM.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Fin and Gov/240318 TillamookPUD aTV vol & PM.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Fin and Gov/230612 iQ CU Vanc - Conf rm PM.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230629 Gartner PM3 Adams.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230717 Gartner PM7.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230629 Gartner PM3 Glenn.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230714 Gartner PM6.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230628 Gartner PM1b.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230719 Gartner PM8.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/220202 Gartner PM+.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230713 Gartner PM5.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230629 Gartner PM3 Bachelor.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230710 Gartner PM4.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230727 Gartner PM9.md
+2025-04-30 14:11:30,203 - INFO - Ignoring file in excluded directory: _PM Reports/Gartner/230615 Gartner PM1.md
+2025-04-30 14:11:30,204 - INFO - Found 380 markdown files to process
+2025-04-30 14:11:30,238 - ERROR - INVALID: 221221 Hillsboro Lib1 - HDMI.md - Errors: ['UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-30 14:11:30,292 - INFO - Processing complete. 379 valid, 1 invalid reports identified.
+2025-04-30 14:13:01,924 - INFO - Found 380 markdown files to process
+2025-04-30 14:13:01,931 - INFO - Found 380 markdown files to process
+2025-04-30 14:13:01,969 - ERROR - INVALID: 221221 Hillsboro Lib1 - HDMI.md - Errors: ['UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-30 14:13:02,024 - INFO - Processing complete. 379 valid, 1 invalid reports identified.
+2025-04-30 14:14:57,989 - INFO - Found 380 markdown files to process
+2025-04-30 14:14:57,995 - INFO - Found 380 markdown files to process
+2025-04-30 14:14:58,030 - ERROR - INVALID: 221221 Hillsboro Lib1 - HDMI.md - Errors: ['UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-30 14:14:58,083 - INFO - Processing complete. 379 valid, 1 invalid reports identified.
+2025-04-30 14:17:08,335 - INFO - Found 380 markdown files to process
+2025-04-30 14:17:08,341 - INFO - Found 380 markdown files to process
+2025-04-30 14:17:08,376 - ERROR - INVALID: 221221 Hillsboro Lib1 - HDMI.md - Errors: ['UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-30 14:17:08,430 - INFO - Processing complete. 379 valid, 1 invalid reports identified.
+2025-04-30 14:17:12,237 - INFO - Found 380 markdown files to process
+2025-04-30 14:17:12,243 - INFO - Found 380 markdown files to process
+2025-04-30 14:17:12,267 - ERROR - INVALID: 221221 Hillsboro Lib1 - HDMI.md - Errors: ['UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-30 14:17:12,307 - INFO - Processing complete. 379 valid, 1 invalid reports identified.
+2025-04-30 14:22:29,906 - INFO - Found 380 markdown files to process
+2025-04-30 14:22:29,913 - INFO - Found 380 markdown files to process
+2025-04-30 14:22:29,951 - ERROR - INVALID: 221221 Hillsboro Lib1 - HDMI.md - Errors: ['UNBOLDED_FIELD:Issue resolved', 'UNBOLDED_FIELD:Next steps']
+2025-04-30 14:22:30,006 - INFO - Processing complete. 379 valid, 1 invalid reports identified.

@@ -3,7 +3,15 @@ Rare Error Analysis
 
 This report identifies files with uncommon errors (occurring in 2 or fewer files)
 
-Error: MISSING_FIELD:Issue resolved
+Error: MISSING_FIELD:Next steps
 Files:
-  - 240314 Longview, Port of - Cams.md
+  - 221117 ColumBank Vanc - Proj.md
+
+Error: UNBOLDED_FIELD:Issue resolved
+Files:
+  - 221221 Hillsboro Lib1 - HDMI.md
+
+Error: UNBOLDED_FIELD:Next steps
+Files:
+  - 221221 Hillsboro Lib1 - HDMI.md
 
