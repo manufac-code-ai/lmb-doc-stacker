@@ -1,0 +1,23 @@
+Report Validation Summary
+=======================
+
+✓ VALID: 240326 Longview, Port of - Cams2.md (213 words)
+✓ VALID: 240229 North Eugene HS cut cable.md (193 words)
+✓ VALID: 231107 PPS Roos Gym lift2.md (224 words)
+✗ INVALID: 240314 Longview, Port of - Cams.md (220 words)
+  Errors: MISSING_FIELD:Issue resolved
+✓ VALID: 240419 Longview, Port of - Disp4.md (204 words)
+
+
+Summary Statistics
+==================
+Total files processed: 5
+Valid reports: 4 (80.0%)
+  Average length: 208.5 words
+  Median length: 208.5 words
+  Range: 193 to 224 words
+Invalid reports: 1 (20.0%)
+  Average length: 220.0 words
+  Median length: 220 words
+  Range: 220 to 220 words
+PM reports: 0 (0.0%)

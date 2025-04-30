@@ -154,7 +154,7 @@ def main():
     # Configuration
     config_path = "org_config.md"
     input_dir = "_md_input"
-    output_dir = "_md_output/concat_out"
+    output_dir = "_out/stacks"  # Changed from concat_out to stacks
     
     # Parse config file
     logger.info(f"Reading stack configurations from {config_path}")

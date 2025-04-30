@@ -165,7 +165,7 @@ def analyze_error_patterns(file_errors):
     
     return error_to_files
 
-def process_folder(input_folder, output_base="_md_output", move_files=False, report_only=False):
+def process_folder(input_folder, output_base="_out", move_files=False, report_only=False):
     """
     Process markdown files and sort them into categories.
     
@@ -180,20 +180,21 @@ def process_folder(input_folder, output_base="_md_output", move_files=False, rep
     """
     input_path = Path(input_folder)
     
-    # Create output directories
-    valid_dir = Path(output_base) / "valid"
-    invalid_dir = Path(output_base) / "invalid"
-    pm_dir = Path(output_base) / "PM"  # New directory for PM reports
+    # Create output directories with new validated subdirectory
+    validated_dir = Path(output_base) / "validated"
+    valid_dir = validated_dir / "valid"
+    invalid_dir = validated_dir / "invalid"
+    pm_dir = validated_dir / "PM"
     
     valid_dir.mkdir(exist_ok=True, parents=True)
     invalid_dir.mkdir(exist_ok=True, parents=True)
-    pm_dir.mkdir(exist_ok=True, parents=True)  # Create PM directory
+    pm_dir.mkdir(exist_ok=True, parents=True)
     
-    # Summary logs
-    summary_log = Path(output_base) / "summary.txt"
-    error_summary_csv = Path(output_base) / "error_summary.csv"
-    rare_errors_log = Path(output_base) / "rare_errors.txt"
-    word_count_csv = Path(output_base) / "word_counts.csv"  # New file for word count data
+    # Summary logs now also go in the validated directory
+    summary_log = validated_dir / "summary.txt"
+    error_summary_csv = validated_dir / "error_summary.csv"
+    rare_errors_log = validated_dir / "rare_errors.txt"
+    word_count_csv = validated_dir / "word_counts.csv"
     
     total_files = 0
     valid_files = 0
@@ -386,7 +387,7 @@ def process_folder(input_folder, output_base="_md_output", move_files=False, rep
             print("\nRare errors (occurring in 2 or fewer files):")
             for error, files in sorted(rare_errors.items()):
                 print(f"  {error}: {', '.join(files)}")
-            print(f"\nSee {output_base}/rare_errors.txt for complete details")
+            print(f"\nSee {output_base}/validated/rare_errors.txt for complete details")
     
     logging.info(f"Processing complete. {valid_files} valid, {invalid_files} invalid, and {pm_files} PM reports identified.")
     
@@ -399,7 +400,7 @@ def main():
     """Main entry point for the script."""
     parser = argparse.ArgumentParser(description='Sort markdown reports based on structure validation.')
     parser.add_argument('--input', default='_md_input', help='Input folder containing markdown reports')
-    parser.add_argument('--output', default='_md_output', help='Base output folder')
+    parser.add_argument('--output', default='_out', help='Base output folder')
     parser.add_argument('--move', action='store_true', help='Move files instead of copying them')
     parser.add_argument('--log', default='report_validation.log', help='Log file path')
     parser.add_argument('--strict', action='store_true', help='Use strict validation without normalization')
@@ -448,12 +449,16 @@ def main():
         print(f"PM reports average length: {word_stats['pm']['average']:.1f} words (range: {word_stats['pm']['min']} to {word_stats['pm']['max']} words)")
     
     if valid + invalid + pm > 0:
-        print(f"See {args.output}/summary.txt for details")
-        print(f"Word count analysis in {args.output}/word_counts.csv")
-        print(f"Error frequency analysis in {args.output}/error_summary.csv")
+        print(f"See {args.output}/validated/summary.txt for details")
+        print(f"Word count analysis in {args.output}/validated/word_counts.csv")
+        print(f"Error frequency analysis in {args.output}/validated/error_summary.csv")
         
-        # Print top 5 most common errors
+        # Print rare errors reference
         if error_counter:
+            # Update reference to rare_errors.txt
+            print(f"\nSee {args.output}/validated/rare_errors.txt for complete details")
+            
+            # Print top 5 most common errors
             print("\nTop issues found:")
             for error, count in sorted(error_counter.items(), key=lambda x: x[1], reverse=True)[:5]:
                 print(f"  {error}: {count} occurrences")
