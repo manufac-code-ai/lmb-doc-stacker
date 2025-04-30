@@ -32,7 +32,11 @@ FIELD_ALTERNATIVES = {
     ],
     
     "**Description of problem:**": [
-        "**Description of problems:**",  # Simple plural
+        # Add this line to ensure our regex-normalized fields are recognized
+        "**Description of problem:**",  # Self-match to handle regex outputs
+        "**Description of problems:**",
+        "**Descriptions of problem:**",  # Plural "Descriptions"
+        "**Descriptions of problems:**",  # Double plural
         "**Description of problems/requests:**",
         "**Problems and requests:**",
         "**Issues reported:**",
@@ -42,12 +46,20 @@ FIELD_ALTERNATIVES = {
         # Variants with colon outside
         "**Description of problem**:",
         "**Description of problems**:",  # Simple plural with colon outside
+        "**Descriptions of problem**:",
+        "**Descriptions of problems**:",
         "**Description of problems/requests**:",
         "**Problems and requests**:",
         "**Issues reported**:",
         "**Problems encountered**:",
         "**Service request**:",
         "**Reported issue(s)**:",
+        "**Description of Problems:**",  # Capital P
+        "**Descriptions of Problems:**",  # Both pluralized with capital P
+        "**Description of problem**:",    # Colon outside
+        "**Description of Problems**:",   # Capital P, colon outside
+        "**Descriptions of problems**:",  # Both pluralized, colon outside
+        "**Descriptions of Problems**:",  # Both pluralized, capital P, colon outside
     ],
     
     "**Issue resolved?**": [

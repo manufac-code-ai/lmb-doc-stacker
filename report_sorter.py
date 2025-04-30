@@ -4,6 +4,7 @@ import logging
 import argparse
 import csv
 import re
+import statistics  # Add this import for median calculation
 from pathlib import Path
 from datetime import datetime
 from collections import Counter
@@ -12,22 +13,41 @@ from collections import Counter
 from validation_fields import REQUIRED_FIELDS, FIELD_ALTERNATIVES, get_plain_field_name
 
 def normalize_markdown_content(content):
-    """
-    Preprocess markdown content to normalize field labels and formatting.
-    
-    Args:
-        content: The original markdown content
-        
-    Returns:
-        str: normalized content
-    """
     normalized = content
     
-    # 1. Fix bold fields with colons/question marks outside the bold markers
+    # 1. First fix bold fields with colons/question marks outside the bold markers
     normalized = re.sub(r'\*\*(.*?)\*\*:', r'**\1:**', normalized)
     normalized = re.sub(r'\*\*(.*?)\*\*\?', r'**\1?**', normalized)
     
-    # 2. Replace alternative field names with canonical ones
+    # 2. Case-insensitive field normalization with exact patterns for problematic fields
+    replacements = [
+        # Next steps variations (both ? and : variants)
+        (r'\*\*Next Steps\?\*\*', r'**Next steps?**'),
+        (r'\*\*Next Steps:\*\*', r'**Next steps?**'),
+        (r'\*\*Next steps:\*\*', r'**Next steps?**'),
+        
+        # Issue resolved variations 
+        (r'\*\*Issue Resolved\?\*\*', r'**Issue resolved?**'),
+        (r'\*\*Issue resolved:\*\*', r'**Issue resolved?**'),
+        (r'\*\*Issues resolved:\*\*', r'**Issue resolved?**'),
+        (r'\*\*Issues Resolved\?\*\*', r'**Issue resolved?**'),
+        
+        # Description problem/problems variations (with precise colon handling)
+        (r'\*\*Description of problems:\*\*', r'**Description of problem:**'),
+        (r'\*\*Description of Problems:\*\*', r'**Description of problem:**'),
+        (r'\*\*Descriptions of problems:\*\*', r'**Description of problem:**'),
+        (r'\*\*Descriptions of Problems:\*\*', r'**Description of problem:**'),
+        
+        # Description of work performed variations
+        (r'\*\*Description of Work Performed:\*\*', r'**Description of work performed:**'),
+        (r'\*\*Description of work Performed:\*\*', r'**Description of work performed:**'),
+    ]
+    
+    # Apply each replacement
+    for pattern, replacement in replacements:
+        normalized = re.sub(pattern, replacement, normalized, flags=re.IGNORECASE)
+    
+    # 3. Replace alternative field names with canonical ones
     for canonical_field, alternatives in FIELD_ALTERNATIVES.items():
         for alt_field in alternatives:
             normalized = normalized.replace(alt_field, canonical_field)
@@ -145,40 +165,50 @@ def analyze_error_patterns(file_errors):
     
     return error_to_files
 
-def process_folder(input_folder, output_base="_md_output", move_files=False):
+def process_folder(input_folder, output_base="_md_output", move_files=False, report_only=False):
     """
-    Process markdown files and sort them into valid/invalid/unstructured categories.
+    Process markdown files and sort them into categories.
     
     Args:
         input_folder: Path to folder containing markdown files
         output_base: Base folder name for output
         move_files: Whether to move files (True) or copy them (False)
-    
+        report_only: If True, don't move/copy files, just analyze
+        
     Returns:
-        tuple: (valid_count, invalid_count, unstructured_count, error_counter)
+        tuple: (valid_count, invalid_count, pm_count, error_counter, word_stats)
     """
     input_path = Path(input_folder)
     
     # Create output directories
     valid_dir = Path(output_base) / "valid"
     invalid_dir = Path(output_base) / "invalid"
-    unstructured_dir = Path(output_base) / "unstructured"  # New directory for unstructured docs
+    pm_dir = Path(output_base) / "PM"  # New directory for PM reports
     
     valid_dir.mkdir(exist_ok=True, parents=True)
     invalid_dir.mkdir(exist_ok=True, parents=True)
-    unstructured_dir.mkdir(exist_ok=True, parents=True)  # Create unstructured directory
+    pm_dir.mkdir(exist_ok=True, parents=True)  # Create PM directory
     
     # Summary logs
     summary_log = Path(output_base) / "summary.txt"
     error_summary_csv = Path(output_base) / "error_summary.csv"
     rare_errors_log = Path(output_base) / "rare_errors.txt"
+    word_count_csv = Path(output_base) / "word_counts.csv"  # New file for word count data
     
     total_files = 0
     valid_files = 0
     invalid_files = 0
-    unstructured_files = 0  # Counter for unstructured files
+    pm_files = 0  # Counter for PM files
     error_counter = Counter()
     file_errors = {}  # To store errors per file for the summary
+    
+    # New structures for tracking word counts
+    word_counts = {
+        "valid": [],
+        "invalid": [],
+        "pm": []
+    }
+    file_word_counts = {}  # To store word counts per file
     
     with open(summary_log, 'w', encoding='utf-8') as log:
         log.write("Report Validation Summary\n")
@@ -186,6 +216,45 @@ def process_folder(input_folder, output_base="_md_output", move_files=False):
         
         for file_path in input_path.glob('*.md'):
             total_files += 1
+            
+            # Count words in the file
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+                word_count = len(content.split())
+                file_word_counts[file_path.name] = word_count
+            
+            # More robust PM detection
+            pm_patterns = [
+                r'[_\- ]pm', # Matches _pm, -pm, and space+pm
+                r'pm[_\- ]',  # Matches pm_, pm-, and pm+space
+                r'_PM',       # Explicit underscore+PM
+                r'mentorpm'   # Special case for files like "MentorPM"
+            ]
+            
+            is_pm_report = False
+            for pattern in pm_patterns:
+                if re.search(pattern, file_path.name, re.IGNORECASE):
+                    is_pm_report = True
+                    break
+            
+            if is_pm_report:
+                # Handle PM reports - bypass validation and place in PM directory
+                pm_files += 1
+                word_counts["pm"].append(word_count)
+                
+                # Only move/copy if not in report-only mode
+                if not report_only:
+                    destination = pm_dir / file_path.name
+                    if move_files:
+                        shutil.move(file_path, destination)
+                    else:
+                        shutil.copy2(file_path, destination)
+                
+                log.write(f"🔧 PM REPORT: {file_path.name} ({word_count} words)\n")
+                logging.info(f"PM report: {file_path.name}")
+                continue  # Skip further processing
+            
+            # For non-PM reports, proceed with validation
             is_valid, error_codes = validate_report(file_path)
             
             # Store the file's error codes for summary
@@ -197,44 +266,87 @@ def process_folder(input_folder, output_base="_md_output", move_files=False):
             
             if is_valid:
                 valid_files += 1
-                destination = valid_dir / file_path.name
-                if move_files:
-                    shutil.move(file_path, destination)
-                else:
-                    shutil.copy2(file_path, destination)
-                log.write(f"✓ VALID: {file_path.name}\n")
+                word_counts["valid"].append(word_count)
+                
+                # Only move/copy if not in report-only mode
+                if not report_only:
+                    destination = valid_dir / file_path.name
+                    if move_files:
+                        shutil.move(file_path, destination)
+                    else:
+                        shutil.copy2(file_path, destination)
+                
+                log.write(f"✓ VALID: {file_path.name} ({word_count} words)\n")
                 logging.info(f"Valid report: {file_path.name}")
-            elif "UNSTRUCTURED_DOCUMENT" in error_codes:
-                # Handle unstructured documents separately
-                unstructured_files += 1
-                destination = unstructured_dir / file_path.name
-                if move_files:
-                    shutil.move(file_path, destination)
-                else:
-                    shutil.copy2(file_path, destination)
-                log.write(f"◯ UNSTRUCTURED: {file_path.name}\n")
-                logging.info(f"Unstructured document: {file_path.name}")
             else:
                 invalid_files += 1
-                destination = invalid_dir / file_path.name
-                if move_files:
-                    shutil.move(file_path, destination)
-                else:
-                    shutil.copy2(file_path, destination)
-                log.write(f"✗ INVALID: {file_path.name}\n")
+                word_counts["invalid"].append(word_count)
+                
+                # Only move/copy if not in report-only mode
+                if not report_only:
+                    destination = invalid_dir / file_path.name
+                    if move_files:
+                        shutil.move(file_path, destination)
+                    else:
+                        shutil.copy2(file_path, destination)
+                
+                log.write(f"✗ INVALID: {file_path.name} ({word_count} words)\n")
                 log.write(f"  Errors: {', '.join(error_codes)}\n")
                 logging.warning(f"{file_path.name}: {error_codes}")
         
-        # Write summary statistics
+        # Calculate word count statistics
+        word_stats = {}
+        for category, counts in word_counts.items():
+            if counts:
+                word_stats[category] = {
+                    "average": sum(counts) / len(counts),
+                    "median": statistics.median(counts) if counts else 0,
+                    "min": min(counts) if counts else 0,
+                    "max": max(counts) if counts else 0,
+                    "total": sum(counts)
+                }
+            else:
+                word_stats[category] = {"average": 0, "median": 0, "min": 0, "max": 0, "total": 0}
+        
+        # Write summary statistics with word counts
         log.write("\n\nSummary Statistics\n")
         log.write("==================\n")
         log.write(f"Total files processed: {total_files}\n")
+        
         if total_files > 0:
+            # Valid reports statistics
             log.write(f"Valid reports: {valid_files} ({valid_files/total_files*100:.1f}%)\n")
+            if valid_files > 0:
+                log.write(f"  Average length: {word_stats['valid']['average']:.1f} words\n")
+                log.write(f"  Median length: {word_stats['valid']['median']} words\n")
+                log.write(f"  Range: {word_stats['valid']['min']} to {word_stats['valid']['max']} words\n")
+            
+            # Invalid reports statistics
             log.write(f"Invalid reports: {invalid_files} ({invalid_files/total_files*100:.1f}%)\n")
-            log.write(f"Unstructured documents: {unstructured_files} ({unstructured_files/total_files*100:.1f}%)\n")
+            if invalid_files > 0:
+                log.write(f"  Average length: {word_stats['invalid']['average']:.1f} words\n")
+                log.write(f"  Median length: {word_stats['invalid']['median']} words\n")
+                log.write(f"  Range: {word_stats['invalid']['min']} to {word_stats['invalid']['max']} words\n")
+            
+            # PM reports statistics
+            log.write(f"PM reports: {pm_files} ({pm_files/total_files*100:.1f}%)\n")
+            if pm_files > 0:
+                log.write(f"  Average length: {word_stats['pm']['average']:.1f} words\n")
+                log.write(f"  Median length: {word_stats['pm']['median']} words\n")
+                log.write(f"  Range: {word_stats['pm']['min']} to {word_stats['pm']['max']} words\n")
         else:
             log.write("No files processed.\n")
+    
+    # Write word count CSV
+    with open(word_count_csv, 'w', newline='', encoding='utf-8') as csvfile:
+        csv_writer = csv.writer(csvfile)
+        csv_writer.writerow(["FILENAME", "WORD_COUNT", "CATEGORY"])
+        
+        # Add all files sorted by word count (descending)
+        for filename, count in sorted(file_word_counts.items(), key=lambda x: x[1], reverse=True):
+            category = "PM" if any(re.search(p, filename, re.IGNORECASE) for p in pm_patterns) else \
+                       "Valid" if filename not in file_errors or not file_errors[filename] else "Invalid"
+            csv_writer.writerow([filename, count, category])
     
     # Write error summary CSV
     with open(error_summary_csv, 'w', newline='', encoding='utf-8') as csvfile:
@@ -254,7 +366,7 @@ def process_folder(input_folder, output_base="_md_output", move_files=False):
         
         # Find rare errors
         rare_errors = {error: files for error, files in error_to_files.items() 
-                      if len(files) <= 2 and error != "UNSTRUCTURED_DOCUMENT"}  # Exclude unstructured docs from rare errors
+                      if len(files) <= 2}
         
         if rare_errors:
             for error, files in sorted(rare_errors.items()):
@@ -269,19 +381,19 @@ def process_folder(input_folder, output_base="_md_output", move_files=False):
     # Print rare errors to console for immediate attention
     if error_to_files:
         rare_errors = {error: files for error, files in error_to_files.items() 
-                      if len(files) <= 2 and error != "UNSTRUCTURED_DOCUMENT"}
+                      if len(files) <= 2}
         if rare_errors:
             print("\nRare errors (occurring in 2 or fewer files):")
             for error, files in sorted(rare_errors.items()):
                 print(f"  {error}: {', '.join(files)}")
             print(f"\nSee {output_base}/rare_errors.txt for complete details")
     
-    logging.info(f"Processing complete. {valid_files} valid, {invalid_files} invalid, and {unstructured_files} unstructured documents identified.")
+    logging.info(f"Processing complete. {valid_files} valid, {invalid_files} invalid, and {pm_files} PM reports identified.")
     
     if total_files == 0:
         print(f"No markdown files found in {input_folder}")
     
-    return valid_files, invalid_files, unstructured_files, error_counter
+    return valid_files, invalid_files, pm_files, error_counter, word_stats
 
 def main():
     """Main entry point for the script."""
@@ -291,6 +403,7 @@ def main():
     parser.add_argument('--move', action='store_true', help='Move files instead of copying them')
     parser.add_argument('--log', default='report_validation.log', help='Log file path')
     parser.add_argument('--strict', action='store_true', help='Use strict validation without normalization')
+    parser.add_argument('--report-only', action='store_true', help='Only analyze files without moving/copying')
     
     args = parser.parse_args()
     
@@ -313,16 +426,30 @@ def main():
         print("Using strict validation (no normalization)")
     else:
         print("Using normalized validation (accepting alternate field formats)")
-        
-    valid, invalid, unstructured, error_counter = process_folder(
+    
+    if args.report_only:
+        print("Report-only mode: files will be analyzed but not moved/copied")
+    
+    valid, invalid, pm, error_counter, word_stats = process_folder(
         args.input, 
         args.output, 
-        move_files=args.move
+        move_files=args.move,
+        report_only=args.report_only
     )
     
-    print(f"Processing complete! Valid: {valid}, Invalid: {invalid}, Unstructured: {unstructured}")
-    if valid + invalid + unstructured > 0:
+    print(f"Processing complete! Valid: {valid}, Invalid: {invalid}, PM Reports: {pm}")
+    
+    # Print word count statistics
+    if valid > 0:
+        print(f"Valid reports average length: {word_stats['valid']['average']:.1f} words (range: {word_stats['valid']['min']} to {word_stats['valid']['max']} words)")
+    if invalid > 0:
+        print(f"Invalid reports average length: {word_stats['invalid']['average']:.1f} words (range: {word_stats['invalid']['min']} to {word_stats['invalid']['max']} words)")
+    if pm > 0:
+        print(f"PM reports average length: {word_stats['pm']['average']:.1f} words (range: {word_stats['pm']['min']} to {word_stats['pm']['max']} words)")
+    
+    if valid + invalid + pm > 0:
         print(f"See {args.output}/summary.txt for details")
+        print(f"Word count analysis in {args.output}/word_counts.csv")
         print(f"Error frequency analysis in {args.output}/error_summary.csv")
         
         # Print top 5 most common errors
