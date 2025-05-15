@@ -14,8 +14,9 @@ def main():
                         help='Input directory containing markdown reports')
     parser.add_argument('--output', default=f'{config.OUTPUT_DIR}/stacks',
                         help='Output directory for stacked reports')
-    parser.add_argument('--auto', action='store_true',
-                        help='Automatically stack based on directory structure')
+    # Change --auto to --config-based to invert the default behavior
+    parser.add_argument('--config-based', action='store_true',
+                        help='Use config-based stacking instead of automatic directory-based stacking')
                       
     args = parser.parse_args()
     

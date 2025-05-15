@@ -3,6 +3,7 @@
 import logging
 import os
 import re
+import csv
 from datetime import datetime
 from pathlib import Path
 import config.config as config
@@ -47,35 +48,58 @@ def find_files_by_name(directory, filenames):
                 
     return found_files
 
-def create_stack(stack_name, files, output_dir):
-    """Create a stacked report file from the provided files."""
+def create_stack(stack_name, files, output_dir, title_mapping=None):
+    """Create a stack from the given files."""
     if not files:
-        logging.warning(f"No files found for stack: {stack_name}")
-        return
+        logging.warning(f"No matching files found for stack: {stack_name}")
+        return None
+        
+    # Load titles if not provided
+    if title_mapping is None:
+        title_mapping = load_readable_titles()
+        
+    # Create stack content
+    content = [f"# {stack_name} Reports\n"]
+    content.append(f"*Generated on {datetime.now().strftime('%Y-%m-%d %H:%M')}*")
+    content.append(f"*Contains {len(files)} reports*\n")
     
-    # Create normalized stack name for the filename - NO date prefix
-    safe_name = re.sub(r'[^\w\s-]', '', stack_name).strip().replace(' ', '_')
+    # Add each report to the stack
+    for i, file_path in enumerate(files, 1):
+        try:
+            # Get filename for title lookup
+            filename = Path(file_path).name
+            
+            # Get readable title or use filename as fallback
+            if filename in title_mapping:
+                report_title = title_mapping[filename]
+                # Include both title and filename
+                content.append(f"\n## {i}. {report_title}")
+                content.append(f"*File: {filename}*\n")
+            else:
+                # Use filename as title when no readable title exists
+                content.append(f"\n## {i}. {filename}")
+                logging.warning(f"No readable title found for: {filename}")
+            
+            # Read report content
+            with open(file_path, 'r', encoding='utf-8') as f:
+                report_content = f.read()
+            
+            # Add report content (skip any frontmatter if present)
+            content.append(report_content)
+            
+            # Add separator between reports (except after the last one)
+            if i < len(files):
+                content.append("\n------\n\n------\n")
+                
+        except Exception as e:
+            logging.error(f"Error processing file {file_path}: {e}")
+    
+    # Save the stack to a file
+    safe_name = "".join(c if c.isalnum() else "_" for c in stack_name)
     output_file = os.path.join(output_dir, f"{safe_name}.md")
     
-    with open(output_file, 'w', encoding='utf-8') as out_file:
-        out_file.write(f"# {stack_name} Reports\n\n")
-        out_file.write(f"*Generated on {datetime.now().strftime('%Y-%m-%d %H:%M')}*\n")
-        out_file.write(f"*Contains {len(files)} reports*\n\n")
-        
-        for i, file_path in enumerate(files):
-            try:
-                with open(file_path, 'r', encoding='utf-8') as in_file:
-                    content = in_file.read()
-                    
-                filename = os.path.basename(file_path)
-                out_file.write(f"## {i+1}. {filename}\n\n")
-                out_file.write(content)
-                
-                # Add enhanced separator between reports unless it's the last one
-                if i < len(files) - 1:
-                    out_file.write(config.STACK_SEPARATOR)
-            except Exception as e:
-                logging.error(f"Error processing file {file_path}: {str(e)}")
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write("\n".join(content))
     
     logging.info(f"Created stack: {output_file} with {len(files)} reports")
     return output_file
@@ -219,11 +243,47 @@ def create_stack_log(stack_contents, output_dir, total_input_reports):
     
     return log_file
 
-def run_stacking(args):
-    """Run the report stacking process."""
-    logger = setup_logger()
+def load_readable_titles(titles_file="config/readable_titles.csv"):
+    """
+    Load readable titles from CSV file.
     
+    Returns:
+        dict: Mapping of filenames to readable titles
+    """
+    title_mapping = {}
+    try:
+        with open(titles_file, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                # Skip comment lines
+                if row.get('filename', '').startswith('//'):
+                    continue
+                    
+                # Get filename and title
+                filename = row.get('filename', '').strip()
+                title = row.get('readable_title', '').strip()
+                
+                if filename and title:
+                    # Add .md extension if not present
+                    if not filename.endswith('.md'):
+                        filename += '.md'
+                    title_mapping[filename] = title
+                    
+        logging.info(f"Loaded {len(title_mapping)} readable titles from {titles_file}")
+    except Exception as e:
+        logging.warning(f"Error loading readable titles: {e}")
+    
+    return title_mapping
+
+def run_stacking(args):
+    """Run the stacking process with the given arguments."""
+    # Setup logging
+    setup_logger()
     print("\nStarting report stacking process...")
+    
+    # Load readable titles once
+    title_mapping = load_readable_titles()
+    print(f"Loaded {len(title_mapping)} readable titles")
     
     # Ensure output directory exists
     output_dir = ensure_directory_exists(args.output)
@@ -238,11 +298,9 @@ def run_stacking(args):
         md_files = [f for f in files if f.endswith('.md')]
         total_input_reports += len(md_files)
     
-    if hasattr(args, 'auto') and args.auto:
-        print(f"Using automatic directory-based stacking from {args.input}")
-        created_stacks = auto_stack_by_directory(args.input, output_dir)
-    else:
-        # Traditional config-based stacking (existing functionality)
+    # Invert the logic to make auto-stacking the default
+    if hasattr(args, 'config_based') and args.config_based:
+        # Config-based stacking
         stacks = parse_config_file(args.config)
         
         if not stacks:
@@ -253,7 +311,7 @@ def run_stacking(args):
         print(f"Found {len(stacks)} stacks in config file")
         
         # Find all markdown files in the source directory
-        all_files = find_markdown_files(args.input, recursive=True)
+        all_files = find_markdown_files(args.input, recursive=True, context="stacking")
         all_files_dict = {f.name: str(f) for f in all_files}
         
         # Process each stack
@@ -273,7 +331,7 @@ def run_stacking(args):
                 # Store contents for stack log
                 stack_contents[stack_name] = [os.path.basename(f) for f in file_paths]
                 
-                stack_file = create_stack(stack_name, file_paths, output_dir)
+                stack_file = create_stack(stack_name, file_paths, output_dir, title_mapping)
                 if stack_file:
                     created_stacks.append(stack_file)
                     print(f"  Created stack with {len(file_paths)} reports")
@@ -283,6 +341,10 @@ def run_stacking(args):
         # Create the stack log for config-based stacks too
         if stack_contents:
             create_stack_log(stack_contents, output_dir, total_input_reports)
+    else:
+        # Auto-stacking (now the default)
+        print(f"Using automatic directory-based stacking from {args.input}")
+        created_stacks = auto_stack_by_directory(args.input, output_dir)
     
     # Print summary
     print(f"\nStacking complete! Created {len(created_stacks)} stacks in {output_dir}")
