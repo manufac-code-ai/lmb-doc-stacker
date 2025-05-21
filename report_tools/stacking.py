@@ -243,35 +243,49 @@ def create_stack_log(stack_contents, output_dir, total_input_reports):
     
     return log_file
 
-def load_readable_titles(titles_file="config/readable_titles.csv"):
+def load_readable_titles(source_dir=None):
     """
     Load readable titles from CSV file.
     
+    Args:
+        source_dir: Base directory to look for titles file
+        
     Returns:
-        dict: Mapping of filenames to readable titles
+        Dict mapping filenames to readable titles
     """
+    import csv
+    import os
+    import logging
+    from pathlib import Path
+    import config.config as config
+    
     title_mapping = {}
+    
+    # Determine the path to the titles file
+    if source_dir is None:
+        source_dir = config.SOURCE_DIR
+    
+    titles_path = os.path.join(source_dir, config.TITLES_FOLDER, config.TITLES_FILENAME)
+    
+    # Check if file exists
+    if not os.path.exists(titles_path):
+        logging.warning(f"Readable titles file not found at {titles_path}. Using filenames as titles.")
+        return title_mapping
+    
     try:
-        with open(titles_file, 'r', encoding='utf-8') as f:
-            reader = csv.DictReader(f)
+        with open(titles_path, 'r', encoding='utf-8') as f:
+            reader = csv.reader(f)
+            # Skip header row
+            next(reader, None)
             for row in reader:
-                # Skip comment lines
-                if row.get('filename', '').startswith('//'):
-                    continue
-                    
-                # Get filename and title
-                filename = row.get('filename', '').strip()
-                title = row.get('readable_title', '').strip()
-                
-                if filename and title:
-                    # Add .md extension if not present
-                    if not filename.endswith('.md'):
-                        filename += '.md'
-                    title_mapping[filename] = title
-                    
-        logging.info(f"Loaded {len(title_mapping)} readable titles from {titles_file}")
+                if len(row) >= 2:
+                    filename = row[0].strip()
+                    readable_title = row[1].strip()
+                    title_mapping[filename] = readable_title
+        
+        logging.info(f"Loaded {len(title_mapping)} readable titles from {titles_path}")
     except Exception as e:
-        logging.warning(f"Error loading readable titles: {e}")
+        logging.error(f"Error loading readable titles: {e}")
     
     return title_mapping
 
