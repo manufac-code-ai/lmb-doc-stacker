@@ -9,6 +9,15 @@ RECURSIVE_SEARCH = True   # Whether to traverse subdirectories
 
 # Output configuration
 OUTPUT_DIR = "_out"       # Base output directory
+OUTPUT_FORMAT = ".md"     # File extension for output files (options: ".md", ".txt")
+
+# File type support configuration
+FILE_TYPE_SUPPORT = {
+    '.md': True,    # Markdown
+    '.txt': False,   # Plain text
+    '.docx': False, # Word documents (future implementation)
+    '.pdf': False,  # PDF files (future implementation)
+}
 
 # Logging configuration
 LOG_DIR = "_logs"  # Directory for log files

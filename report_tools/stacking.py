@@ -96,7 +96,7 @@ def create_stack(stack_name, files, output_dir, title_mapping=None):
     
     # Save the stack to a file
     safe_name = "".join(c if c.isalnum() else "_" for c in stack_name)
-    output_file = os.path.join(output_dir, f"{safe_name}.md")
+    output_file = os.path.join(output_dir, f"{safe_name}{config.OUTPUT_FORMAT}")
     
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write("\n".join(content))
@@ -124,7 +124,11 @@ def auto_stack_by_directory(base_dir, output_dir):
             continue
             
         # Filter for markdown files
-        md_files = [f for f in files if f.endswith('.md')]
+        md_files = []
+        for file in files:
+            for ext, enabled in config.FILE_TYPE_SUPPORT.items():
+                if enabled and file.endswith(ext):
+                    md_files.append(file)
         if not md_files:
             continue
             
@@ -209,7 +213,7 @@ def create_stack_log(stack_contents, output_dir, total_input_reports):
     """Create a log file showing all stacks and their contents."""
     # Add timestamp to hierarchy filename
     timestamp = datetime.now().strftime('%y%m%d-%H%M')
-    log_file = os.path.join(output_dir, f"{timestamp}_stack_hierarchy.md")
+    log_file = os.path.join(output_dir, f"{timestamp}_stack_hierarchy{config.OUTPUT_FORMAT}")
     
     # Count total reports across all stacks
     total_output_reports = sum(len(reports) for reports in stack_contents.values())
@@ -308,9 +312,26 @@ def run_stacking(args):
     
     # Get total count of input reports
     total_input_reports = 0
+    document_files = []
     for root, _, files in os.walk(args.input):
-        md_files = [f for f in files if f.endswith('.md')]
-        total_input_reports += len(md_files)
+        root_document_files = []
+        for file in files:
+            for ext, enabled in config.FILE_TYPE_SUPPORT.items():
+                if enabled and file.endswith(ext):
+                    root_document_files.append(os.path.join(root, file))
+        document_files.extend(root_document_files)
+    
+    total_input_reports = len(document_files)
+    
+    # Check if no matching files were found
+    if total_input_reports == 0:
+        enabled_extensions = [ext for ext, enabled in config.FILE_TYPE_SUPPORT.items() if enabled]
+        logging.warning(f"No files with enabled extensions ({', '.join(enabled_extensions)}) were found in the input directory.")
+        print(f"\nNo matching files found! Check that FILE_TYPE_SUPPORT in config.py matches your input files.")
+        print(f"Currently enabled file types: {', '.join(enabled_extensions)}")
+        print(f"\nStacking complete! Created 0 stacks in {output_dir}")
+        print("")  # Final newline for clean separation from prompt
+        return
     
     # Invert the logic to make auto-stacking the default
     if hasattr(args, 'config_based') and args.config_based:

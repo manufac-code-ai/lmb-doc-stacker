@@ -1,62 +1,33 @@
-# Markdown Report Tools
+# LMbridge Doc Stacker
 
 [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
 
-A toolkit for validating and stacking Markdown service reports for optimal use with Large Language Models.
+A specialized tool for stacking Markdown documents into optimized files for Large Language Model processing.
 
 ## Overview
 
-This toolkit provides two powerful utilities for working with service report collections:
-
-1. **Validation**: Check reports for proper structure and required fields
-2. **Stacking**: Combine related reports into consolidated files organized by client/location
-
-The stacked reports are optimized for use with LLMs like NotebookLM, Perplexity, and ChatGPT, allowing you to analyze service history across related systems.
+Doc Stacker intelligently combines related markdown documents into consolidated files optimized for LLMs like NotebookLM, Claude, and ChatGPT. By grouping related documents, it enables more comprehensive context for AI analysis while respecting context window limitations.
 
 ## Quick Start
 
 ```bash
-# Validate reports (identifies formatting issues)
-python validate.py --input /path/to/reports
+# Stack reports based on directory structure (default behavior)
+python stack.py --input /path/to/markdown/docs
 
-# Stack reports automatically based on directory structure
-python stack.py --auto --input /path/to/reports
+# Use a specific configuration file
+python stack.py --config-based --config /path/to/config.md
 ```
 
 ## Features
 
-### Report Validation
+### Document Stacking
 
-- **Structure Checking**: Verifies required fields are present
-- **Case-Insensitive Matching**: Handles variations in field names
-- **Error Reporting**: Detailed logs of validation issues
-- **Statistics**: Word counts and error frequency analysis
-
-### Report Stacking
-
-- **Automatic Organization**: Groups reports by directory structure
-- **Smart Sorting**: Orders by company → room → date
-- **Directory-Based**: Creates logical stacks based on your folder hierarchy
-- **Hierarchy Logs**: Comprehensive index of all stacked reports
+- **Automatic Organization**: Groups documents by directory structure
+- **Smart Sorting**: Orders chronologically based on document naming patterns
+- **Human-Readable Titles**: Converts filenames to descriptive titles (optional)
+- **Context Optimization**: Creates section breaks for better LLM parsing
 
 ## Detailed Usage
-
-### Validation
-
-```bash
-python validate.py [options]
-```
-
-Options:
-
-- `--input PATH`: Directory containing reports (default: config.SOURCE_DIR)
-- `--output PATH`: Output directory (default: config.OUTPUT_DIR)
-- `--strict`: Use strict field matching without normalization
-- `--report-only`: Analyze without moving files (default: True)
-- `--move`: Move files instead of copying them
-- `--show-valid`: Show valid reports in console output
-
-### Stacking
 
 ```bash
 python stack.py [options]
@@ -64,40 +35,53 @@ python stack.py [options]
 
 Options:
 
-- `--auto`: Stack based on directory structure (recommended)
-- `--input PATH`: Input directory containing reports
-- `--output PATH`: Output directory for stacked reports
-- `--config PATH`: Config file for manual stacking (when not using --auto)
+- `--input PATH`: Input directory containing markdown documents (default: config.SOURCE_DIR)
+- `--output PATH`: Output directory for stacked documents (default: config.OUTPUT_DIR/stacks)
+- `--config PATH`: Configuration file for manual stacking (default: config/org_config.md)
+- `--config-based`: Use config-based stacking instead of automatic directory-based stacking
 
 ## How Stacking Works
 
-The automatic stacking process follows your directory structure:
+The stacking process follows your directory structure:
 
 1. **Top-level folders** become stack names
-2. If reports are in **subfolders**, stacks are named `TopFolder SubFolder`
-3. Reports are sorted by company, room, then date
+2. If documents are in **subfolders**, stacks are named `TopFolder_SubFolder`
+3. Documents are sorted chronologically when possible
 4. A hierarchy log shows the exact content of each stack
+
+### Human-Readable Titles
+
+For improved LLM processing, Doc Stacker can use human-readable titles instead of raw filenames:
+
+1. Create a `__config` folder in your source directory
+2. Add a `readable_titles.csv` file with the format:
+   ```
+   filename,readable_title
+   220714-server-restart.md,Data Center Primary Server Restart (July 2022)
+   ```
+3. The stacker will automatically use these titles when creating section headers
+
+If the CSV file isn't found, filenames will be used as titles.
 
 ## Output Files
 
-- **Stack files**: `{StackName}.md` - The consolidated reports
+- **Stack files**: `{StackName}.md` - The consolidated documents
 - **Hierarchy log**: `{YYMMDD-HHMM}_stack_hierarchy.md` - Detailed index of all stacks
-- **Validation logs**: Various files in `_logs/` directory
 
 ## Best Practices
 
-1. **Organize reports** in folders by client/location before stacking
-2. **Validate reports** to identify formatting issues before stacking
-3. **Use the `--auto` flag** for intelligent directory-based stacking
+1. **Organize documents** in folders by topic/client/project before stacking
+2. **Use descriptive filenames** that follow a consistent pattern
+3. **Create a readable_titles.csv** for optimal LLM understanding
 4. **Review the hierarchy log** to understand your stack organization
 
 ## Configuration
 
-Settings can be customized in `config/config.py`:
+Settings can be customized in config.py:
 
 - Source/destination paths
-- Validation requirements
-- Stacking formatting options
+- Recursion settings
+- Stacking format options
 
 ## License
 

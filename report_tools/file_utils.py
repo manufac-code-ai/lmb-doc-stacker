@@ -1,4 +1,4 @@
-"""File utilities for finding and filtering markdown reports."""
+"""File utilities for finding and filtering document files."""
 
 import os
 import logging
@@ -40,23 +40,33 @@ def get_ignored_directories(base_dir):
     
     return ignored_dirs
 
-def find_markdown_files(base_dir, recursive=config.RECURSIVE_SEARCH):
+def find_document_files(base_dir, recursive=config.RECURSIVE_SEARCH):
     """
-    Find all markdown files in the directory (and subdirectories if recursive).
+    Find all supported document files in the directory (and subdirectories if recursive).
     
     Args:
         base_dir: Base directory to search
         recursive: Whether to search recursively
     
     Returns:
-        List of Path objects for markdown files
+        List of Path objects for supported document files
     """
     base_path = Path(base_dir).resolve()
     
     # Get ignored directories for this run
     ignored_directories = [Path(d).resolve() for d in get_ignored_directories(base_dir)]
     
-    markdown_files = []
+    document_files = []
+    
+    # Get list of enabled file extensions
+    enabled_extensions = [ext for ext, enabled in config.FILE_TYPE_SUPPORT.items() 
+                         if enabled]
+    
+    if not enabled_extensions:
+        logging.warning("No file types are enabled in configuration. Check FILE_TYPE_SUPPORT settings.")
+        return document_files
+    
+    logging.info(f"Searching for files with extensions: {', '.join(enabled_extensions)}")
     
     # Walk through directory structure
     if recursive:
@@ -82,13 +92,31 @@ def find_markdown_files(base_dir, recursive=config.RECURSIVE_SEARCH):
                 continue
                 
             for file in files:
-                if file.lower().endswith('.md'):
-                    markdown_files.append(Path(os.path.join(root, file)))
+                file_path = Path(os.path.join(root, file))
+                file_ext = file_path.suffix.lower()
+                if file_ext in enabled_extensions:
+                    document_files.append(file_path)
     else:
-        # Non-recursive search
-        markdown_files.extend(base_path.glob('*.md'))
+        # Non-recursive search - use glob for each extension
+        for ext in enabled_extensions:
+            document_files.extend(base_path.glob(f'*{ext}'))
     
-    return markdown_files
+    logging.info(f"Found {len(document_files)} document files")
+    return document_files
+
+# Keep the original function as an alias for backward compatibility
+def find_markdown_files(base_dir, recursive=config.RECURSIVE_SEARCH):
+    """
+    Legacy function - alias for find_document_files.
+    
+    Args:
+        base_dir: Base directory to search
+        recursive: Whether to search recursively
+    
+    Returns:
+        List of Path objects for document files
+    """
+    return find_document_files(base_dir, recursive)
 
 def ensure_directory_exists(directory_path):
     """Create directory if it doesn't exist."""
