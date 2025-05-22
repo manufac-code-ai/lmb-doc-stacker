@@ -177,7 +177,7 @@ def auto_stack_by_directory(base_dir, output_dir):
         files = stacks[stack_name]
         if files:
             # Sort files by company, room, then date
-            sorted_files = sort_files_by_company_room_date(files)
+            sorted_files = sort_files_by_pattern(files)
             
             # Store contents for stack log
             stack_contents[stack_name] = [os.path.basename(f) for f in sorted_files]
@@ -202,38 +202,78 @@ def auto_stack_by_directory(base_dir, output_dir):
     
     return created_stacks
 
-def sort_files_by_company_room_date(files):
-    """Sort files by company, room, then date using Mac OS natural sort order."""
-    def mac_os_sort_key(s):
-        """Simulate Mac OS natural sort order where special chars sort first."""
-        # Convert to lowercase for case-insensitive sorting
-        s = s.lower()
-        # Make symbols sort before alphanumeric by adding a prefix
-        if s and not s[0].isalnum():
-            return "0" + s
-        return "1" + s
+def sort_files_by_pattern(files):
+    """
+    Sort files based on patterns defined in configuration.
+    
+    This function extracts fields from filenames according to the patterns
+    defined in config.FILENAME_PATTERNS and sorts them based on those fields.
+    
+    Args:
+        files: List of file paths to sort
+        
+    Returns:
+        Sorted list of file paths
+    """
+    patterns = config.FILENAME_PATTERNS
     
     def sort_key(filepath):
         filename = os.path.basename(filepath)
+        # Remove file extension for processing
+        base_filename = os.path.splitext(filename)[0]
         
-        # Extract date - handle date ranges like "250316-8"
-        date_match = re.match(r'(\d{6})(?:-\d+)?', filename)
-        date = date_match.group(1) if date_match else "000000"
+        # Extract fields for sorting
+        sort_values = {}
         
-        # Extract company and room
-        parts = filename[7:].split(' - ', 1)  # Skip date prefix + space
-        
-        if len(parts) < 2:
-            company = parts[0] if parts else ""
-            room = ""
-        else:
-            company = parts[0]
-            room = parts[1].replace('.md', '')
+        # Extract date if date sorting is enabled
+        if patterns["use_date_sorting"]:
+            date_pattern = patterns["date_pattern"]
             
-        # Return sort key tuple - using Mac OS natural sort order
-        return (mac_os_sort_key(company), mac_os_sort_key(room), date)
+            if patterns["date_position"] == "prefix":
+                # Look for date at start of filename
+                date_match = re.match(date_pattern, base_filename)
+            else:
+                # Look for date anywhere in filename
+                date_match = re.search(date_pattern, base_filename)
+                
+            # Use extracted date or default
+            sort_values["date"] = date_match.group(1) if date_match else patterns["default_date"]
+            
+            # If date is at prefix and we need to skip characters to get to next field
+            skip_chars = len(sort_values["date"]) + patterns["date_field_gap"] if date_match else 0
+        else:
+            # No date sorting
+            sort_values["date"] = ""
+            skip_chars = 0
+        
+        # Extract remaining fields based on separator
+        remaining_text = base_filename[skip_chars:] if skip_chars > 0 else base_filename
+        parts = remaining_text.split(patterns["field_separator"], 1)
+        
+        # Extract company/first field
+        sort_values["company"] = parts[0] if parts else ""
+        
+        # Extract room/second field
+        if len(parts) > 1:
+            sort_values["room"] = parts[1]
+        else:
+            sort_values["room"] = ""
+        
+        # Construct sort key based on configured sort fields
+        result = []
+        for field in patterns["sort_fields"]:
+            if field in sort_values:
+                result.append(sort_values[field])
+        
+        return tuple(result)
     
+    # Sort files using the key function
     return sorted(files, key=sort_key)
+
+# Keep the original function as an alias for backward compatibility
+def sort_files_by_company_room_date(files):
+    """Legacy function for sorting files (now uses configurable patterns)."""
+    return sort_files_by_pattern(files)
 
 def create_stack_log(stack_contents, output_dir, total_input_reports, stack_stats=None):
     """Create a log file showing all stacks and their contents."""

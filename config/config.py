@@ -33,3 +33,29 @@ STACK_SEPARATOR = "\n\n------\n\n------\n\n"  # Separator between reports in sta
 # Human-readable titles configuration
 TITLES_FOLDER = "__config"  # Relative path from SOURCE_DIR
 TITLES_FILENAME = "readable_titles.csv"  # Filename within the __config folder
+
+# ===== FILENAME SORTING CONFIGURATION =====
+# Settings for extracting sort fields from filenames
+FILENAME_PATTERNS = {
+    # Regex for date extraction (currently YYMMDD)
+    "date_pattern": r'(\d{6})(?:-\d+)?',
+    
+    # Position of date in filename (options: "prefix", "anywhere")
+    "date_position": "prefix",
+    
+    # Default date string if none found - affects sort order
+    "default_date": "000000",
+    
+    # Character(s) separating fields in filename
+    "field_separator": " - ",
+    
+    # Fields to sort by, in priority order
+    "sort_fields": ["date", "company", "room"],
+    
+    # Number of characters to skip after date before company field
+    # Set to 0 if there's no consistent prefix length
+    "date_field_gap": 1,
+    
+    # Whether to enable date-based sorting (False = alphabetical only)
+    "use_date_sorting": True
+}

@@ -4,6 +4,17 @@
 
 A Python tool for combining text documents (.md, .txt) into consolidated files for Large Language Model processing.
 
+## Contents
+
+- [Overview](#overview)
+- [Quick Start](#quick-start)
+- [Features](#features)
+- [Detailed Usage](#detailed-usage)
+- [Stack Organization Methods](#stack-organization-methods)
+- [Human-Readable Titles](#human-readable-titles)
+- [Configuration](#configuration)
+- [Roadmap](#roadmap)
+
 ## Overview
 
 Doc Stacker concatenates multiple text documents into single files while preserving their organization. It uses your folder structure to determine which documents belong together, adds clear separators between them, and formats them to work well with LLMs like NotebookLM, Claude, and ChatGPT. This helps LLMs process related information as a group while staying within context limits.
@@ -22,8 +33,8 @@ python stack.py --config-based --config /path/to/config.md
 
 ### Document Combining
 
-- **Folder-Based Grouping**: Uses your existing directory structure to organize files
-- **Basic Sorting**: Attempts to order files chronologically when possible
+- **Folder-Based Grouping**: Creates stacks based on your existing folder organization
+- **Configurable Sorting**: Orders files based on patterns in filenames (defaults to chronological when possible)
 - **Title Formatting**: Can use readable names instead of filenames (via CSV mapping)
 - **Document Separation**: Adds consistent separator markers between documents
 
@@ -121,6 +132,37 @@ When Doc Stacker processes your files, it will:
 - Fall back to using filenames if the CSV is missing or a file isn't listed
 
 This is particularly useful when your filenames are abbreviated or use naming conventions that aren't descriptive enough for an LLM to understand.
+
+---
+
+## Configuration
+
+Doc Stacker can be customized through settings in config.py:
+
+### File Handling
+
+- `OUTPUT_FORMAT`: File extension for output files (.md or .txt)
+- `FILE_TYPE_SUPPORT`: Dictionary of file types to process
+- `STACK_SEPARATOR`: Marker text between documents in stacks
+
+### File Sorting
+
+Doc Stacker sorts files within each stack using configurable patterns:
+
+```python
+FILENAME_PATTERNS = {
+    # Regex for date extraction (currently YYMMDD)
+    "date_pattern": r'(\d{6})(?:-\d+)?',
+
+    # Fields to sort by, in priority order
+    "sort_fields": ["date", "company", "room"],
+
+    # Whether to enable date-based sorting
+    "use_date_sorting": True
+}
+```
+
+These settings can be adjusted to match your filename conventions. By default, the system looks for dates in YYMMDD format at the beginning of filenames.
 
 ---
 
