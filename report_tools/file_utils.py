@@ -10,15 +10,28 @@ def setup_logger(log_file=config.LOG_FILE):
     # Make sure log directory exists
     os.makedirs(os.path.dirname(log_file), exist_ok=True)
     
-    # Configure logging
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s - %(levelname)s - %(message)s',
-        handlers=[
-            logging.FileHandler(log_file),
-            logging.StreamHandler()
-        ]
-    )
+    # Configure root logger
+    root_logger = logging.getLogger()
+    root_logger.setLevel(logging.INFO)
+    
+    # Clear any existing handlers
+    for handler in root_logger.handlers[:]:
+        root_logger.removeHandler(handler)
+    
+    # Create formatter
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    
+    # File handler - detailed logging (INFO and above)
+    file_handler = logging.FileHandler(log_file)
+    file_handler.setLevel(logging.INFO)
+    file_handler.setFormatter(formatter)
+    root_logger.addHandler(file_handler)
+    
+    # Console handler - minimal logging (WARNING and above)
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.WARNING)  # Only show warnings and errors
+    console_handler.setFormatter(formatter)
+    root_logger.addHandler(console_handler)
 
 def get_ignored_directories(base_dir):
     """
@@ -36,7 +49,7 @@ def get_ignored_directories(base_dir):
     for dir_name in config.STACKING_IGNORED_DIRECTORIES:
         abs_path = os.path.join(base_dir, dir_name)
         ignored_dirs.append(abs_path)
-        print(f"Ignoring directory for stacking: {dir_name}")
+        logging.info(f"Ignoring directory for stacking: {dir_name}")
     
     return ignored_dirs
 
@@ -81,10 +94,10 @@ def find_document_files(base_dir, recursive=config.RECURSIVE_SEARCH):
                     try:
                         # Print path relative to base directory
                         rel_path = root_path.relative_to(base_path)
-                        print(f"Skipping ignored directory: {rel_path}")
+                        logging.info(f"Skipping ignored directory: {rel_path}")
                     except ValueError:
                         # Fallback if relative_to fails
-                        print(f"Skipping ignored directory: {root_path.name}")
+                        logging.info(f"Skipping ignored directory: {root_path.name}")
                     should_skip = True
                     break
             

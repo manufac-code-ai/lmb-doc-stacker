@@ -2,17 +2,17 @@
 
 [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
 
-A specialized tool for stacking Markdown documents into optimized files for Large Language Model processing.
+A Python tool for combining text documents (.md, .txt) into consolidated files for Large Language Model processing.
 
 ## Overview
 
-Doc Stacker intelligently combines related markdown documents into consolidated files optimized for LLMs like NotebookLM, Claude, and ChatGPT. By grouping related documents, it enables more comprehensive context for AI analysis while respecting context window limitations.
+Doc Stacker concatenates multiple text documents into single files while preserving their organization. It uses your folder structure to determine which documents belong together, adds clear separators between them, and formats them to work well with LLMs like NotebookLM, Claude, and ChatGPT. This helps LLMs process related information as a group while staying within context limits.
 
 ## Quick Start
 
-```bash
-# Stack reports based on directory structure (default behavior)
-python stack.py --input /path/to/markdown/docs
+```
+# Combine documents based on directory structure (default behavior)
+python stack.py --input /path/to/text/docs
 
 # Use a specific configuration file
 python stack.py --config-based --config /path/to/config.md
@@ -20,69 +20,123 @@ python stack.py --config-based --config /path/to/config.md
 
 ## Features
 
-### Document Stacking
+### Document Combining
 
-- **Automatic Organization**: Groups documents by directory structure
-- **Smart Sorting**: Orders chronologically based on document naming patterns
-- **Human-Readable Titles**: Converts filenames to descriptive titles (optional)
-- **Context Optimization**: Creates section breaks for better LLM parsing
+- **Folder-Based Grouping**: Uses your existing directory structure to organize files
+- **Basic Sorting**: Attempts to order files chronologically when possible
+- **Title Formatting**: Can use readable names instead of filenames (via CSV mapping)
+- **Document Separation**: Adds consistent separator markers between documents
 
 ## Detailed Usage
 
-```bash
-python stack.py [options]
-```
+`python stack.py [options]`
 
 Options:
 
-- `--input PATH`: Input directory containing markdown documents (default: config.SOURCE_DIR)
-- `--output PATH`: Output directory for stacked documents (default: config.OUTPUT_DIR/stacks)
-- `--config PATH`: Configuration file for manual stacking (default: config/org_config.md)
-- `--config-based`: Use config-based stacking instead of automatic directory-based stacking
+- `--input PATH`: Directory containing documents to combine (default: config.SOURCE_DIR)
+- `--output PATH`: Output directory for combined files (default: config.OUTPUT_DIR/stacks)
+- `--config PATH`: Configuration file for manual organization (default: config/org_config.md)
+- `--config-based`: Use config-based organizing instead of directory-based
 
-## How Stacking Works
+---
 
-The stacking process follows your directory structure:
+## Stack Organization Methods
 
-1. **Top-level folders** become stack names
-2. If documents are in **subfolders**, stacks are named `TopFolder_SubFolder`
-3. Documents are sorted chronologically when possible
-4. A hierarchy log shows the exact content of each stack
+Doc Stacker offers two ways to organize your documents into stacks:
 
-### Human-Readable Titles
+### 1. Directory-Based Organization (Default)
 
-For improved LLM processing, Doc Stacker can use human-readable titles instead of raw filenames:
+By default, Doc Stacker uses your folder structure to determine which files belong together:
 
-1. Create a `__config` folder in your source directory
-2. Add a `readable_titles.csv` file with the format:
-   ```
-   filename,readable_title
-   220714-server-restart.md,Data Center Primary Server Restart (July 2022)
-   ```
-3. The stacker will automatically use these titles when creating section headers
+- Each top-level folder in your input directory becomes a stack
+- All files within that folder (and its subfolders) are included in the stack
+- If using subfolders, stacks are named using the pattern `ParentFolder_Subfolder`
 
-If the CSV file isn't found, filenames will be used as titles.
+This approach is convenient when your documents are already organized in logical folders.
 
-## Output Files
+### 2. Config-Based Organization
 
-- **Stack files**: `{StackName}.md` - The consolidated documents
-- **Hierarchy log**: `{YYMMDD-HHMM}_stack_hierarchy.md` - Detailed index of all stacks
+For more control, you can manually specify document groupings using a configuration file:
 
-## Best Practices
+`python stack.py --config-based --config path/to/config.md`
 
-1. **Organize documents** in folders by topic/client/project before stacking
-2. **Use descriptive filenames** that follow a consistent pattern
-3. **Create a readable_titles.csv** for optimal LLM understanding
-4. **Review the hierarchy log** to understand your stack organization
+Example configuration file (`org_config.md`):
 
-## Configuration
+```
+# Document Stacking Configuration
 
-Settings can be customized in config.py:
+## Stack: Financial_Reports_2023
+Description: Q1-Q3 financial reports and analysis
+Files:
+- financial/q1_2023_report.md
+- financial/q2_2023_report.md
+- financial/q3_2023_report.md
+- analysis/financial_summary_2023.md
 
-- Source/destination paths
-- Recursion settings
-- Stacking format options
+## Stack: Project_Alpha_Technical
+Description: Technical documentation for Project Alpha
+Files:
+- projects/alpha/requirements.md
+- projects/alpha/architecture.md
+- projects/alpha/api_spec.md
+- technical/database_schema.md
+```
 
-## License
+Each stack is defined with:
 
-MIT
+- A level-2 heading (`##`) with the stack name
+- An optional description
+- A list of files (paths relative to your input directory)
+
+This approach is useful when you want to combine files from different folders or create custom groupings.
+
+---
+
+## Human-Readable Titles
+
+Doc Stacker can use descriptive titles for your documents instead of raw filenames, making the stacked output more readable for LLMs:
+
+### Setting Up Title Mapping
+
+1. Create a `__config` folder inside your source directory
+2. Create a file named `readable_titles.csv` inside this folder
+3. Format the CSV with two columns: filename and readable title
+
+```
+filename,readable_title
+q1_2023_report.md,Q1 2023 Financial Report
+q2_2023_report.md,Q2 2023 Financial Report
+q3_2023_report.md,Q3 2023 Financial Report
+financial_summary_2023.md,2023 Financial Summary
+requirements.md,Project Alpha Requirements
+architecture.md,Project Alpha Architecture
+api_spec.md,Project Alpha API Specification
+database_schema.md,Database Schema
+```
+
+When Doc Stacker processes your files, it will:
+
+- Look for this CSV in the `__config` folder of your source directory
+- Replace filenames with readable titles in section headers
+- Fall back to using filenames if the CSV is missing or a file isn't listed
+
+This is particularly useful when your filenames are abbreviated or use naming conventions that aren't descriptive enough for an LLM to understand.
+
+---
+
+## Roadmap
+
+Future planned enhancements:
+
+- **Stack Size Statistics**
+
+  - Token count estimation for different LLM models
+  - Configurable maximum size limits with warnings
+  - Size distribution analysis across stacks
+  - Dashboard view of stack sizes relative to LLM context windows
+
+- Support for additional file formats (PDF, DOCX)
+- Customizable output templates
+- Enhanced chronological sorting algorithms
+- Simplified console logging with summary statistics only
+- GUI interface for visual stack management

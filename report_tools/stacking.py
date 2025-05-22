@@ -8,6 +8,7 @@ from datetime import datetime
 from pathlib import Path
 import config.config as config
 from report_tools.file_utils import setup_logger, ensure_directory_exists, find_markdown_files
+from report_tools.token_utils import count_tokens, format_stack_summary
 
 def parse_config_file(config_file):
     """Parse the configuration file for report stacks."""
@@ -52,7 +53,7 @@ def create_stack(stack_name, files, output_dir, title_mapping=None):
     """Create a stack from the given files."""
     if not files:
         logging.warning(f"No matching files found for stack: {stack_name}")
-        return None
+        return None, None
         
     # Load titles if not provided
     if title_mapping is None:
@@ -78,7 +79,7 @@ def create_stack(stack_name, files, output_dir, title_mapping=None):
             else:
                 # Use filename as title when no readable title exists
                 content.append(f"\n## {i}. {filename}")
-                logging.warning(f"No readable title found for: {filename}")
+                logging.info(f"No readable title found for: {filename}")  # Changed to INFO level
             
             # Read report content
             with open(file_path, 'r', encoding='utf-8') as f:
@@ -89,20 +90,27 @@ def create_stack(stack_name, files, output_dir, title_mapping=None):
             
             # Add separator between reports (except after the last one)
             if i < len(files):
-                content.append("\n------\n\n------\n")
+                content.append(config.STACK_SEPARATOR)
                 
         except Exception as e:
             logging.error(f"Error processing file {file_path}: {e}")
+    
+    # Join the content into a single string
+    complete_content = "\n".join(content)
+    
+    # Calculate token and word counts
+    tokens, words, is_accurate = count_tokens(complete_content)
+    logging.info(f"Stack {stack_name}: {len(files)} files, {words:,} words, {tokens:,} tokens")
     
     # Save the stack to a file
     safe_name = "".join(c if c.isalnum() else "_" for c in stack_name)
     output_file = os.path.join(output_dir, f"{safe_name}{config.OUTPUT_FORMAT}")
     
     with open(output_file, 'w', encoding='utf-8') as f:
-        f.write("\n".join(content))
+        f.write(complete_content)
     
     logging.info(f"Created stack: {output_file} with {len(files)} reports")
-    return output_file
+    return output_file, complete_content
 
 def auto_stack_by_directory(base_dir, output_dir):
     """Generate stacks automatically based on directory structure."""
@@ -114,8 +122,12 @@ def auto_stack_by_directory(base_dir, output_dir):
     # Get total input reports before filtering
     total_input_reports = 0
     for root, _, files in os.walk(base_dir):
-        md_files = [f for f in files if f.endswith('.md')]
-        total_input_reports += len(md_files)
+        doc_files = []
+        for file in files:
+            for ext, enabled in config.FILE_TYPE_SUPPORT.items():
+                if enabled and file.endswith(ext):
+                    doc_files.append(file)
+        total_input_reports += len(doc_files)
     
     # Walk through the directory structure
     for root, dirs, files in os.walk(base_dir):
@@ -123,13 +135,13 @@ def auto_stack_by_directory(base_dir, output_dir):
         if any(ignored in root.split(os.sep) for ignored in config.STACKING_IGNORED_DIRECTORIES):
             continue
             
-        # Filter for markdown files
-        md_files = []
+        # Filter for supported files
+        doc_files = []
         for file in files:
             for ext, enabled in config.FILE_TYPE_SUPPORT.items():
                 if enabled and file.endswith(ext):
-                    md_files.append(file)
-        if not md_files:
+                    doc_files.append(file)
+        if not doc_files:
             continue
             
         # Determine stack name based on directory structure
@@ -151,13 +163,18 @@ def auto_stack_by_directory(base_dir, output_dir):
         if stack_name not in stacks:
             stacks[stack_name] = []
             
-        stacks[stack_name].extend([os.path.join(root, f) for f in md_files])
+        stacks[stack_name].extend([os.path.join(root, f) for f in doc_files])
     
     # Create stacks for each group
     created_stacks = []
     stack_contents = {}  # Track contents for stack log
+    stack_stats = {}     # Track statistics for each stack
     
-    for stack_name, files in stacks.items():
+    # First, sort the stack names alphabetically
+    sorted_stack_names = sorted(stacks.keys())
+    
+    for stack_name in sorted_stack_names:
+        files = stacks[stack_name]
         if files:
             # Sort files by company, room, then date
             sorted_files = sort_files_by_company_room_date(files)
@@ -165,14 +182,23 @@ def auto_stack_by_directory(base_dir, output_dir):
             # Store contents for stack log
             stack_contents[stack_name] = [os.path.basename(f) for f in sorted_files]
             
-            # Create the stack file
-            stack_file = create_stack(stack_name, sorted_files, output_dir)
+            # Create the stack file and get content
+            stack_file, content = create_stack(stack_name, sorted_files, output_dir)
             if stack_file:
                 created_stacks.append(stack_file)
-                print(f"  Created stack '{stack_name}' with {len(files)} reports")
+                # Get token stats for console output
+                tokens, words, _ = count_tokens(content)
+                stack_stats[stack_name] = (len(files), words, tokens)
+    
+    # Output simplified console summary - one line per stack
+    print(f"\nCreated {len(created_stacks)} stacks:")
+    for stack_name in sorted_stack_names:
+        if stack_name in stack_stats:
+            files, words, tokens = stack_stats[stack_name]
+            print(f"  • {stack_name}: {files} files, {words:,} words, {tokens:,} tokens")
     
     # Create the stack log with total input count
-    create_stack_log(stack_contents, output_dir, total_input_reports)
+    create_stack_log(stack_contents, output_dir, total_input_reports, stack_stats)
     
     return created_stacks
 
@@ -209,7 +235,7 @@ def sort_files_by_company_room_date(files):
     
     return sorted(files, key=sort_key)
 
-def create_stack_log(stack_contents, output_dir, total_input_reports):
+def create_stack_log(stack_contents, output_dir, total_input_reports, stack_stats=None):
     """Create a log file showing all stacks and their contents."""
     # Add timestamp to hierarchy filename
     timestamp = datetime.now().strftime('%y%m%d-%H%M')
@@ -233,8 +259,21 @@ def create_stack_log(stack_contents, output_dir, total_input_reports):
                 f"of {total_output_reports} reports. Started with {total_input_reports} " +
                 f"input reports ({total_input_reports - total_output_reports} excluded).\n\n")
         
+        # Add summary table with token counts if we have stats
+        if stack_stats and len(stack_stats) > 0:
+            f.write("## Stack Sizes\n\n")
+            f.write("| Stack | Files | Words | Tokens |\n")
+            f.write("|-------|-------|-------|--------|\n")
+            
+            for stack_name in sorted(stack_stats.keys(), key=lambda x: x.lower()):
+                files, words, tokens = stack_stats[stack_name]
+                f.write(f"| {stack_name} | {files} | {words:,} | {tokens:,} |\n")
+            
+            f.write("\n")
+        
+        f.write("## Stack Contents\n\n")
         for stack_name, reports in sorted(stack_contents.items(), key=mac_os_stack_sort_key):
-            f.write(f"## {stack_name}\n\n")
+            f.write(f"### {stack_name}\n\n")
             f.write(f"Contains {len(reports)} reports:\n\n")
             
             for i, report in enumerate(reports):
@@ -243,7 +282,7 @@ def create_stack_log(stack_contents, output_dir, total_input_reports):
             f.write("\n")
     
     logging.info(f"Created stack hierarchy log: {log_file}")
-    print(f"  Created stack hierarchy log with {len(stack_contents)} stacks and {total_output_reports} reports")
+    print(f"\nCreated stack hierarchy log with {len(stack_contents)} stacks and {total_output_reports} reports")
     
     return log_file
 
@@ -309,6 +348,7 @@ def run_stacking(args):
     # Process based on mode
     created_stacks = []
     stack_contents = {}
+    stack_stats = {}  # Track statistics for each stack
     
     # Get total count of input reports
     total_input_reports = 0
@@ -330,7 +370,6 @@ def run_stacking(args):
         print(f"\nNo matching files found! Check that FILE_TYPE_SUPPORT in config.py matches your input files.")
         print(f"Currently enabled file types: {', '.join(enabled_extensions)}")
         print(f"\nStacking complete! Created 0 stacks in {output_dir}")
-        print("")  # Final newline for clean separation from prompt
         return
     
     # Invert the logic to make auto-stacking the default
@@ -345,13 +384,16 @@ def run_stacking(args):
         
         print(f"Found {len(stacks)} stacks in config file")
         
-        # Find all markdown files in the source directory
+        # Find all document files in the source directory
         all_files = find_markdown_files(args.input, recursive=True, context="stacking")
         all_files_dict = {f.name: str(f) for f in all_files}
         
+        # Sort stack names for consistent ordering
+        sorted_stack_names = sorted(stacks.keys())
+        
         # Process each stack
-        for stack_name, filenames in stacks.items():
-            print(f"\nProcessing stack: {stack_name}")
+        for stack_name in sorted_stack_names:
+            filenames = stacks[stack_name]
             
             # Find the files in the directory
             file_paths = []
@@ -366,16 +408,25 @@ def run_stacking(args):
                 # Store contents for stack log
                 stack_contents[stack_name] = [os.path.basename(f) for f in file_paths]
                 
-                stack_file = create_stack(stack_name, file_paths, output_dir, title_mapping)
+                stack_file, content = create_stack(stack_name, file_paths, output_dir, title_mapping)
                 if stack_file:
                     created_stacks.append(stack_file)
-                    print(f"  Created stack with {len(file_paths)} reports")
+                    # Get token stats for console output
+                    tokens, words, _ = count_tokens(content)
+                    stack_stats[stack_name] = (len(file_paths), words, tokens)
             else:
-                print(f"  No matching files found for stack: {stack_name}")
+                logging.warning(f"No matching files found for stack: {stack_name}")
+        
+        # Output simplified console summary - one line per stack
+        print(f"\nCreated {len(created_stacks)} stacks:")
+        for stack_name in sorted_stack_names:
+            if stack_name in stack_stats:
+                files, words, tokens = stack_stats[stack_name]
+                print(f"  • {stack_name}: {files} files, {words:,} words, {tokens:,} tokens")
         
         # Create the stack log for config-based stacks too
         if stack_contents:
-            create_stack_log(stack_contents, output_dir, total_input_reports)
+            create_stack_log(stack_contents, output_dir, total_input_reports, stack_stats)
     else:
         # Auto-stacking (now the default)
         print(f"Using automatic directory-based stacking from {args.input}")
