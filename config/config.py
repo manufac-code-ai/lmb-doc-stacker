@@ -2,13 +2,23 @@
 Configuration settings for document stacking.
 This module centralizes all configurable parameters for the stacking process.
 """
+from pathlib import Path
 
-# Source directory configuration
-SOURCE_DIR = '"_in"'  # Default source directory
+# Try to import local configuration (not tracked in git)
+try:
+    from config.config_loc import *
+except ImportError:
+    # Default fallback if no local config exists
+    SOURCE_DIR = str(Path.home() / "Documents/reports")
+    # Other defaults will be defined below
+
+# If OUTPUT_DIR wasn't defined in local config, use default
+if 'OUTPUT_DIR' not in locals():
+    OUTPUT_DIR = "_out"       # Base output directory
+
 RECURSIVE_SEARCH = True   # Whether to traverse subdirectories
 
-# Output configuration
-OUTPUT_DIR = "_out"       # Base output directory
+# Output format configuration
 OUTPUT_FORMAT = ".md"     # File extension for output files (options: ".md", ".txt")
 
 # File type support configuration
