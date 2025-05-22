@@ -9,7 +9,7 @@ try:
     from config.config_loc import *
 except ImportError:
     # Default fallback if no local config exists
-    SOURCE_DIR = str(Path.home() / "Documents/reports")
+    SOURCE_DIR = "_in"
     # Other defaults will be defined below
 
 # If OUTPUT_DIR wasn't defined in local config, use default
